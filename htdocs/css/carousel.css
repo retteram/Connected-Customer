@@ -1,0 +1,191 @@
+/* Content List */
+.carousel {
+	/*width: 100%;*/
+	width: 1200px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+
+	background: -webkit-linear-gradient(#ddd, #fff, #ddd); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ddd, #fff, #ddd); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ddd, #fff, #ddd); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ddd, #fff, #ddd); /* Standard syntax */
+}
+
+.navigation-bar {
+	height: 82px;
+	float: right;
+}
+
+.navigation-bar .nav-container {
+	height: 12px;
+	padding: 35px;
+}
+
+.navigation-bar .nav-circle {
+	width: 12px;
+	height: 12px;
+
+	margin: 0px 9px;
+
+	display: inline-block;
+	float: right;
+
+	background-color: #BBB;
+	border-radius: 6px;
+}
+
+.nav-circle.highlight {
+	background-color: #666 !important;
+}
+
+.container-list {
+	width: 6000px;
+	height: 1835px;
+	margin-top: 82px;
+
+	position: relative;
+	left: 0px;
+}
+
+.container {
+	width: 1200px;
+	height: 1835px;
+
+	display: inline-block;
+
+	/*position: absolute;
+	top: 0px;
+	left: 0px;*/
+}
+
+.page1 {
+	position: absolute;
+	left: 0px;
+}
+
+.page2 {
+	position: absolute;
+	left: 1200px;
+}
+
+.page3 {
+	position: absolute;
+	left: 2400px;
+}
+
+.page4 {
+	position: absolute;
+	left: 3600px;
+}
+
+.page5 {
+	position: absolute;
+	left: 4800px;
+}
+
+.content-list {
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.content-list li {
+	margin-bottom: 5px;
+
+	float: left;
+	width: 50%;
+	height: 30%;
+	min-height: 320px;
+
+	text-align: center;
+}
+
+.option-image {
+	height: 200px;
+}
+
+.option-title {
+	font-size: 16px;
+	font-weight: bold;
+
+	color: #37a85c;
+	margin-bottom: 8px;
+	width: 232px;
+
+	text-align: left;
+}
+
+.option-content {
+	font-weight: bold;
+	font-size: 14px;
+
+	margin-top: 8px;
+	width: 232px;
+
+	text-align: left;
+}
+
+#swipe-hand {
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+}
+/* END Content List */
+
+/* BEGIN Animations */
+.move-containerlist-plus4 {
+	-ms-transform: translate(4800px,0px); /* IE 9 */
+    -webkit-transform: translate(4800px,0px); /* Chrome, Safari, Opera */
+    transform: translate(4800px,0px);
+}
+
+.move-containerlist-plus3 {
+	-ms-transform: translate(3600px,0px); /* IE 9 */
+    -webkit-transform: translate(3600px,0px); /* Chrome, Safari, Opera */
+    transform: translate(3600px,0px);
+}
+
+.move-containerlist-plus2 {
+	-ms-transform: translate(2400px,0px); /* IE 9 */
+    -webkit-transform: translate(2400px,0px); /* Chrome, Safari, Opera */
+    transform: translate(2400px,0px);
+}
+
+.move-containerlist-plus1 {
+	-ms-transform: translate(1200px,0px); /* IE 9 */
+    -webkit-transform: translate(1200px,0px); /* Chrome, Safari, Opera */
+    transform: translate(1200px,0px);
+}
+
+.move-containerlist-zero {
+	-ms-transform: translate(0px,0px); /* IE 9 */
+    -webkit-transform: translate(0px,0px); /* Chrome, Safari, Opera */
+    transform: translate(0px,0px);
+}
+
+.move-containerlist-minus1 {
+	-ms-transform: translate(-1200px,0px); /* IE 9 */
+    -webkit-transform: translate(-1200px,0px); /* Chrome, Safari, Opera */
+    transform: translate(-1200px,0px);
+}
+
+.move-containerlist-minus2 {
+	-ms-transform: translate(-2400px,0px); /* IE 9 */
+    -webkit-transform: translate(-2400px,0px); /* Chrome, Safari, Opera */
+    transform: translate(-2400px,0px);
+}
+
+.move-containerlist-minus3 {
+	-ms-transform: translate(-3600px,0px); /* IE 9 */
+    -webkit-transform: translate(-3600px,0px); /* Chrome, Safari, Opera */
+    transform: translate(-3600px,0px);
+}
+
+.move-containerlist-minus4 {
+	-ms-transform: translate(-4800px,0px); /* IE 9 */
+    -webkit-transform: translate(-4800px,0px); /* Chrome, Safari, Opera */
+    transform: translate(-4800px,0px);
+}
+/* END Animations */

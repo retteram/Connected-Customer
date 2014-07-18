@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mock-Up Demo</title>
+		<link rel="stylesheet" type="text/css" href="../css/main_page.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/mobile/1.0b1/jquery.mobile-1.0b1.min.js"></script>
+		<script type="text/javascript" src="../js/main_page.js"></script>
+	</head>
+	<body>
+
+		<!-- BEGIN Header -->
+		<div data-role="page" id="home">
+			<div id="header">
+				<div class="title-bar">
+					<div class="title-bar-wrapper">
+						<div id="placeholder"></div>
+						<h1 id="title">WHY ARE YOU HERE?</h1>
+						<span class="menu-bars" onclick="menu_button()">
+							<div class="white-line"></div>
+							<div class="white-line"></div>
+							<div class="white-line"></div>
+							<!-- <img src="../assets/menu-bars-2.png" width="100%"/> -->
+						</span>
+					</div>
+				</div>
+				<div class="nav-dropdown">
+					<ul>
+						<li>Option A&nbsp</li>
+						<li>Option B&nbsp</li>
+						<li>Option C&nbsp</li>
+						<li>Option D&nbsp</li>
+					</ul>
+				</div>
+			</div>
+			<!-- END Header -->
+			
+			<!-- BEGIN Main Content -->
+			<div class="carousel">
+				<div class="navigation-bar">
+					<div class="nav-container">
+						<div class="nav-circle" name="page5"></div>
+						<div class="nav-circle" name="page4"></div>
+						<div class="nav-circle" name="page3"></div>
+						<div class="nav-circle" name="page2"></div>
+						<div class="nav-circle highlight" name="page1"></div>
+					</div>
+				</div>
+				<div class="container page1">
+					<ul class="content-list">
+						<li name="open-an-account">
+							<div class="wrapper1 well">
+								<img class="option-image" src="../assets/Pig-Door.png" />
+								<h3 class="option-title">OPEN AN ACCOUNT</h3>
+								<p class="option-content">Applying for a loan is easy, 
+									find out what kinds of loans you can get.</p>
+							</div>
+						</li>
+						<li name="financial-advice-1">
+							<div class="wrapper2 well">
+								<img class="option-image" src="../assets/Smart-Pig.png" />
+								<h3 class="option-title">FINANCIAL ADVICE</h3>
+								<p class="option-content">Applying for a loan is easy, 
+									find out what kinds of loans you can get.</p>
+							</div>
+						</li>
+						<li name="financial-advice-2">
+							<div class="wrapper1 well">
+								<img class="option-image" src="../assets/Smart-Pig.png" />
+								<h3 class="option-title">FINANCIAL ADVICE</h3>
+								<p class="option-content">Applying for a loan is easy, 
+									find out what kinds of loans you can get.</p>
+							</div>
+						</li>
+						<li name="a-good-laugh">
+							<div class="wrapper2 well">
+								<img class="option-image" src="../assets/Pig-Chalkboard.png" />
+								<h3 class="option-title">A GOOD LAUGH</h3>
+								<p class="option-content">Applying for a loan is easy, 
+									find out what kinds of loans you can get.</p>
+							</div>
+						</li>
+						<li name="financial-how-tos">
+							<div class="wrapper1 well">
+								<img class="option-image" src="../assets/Pig-Business.png" />
+								<h3 class="option-title">FINANCIAL HOW-TOs</h3>
+								<p class="option-content">Applying for a loan is easy, 
+									find out what kinds of loans you can get.</p>
+							</div>
+						</li>
+						<li name="credit-card-info">
+							<div class="wrapper2 well">
+								<img class="option-image" src="../assets/Credit-Card.png" />
+								<h3 class="option-title">CREDIT CARD INFO</h3>
+								<p class="option-content">Applying for a loan is easy, 
+									find out what kinds of loans you can get.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- END Main Content -->
+
+			<div class="left-arrow" onclick="moveRight()"> < LEFT </div>
+			<div class="right-arrow" onclick="moveLeft()"> RIGHT > </div>
+
+			<!-- BEGIN Footer -->
+			<div id="footer">
+				<div><img src="../assets/Swipe-Hand.png"></img></div>
+			</div>
+			<!-- END Footer -->
+		</div>
+	</body>
+</html>
+
+
