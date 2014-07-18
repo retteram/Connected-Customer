@@ -3,41 +3,41 @@
 		"name"	:"open-an-account", 
 		"title"	:"OPEN AN ACCOUNT", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
-		"image"	:"../assets/Pig-Door.png"
+		"image"	:"../assets/pigDoor.png"
 	}, 
 
 	"2" : {
 		"name"	:"financial-advice-1", 
 		"title"	:"FINANCIAL ADVICE", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
-		"image"	:"../assets/Smart-Pig.png"
+		"image"	:"../assets/pigBusiness.png"
 	}, 
 
 	"3" : {
 		"name"	:"financial-advice-2", 
 		"title"	:"FINANCIAL ADVICE", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
-		"image"	:"../assets/Smart-Pig.png"
+		"image"	:"../assets/shopping.png"
 	},
 
 	"4" : {
 		"name"	:"a-good-laugh", 
 		"title"	:"A GOOD LAUGH", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
-		"image"	:"../assets/Pig-Chalkboard.png"
+		"image"	:"../assets/pigFlyBoard.png"
 	}, 
 
 	"5" : {
 		"name"	:"financial-how-tos", 
 		"title"	:"FINANCIAL HOW TOs", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
-		"image"	:"../assets/Pig-Business.png"
+		"image"	:"../assets/howTo.png"
 	}, 
 
 	"6" : {
 		"name"	:"credit-card-info", 
 		"title"	:"CREDIT CARD INFO", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
-		"image"	:"../assets/Credit-Card.png"
+		"image"	:"../assets/creditCard.png"
 	}
 }
