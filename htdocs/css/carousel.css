@@ -5,11 +5,6 @@
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
-
-	background: -webkit-linear-gradient(#ddd, #fff, #ddd); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#ddd, #fff, #ddd); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#ddd, #fff, #ddd); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#ddd, #fff, #ddd); /* Standard syntax */
 }
 
 .navigation-bar {
@@ -50,7 +45,7 @@
 
 .container {
 	width: 1200px;
-	height: 1835px;
+	/*height: 1835px;*/
 
 	display: inline-block;
 

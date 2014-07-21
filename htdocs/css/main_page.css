@@ -1,115 +1,23 @@
 *{
-	font-family: Arial, helvetica, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-weight: bold;*/
 }
 
 body {
 	margin: 0;
-	min-width: 1200px;
 }
 
-/* Header */
-.title-bar {
+#home {
 	width: 1200px;
+	height: 1920px;
 	margin: 0 auto;
+	position: relative;
 
-	padding: 10px 0px;
-	background-color: #37a85c;
+	background: -webkit-linear-gradient(#ddd, #fff, #ddd); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#ddd, #fff, #ddd); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ddd, #fff, #ddd); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ddd, #fff, #ddd); /* Standard syntax */
 }
 
-.title-bar-wrapper {
-	height: 65px;
-	min-width: 750px;
-	text-align: center;
-}
-
-.title-bar #placeholder {
-	height: 100%;
-	width: 65px;
-	margin: 0 20px;
-	float: left;
-}
-
-.title-bar #title {
-	height: 100%;
-
-	font-size: 50px;
-	font-weight: 900;
-
-	color: white;
-	display: inline-block;
-
-	margin: 0 auto;
-}
-
-.title-bar .menu-bars {
-	width: 51px;
-
-	border: 1px solid #37a85c;
-	border-radius: 3px;
-
-	padding: 15px 6px;
-
-	float: right;
-	margin: 0 20px;
-}
-
-.menu-bars:hover {
-	background-color: #37C85F;
-	width: 51px;
-	border: 1px solid #37885A;
-
-	box-shadow: 0px 0px 1px #555;
-
-	background: -webkit-linear-gradient(#37C85F, #37a85c); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#37C85F, #37a85c); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#37C85F, #37a85c); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#37C85F, #37a85c); /* Standard syntax */
-
-	cursor: pointer;
-}
-
-.menu-bars .white-line {
-	height: 4px; 
-	width: 100%;
-	background-color: white;
-	margin: 5px 0;
-}
-
-.nav-dropdown {
-	background-color: #198A3E;
-
-	width: 1200px;
-	height: 0px;
-
-	padding: 5px 0;
-
-	display: none;
-	/*box-shadow: inset 0 0 4px #444;*/
-}
-
-.nav-dropdown ul {
-	margin: 0 auto;
-
-	padding-left: 0;
-	padding-right: 0;
-}
-
-.nav-dropdown ul li {
-	list-style: none;
-	float: left;
-
-	color: white;
-}
-/* END Header */
-
-/* BEGIN Footer */
-#footer {
-	/*padding-top: 5px;
-	padding-right: 20px;
-
-	height: 86px;*/
-	background-color: white;
-}
-/* END Footer */
 
 

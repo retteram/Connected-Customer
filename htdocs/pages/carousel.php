@@ -33,5 +33,5 @@
 		<div class="container" name="page4"><?php include("six-block-menu.php"); ?></div>
 		<div class="container" name="page5"><?php include("six-block-menu.php"); ?></div>
 	</div>
-	<div id="swipe-hand"> <img src="../assets/Swipe-Hand.png"></img> </div>
+	<!-- <div id="swipe-hand"> <img src="../assets/Swipe-Hand.png"></img> </div> -->
 </div>

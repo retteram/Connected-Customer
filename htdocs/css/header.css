@@ -1,0 +1,47 @@
+#header {
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+#clock {
+	padding-top: 60px;
+
+	text-align: center;
+
+	height: 70px;
+	width: 100%;
+
+	font-size: 30px;
+	position: relative;
+}
+
+.date {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+	padding-bottom: 5px;
+}
+
+.time {
+	font-size: 60px;
+}
+
+#colon {
+
+}
+
+#am_pm {
+	font-size: 30px;
+}
+
+.dayofweek {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding-bottom: 5px;
+}

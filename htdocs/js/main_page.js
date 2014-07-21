@@ -6,7 +6,7 @@ function menu_button() {
 		});
 	} else {
 		$(".nav-dropdown").css("display", "block");
-		$(".nav-dropdown").animate({height: "20px"}, 200);
+		$(".nav-dropdown").animate({height: "230px"}, 200);
 	}
 }
 
