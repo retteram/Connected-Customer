@@ -1,9 +1,12 @@
+// This function controls the clock in the header.
 function set_clock() {
+	/*	
 	if($("#colon").text() == ":"){
 		$("#colon").text(" ");
 	} else {
 		$("#colon").text(":");
 	}
+	*/
 
 	var currentTime = new Date();
 
@@ -32,7 +35,7 @@ function set_clock() {
 	var day = "";
 	switch(daynum){
 		case 0: day = "sunday"; break;
-		case 1: day = "pm monday"; break;
+		case 1: day = "monday"; break;
 		case 2: day = "tuesday"; break;
 		case 3: day = "wednesday"; break;
 		case 4: day = "thursday"; break;
