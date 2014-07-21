@@ -11,12 +11,21 @@
 		<script type="text/javascript" src="../libs/TouchSwipe-Jquery-Plugin-master/jquery.touchSwipe.min.js"></script>
 		<script type="text/javascript" src="../js/main_page.js"></script>
 	</head>
+
+	<style>
+
+	
+
+	</style>
+
 	<body>
 		<div data-role="page" id="home">
 
 			<!-- BEGIN Header -->
 			<?php require("header.php"); ?>
-			<h1 id="title">HOW CAN WE HELP YOU?</h1>
+			<div class="headBox">
+			<h1 id="title">BANKING 101 FOR DUMMIES</h1>
+			</div>
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->

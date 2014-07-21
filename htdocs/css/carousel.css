@@ -36,7 +36,7 @@
 
 .container-list {
 	width: 6000px;
-	height: 1835px;
+	/*height: 1835px;*/
 	margin-top: 82px;
 
 	position: relative;
@@ -48,7 +48,6 @@
 	/*height: 1835px;*/
 
 	display: inline-block;
-
 	float: right;
 }
 
