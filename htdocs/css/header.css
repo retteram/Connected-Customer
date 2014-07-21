@@ -40,8 +40,10 @@ h1 {
 }
 
 .dayofweek {
+	font-family:helvetica;
+	color:#808284;
 	position: absolute;
-	right: 0;
+	right: 40px;
 	bottom: 0;
 	padding-bottom: 5px;
 }
