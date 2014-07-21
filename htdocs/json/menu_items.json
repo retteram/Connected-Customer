@@ -1,42 +1,42 @@
 { 
 	"1" : {
 		"type"	:"image-top",
-		"title"	:"OPEN AN ACCOUNT", 
+		"title"	:"LOCAL ATTRACTIONS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigDoor.png"
 	}, 
 
 	"2" : {
 		"type"	:"image-top",
-		"title"	:"FINANCIAL ADVICE", 
+		"title"	:"FINANCIAL TOOLS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigBusiness.png"
 	}, 
 
 	"3" : {
 		"type"	:"image-top",
-		"title"	:"FINANCIAL ADVICE", 
+		"title"	:"PROMOTIONS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/shopping.png"
 	},
 
 	"4" : {
 		"type"	:"image-top",
-		"title"	:"A GOOD LAUGH", 
+		"title"	:"POPULAR STORIES", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigFlyBoard.png"
 	}, 
 
 	"5" : {
 		"type"	:"image-top",
-		"title"	:"FINANCIAL HOW TOs", 
+		"title"	:"HELP FIGHT CANCER", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/howTo.png"
 	}, 
 
 	"6" : {
 		"type"	:"image-top",
-		"title"	:"CREDIT CARD INFO", 
+		"title"	:"IDENTITY PROTECTION", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/creditCard.png"
 	}
