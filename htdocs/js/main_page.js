@@ -16,7 +16,6 @@ function moveRight() {
 	if(parseInt($('.container-list').css('left')) > (-4800)){
 		x = parseInt($('.container-list').css('left'))-1200;
 		$('.container-list').animate({left: (x.toString()+"px")}, 300);
-
 		update_navbar(x);
 	}
 }
@@ -27,18 +26,6 @@ function moveLeft() {
 	if(parseInt($('.container-list').css('left')) < 0){
 		x = parseInt($('.container-list').css('left'))+1200;
 		$('.container-list').animate({left: (x.toString()+"px")}, 300);
-
-		/*var y = x/1200;
-		var appendtext = "";
-		if(y > 0){
-			appendtext = "plus"+y.toString();
-		} else if(y < 0){
-			appendtext = "minus"+y.toString();
-		} else {
-			appendtext = "zero";
-		}
-		document.getElementsByClassName('container-list').className = "container-list move-containerlist-"+appendtext;*/
-
 		update_navbar(x);
 	}
 }

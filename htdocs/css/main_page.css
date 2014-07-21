@@ -5,47 +5,6 @@
 body {
 	margin: 0;
 	min-width: 1200px;
-
-	background: -webkit-linear-gradient(#ddd, #fff, #ddd); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#ddd, #fff, #ddd); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#ddd, #fff, #ddd); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#ddd, #fff, #ddd); /* Standard syntax */
-}
-
-.wrapper1 {
-	display: inline-block;
-
-	float: right;
-
-	margin-left: auto;
-	margin-right: 70px;
-
-	padding: 5px;
-	width: 232px;
-
-	border: solid 2px transparent;
-}
-
-.wrapper2 {
-	display: inline-block;
-
-	float: left;
-
-	margin-left: 70px;
-	margin-right: auto;
-
-	padding: 5px;
-	width: 232px;
-
-	border: solid 2px transparent;
-}
-
-.well:hover {
-	background-color: #DDDDDD;
-	border-radius: 10px;
-	border: solid 2px #BBBBBB;
-
-	cursor: pointer;
 }
 
 /* Header */
@@ -142,26 +101,6 @@ body {
 	color: white;
 }
 /* END Header */
-
-.left-arrow {
-	position: absolute;
-	left: 0px;
-	top: 50%;
-}
-
-.left-arrow:hover {
-	cursor: pointer;
-}
-
-.right-arrow {
-	position: absolute;
-	right: 0px;
-	top: 50%;
-}
-
-.right-arrow:hover {
-	cursor: pointer;
-}
 
 /* BEGIN Footer */
 #footer {
