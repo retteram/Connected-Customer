@@ -5,6 +5,8 @@
 body {
 	margin: 0;
 	min-width: 1200px;
+	height:1200px;
+
 }
 
 ul {
@@ -148,6 +150,95 @@ ul {
 }
 /* END Header */
 
+
+
+
+	.container-page1{
+		width:87%;
+		background-color:;
+		margin-left:6%;
+		margin-right:10%;
+		margin-top:50px;
+	}
+
+	.container-page1 div{
+		float:left;
+	}
+
+	.content {
+		width:50%;
+	
+		background-color:;
+	}
+
+	.content div{
+		margin-top:30px;
+		float:left;
+	}
+
+	.half1 {
+	
+		width:30%;
+		background-color:;
+		position:relative;
+
+	}
+
+	.half2 {
+		width:70%;
+		background-color:;
+		position:relative;
+	
+	}
+
+	.half2Line {
+		width:70%;
+		background-color:;
+		position:relative;
+	}
+
+	.option-title {
+	font-family:helvetica;
+	font-size: 30px;
+	font-weight: 900;
+	color: #37a85c;
+	text-align: left;
+	margin-top:-5px;
+	width:90%;
+}
+
+	.option-image{
+		width: 211px;
+		height: 177.5px;
+		background-color:;
+		margin-right:9px;
+	}
+
+
+	.option-content {
+		font-family:helvetica;
+		font-weight:300;
+		font-size:25px;
+		color:black;
+		text-align:left;
+		margin-top:-5px;
+		width:60%;
+		height:188px;
+	}
+
+		.option-content2 {
+		font-family:helvetica;
+		font-weight:300;
+		font-size:25px;
+		color:black;
+		text-align:left;
+		margin-top:-10px;
+		width:60%;
+	}
+
+
+
+
 .left-arrow {
 	position: absolute;
 	left: 0px;
@@ -168,6 +259,12 @@ ul {
 	cursor: pointer;
 }
 
+	.carousel {
+		width:100%;
+		height:800px;
+		background-color:;
+	}
+
 /* BEGIN Footer */
 #footer {
 	/*padding-top: 5px;
@@ -175,6 +272,44 @@ ul {
 
 	height: 86px;*/
 	background-color: white;
+	position:fixed;
+}
+
+
+.footer-bar {
+	width: 1200px;
+	margin: 0 auto;
+
+	padding: 10px 0px;
+	/*background-color: #37a85c;*/
+}
+
+.footer-bar-wrapper {
+	height: 65px;
+	min-width: 750px;
+	text-align: center;
+}
+
+.slide-viewer{
+	position:relative;
+	overflow:hidden;
+	height:485px;
+}
+.slide-group {
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+.slide{
+	width:100%;
+	height:100%;
+	display:none;
+	position:absolute;
+}
+
+.slide:first-child{
+	display:block;
 }
 /* END Footer */
 
