@@ -27,11 +27,21 @@
 	</div>
 	<div class="container-list">
 		<br>
-		<div class="container" name="page5"><?php include("six-block-menu.php"); ?></div>
-		<div class="container" name="page4"><?php include("six-block-menu.php"); ?></div>
-		<div class="container" name="page3"><?php include("six-block-menu.php"); ?></div>
-		<div class="container" name="page2"><?php include("six-block-menu.php"); ?></div>
-		<div class="container" name="page1"><?php include("six-block-menu.php"); ?></div>
+		<div class="container" name="page5">
+			<?php $carouselpage = 5; 
+				include("six-block-menu.php"); ?></div>
+		<div class="container" name="page4">
+			<?php $carouselpage = 4; 
+				include("six-block-menu.php"); ?></div>
+		<div class="container" name="page3">
+			<?php $carouselpage = 3;
+				include("six-block-menu.php"); ?></div>
+		<div class="container" name="page2">
+			<?php $carouselpage = 2;
+				include("six-block-menu.php"); ?></div>
+		<div class="container" name="page1">
+			<?php $carouselpage = 1;
+				include("six-block-menu.php"); ?></div>
 	</div>
 	<!-- <div id="swipe-hand"> <img src="../assets/Swipe-Hand.png"></img> </div> -->
 </div>
