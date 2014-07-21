@@ -2,6 +2,9 @@
 #header {
 	width: 100%;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight:300;
+	color:#808284;
 }
 
 /* This div contains all the date/time <span> elements. */
@@ -13,9 +16,8 @@
 
 	height: 70px;
 	width: 100%;
-
 	font-size: 30px;
-	color: #666;		/* This sets the font for the clock items. */
+	
 
 	position: relative;
 }
@@ -25,6 +27,7 @@
 	position: absolute;
 	left: 0;
 	bottom: 0;
+	color:#808284;
 
 	padding-bottom: 7px;
 	padding-left: 150px;
@@ -47,14 +50,13 @@
 
 /* e.g. 'wednesday' */
 .dayofweek {
-	font-family:helvetica;
-	color:#808284;
+	
 	position: absolute;
 	right: 40px;
 	bottom: 0;
 
 	padding-bottom: 7px;
-	padding-right: 150px;
+	padding-right: 70px;
 }
 
 .separator {
