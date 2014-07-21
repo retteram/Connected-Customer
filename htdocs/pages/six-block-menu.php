@@ -1,5 +1,6 @@
 <?php
-	$json = file_get_contents("../json/menu_items.json");
+
+	$json = file_get_contents("../json/menu_item_page".$carouselpage.".json");
 	$menuitems = json_decode($json, true);
 ?>
 <link href="../css/six-block-menu.css" rel="stylesheet">
@@ -20,13 +21,15 @@
 			$sideclass = "right";
 	?>
 		<li class=<?php echo '"'.$ival['type'].'"' ?> >
-			<div class=<?php echo '"li-container '.$sideclass.' well"';?> >
-				<img class="option-image" src=<?php echo $ival['image'];?> />
-				<div class="option-text-holder">
-					<h3 class="option-title"><?php echo $ival['title'];?></h3>
-					<p class="option-content"><?php echo $ival['body'];?></p>
+			<a href=<?php echo '"'.$ival['link'].'"' ?> >
+				<div class=<?php echo '"li-container '.$sideclass.' well"';?> >
+					<img class="option-image" src=<?php echo $ival['image'];?> />
+					<div class="option-text-holder">
+						<h3 class="option-title"><?php echo $ival['title'];?></h3>
+						<p class="option-content"><?php echo $ival['body'];?></p>
+					</div>
 				</div>
-			</div>
+			</a>
 		</li>
 	<?php } ?>
 </ul>

@@ -30,7 +30,7 @@
 }
 
 .content-list li {
-	margin-bottom: 15px;
+	margin-bottom: 50px;
 
 	float: left;
 	width: 50%;
@@ -68,6 +68,7 @@
 	font-weight: bold;
 	font-size: 20px;
 
+	color: black;
 	margin-top: 8px;
 
 	text-align: left;
