@@ -17,7 +17,7 @@
 			<!-- END Main Content -->
 
 			<!-- BEGIN Footer -->
-			<?php require("page-pieces/footer-simple.php"); ?>
+			<?php require("page-pieces/footer-banner.php"); ?>
 			
 			<!-- END Footer -->
 		</div>

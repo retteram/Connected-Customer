@@ -1,5 +1,5 @@
 <script src="../js/header.js" type="text/javascript"></script>
-<script> $(function() { setInterval(function(){set_clock();}, 1000); }); </script>
+<script> $(function() { set_clock(); setInterval(function(){set_clock();}, 1000); }); </script>
 <link rel="stylesheet" href="../css/header.css">
 <div id="header">
 	<div id="clock">

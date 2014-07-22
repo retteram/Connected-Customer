@@ -1,0 +1,1 @@
+<?php header("Location: connected-customer_main-page.php"); ?>

@@ -4,7 +4,7 @@
 		"title"	:"CREATING A PORTFOLIO & BEATING THE MARKET", 
 		"body"	:"Learn what it takes to build a financial portfolio and what it takes to maintain it.", 
 		"image"	:"../assets/pigDoor.png",
-		"link"	:"indexTest.html"
+		"link"	:"error-404.html"
 	}, 
 
 	"2" : {
@@ -12,7 +12,7 @@
 		"title"	:"MANAGING MULTIPLE ACCOUNTS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigBusiness.png",
-		"link"	:"indexTest.html"
+		"link"	:"error-404.html"
 	}, 
 
 	"3" : {
@@ -20,7 +20,7 @@
 		"title"	:"SHOPPING ON A BUDGET", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/shopping.png",
-		"link"	:"indexTest.html"
+		"link"	:"error-404.html"
 	},
 
 	"4" : {
@@ -28,7 +28,7 @@
 		"title"	:"SMALL BUSINESS LOAN", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigFlyBoard.png",
-		"link"	:"indexTest.html"
+		"link"	:"error-404.html"
 	}, 
 
 	"5" : {
@@ -36,7 +36,7 @@
 		"title"	:"FUNDAMENTAL BASICS ABOUT CHECKS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/howTo.png",
-		"link"	:"indexTest.html"
+		"link"	:"error-404.html"
 	}, 
 
 	"6" : {
@@ -44,6 +44,6 @@
 		"title"	:"ECONOMIC NEWS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/creditCard.png",
-		"link"	:"indexTest.html"
+		"link"	:"error-404.html"
 	}
 }

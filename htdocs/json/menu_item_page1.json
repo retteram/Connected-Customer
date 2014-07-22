@@ -4,7 +4,7 @@
 		"title"	:"TEACHING CHILDREN <br>HOW TO SAVE", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigDoor.png",
-		"link"	:"banking-101.php"
+		"link"	:"error-404.html"
 	}, 
 
 	"2" : {
@@ -12,7 +12,7 @@
 		"title"	:"TALK TO A BANKER", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigBusiness.png",
-		"link"	:"creating-portfolio.php"
+		"link"	:"error-404.html"
 	}, 
 
 	"3" : {
@@ -20,7 +20,7 @@
 		"title"	:"LOCAL ATTRACTIONS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/shopping.png",
-		"link"	:"game-page.php"
+		"link"	:"error-404.html"
 	},
 
 	"4" : {
@@ -44,6 +44,6 @@
 		"title"	:"CREDIT CARD <br>ESSENTIALS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/creditCard.png",
-		"link"	:"indexTest.html"
+		"link"	:"error-404.html"
 	}
 }

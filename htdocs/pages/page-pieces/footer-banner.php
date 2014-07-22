@@ -1,4 +1,6 @@
 <link rel="stylesheet" type="text/css" href="../css/footer.css">
+<link rel="stylesheet" type="text/css" href="../css/footer-banner.css">
+<script type="text/javascript" src="../js/slider.js"></script>
 <div id="footer">
 	<div class="menu-bar">
 		<div class="menu-bar-wrapper">
@@ -25,6 +27,17 @@
 				<li>PLAY A GAME&nbsp</li>
 				<li>FUN FACT&nbsp</li>
 			</ul>
+		</div>
+	</div>
+	<div class="footer-bar">
+		<div class="footer-bar-wrapper">
+			<div id="sliderFrame">
+       		<div id="slider">
+           		<img src="../assets/ad1.jpg" />
+           		<img src="../assets/ad2.jpg" />
+           		<img src="../assets/ad3.jpg" />
+           	</div>
+       		</div>
 		</div>
 	</div>
 </div>
