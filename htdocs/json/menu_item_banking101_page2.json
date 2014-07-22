@@ -1,0 +1,34 @@
+{ 
+	"1" : {
+		"type"	:"image-top",
+		"title"	:"AUTO FINANCING", 
+		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"image"	:"../assets/pigDoor.png",
+		"link"	:"indexTest.html"
+	}, 
+
+	"2" : {
+		"type"	:"image-top",
+		"title"	:"HOT STOCK MINUTE", 
+		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"image"	:"../assets/pigBusiness.png",
+		"link"	:"indexTest.html"
+	}, 
+
+	"3" : {
+		"type"	:"image-top",
+		"title"	:"PRACTICAL MONEY SKILLS", 
+		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"image"	:"../assets/shopping.png",
+		"link"	:"indexTest.html"
+	},
+
+	"4" : {
+		"type"	:"image-top",
+		"title"	:"PERSONAL LOANS", 
+		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"image"	:"../assets/pigFlyBoard.png",
+		"link"	:"indexTest.html"
+	}
+
+}

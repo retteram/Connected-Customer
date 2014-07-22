@@ -19,6 +19,7 @@ body {
 }
 
 /* This is the "How can we help you?" title */
+
 #home h1 {
 	font-size: 60px;
 	color: #198A3E;
@@ -33,12 +34,20 @@ body {
 		font-size: 40px !important; 
 		color: #198A3E;
 		text-align: center;
-		margin-bottom: 20px;
-		background-color:white;
-		width:400px;
-		padding:20px;
-		outline:black thick;
-
+		
 }
 
+.headBox {
+	width:400px;
+	padding:0px 20px 0px 20px;
+	background-color:white;
+	border-style:solid;
+	border-width:10px;
+	border-color:#D1D2D4;
+	margin:0 auto;
+	margin-top:40px;
+}
 
+.body{
+	margin-top:0px;
+}

@@ -29,7 +29,9 @@
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
-			<?php require("carousel.php"); ?>
+			<div class="body">
+			<?php require("carousel-sub-Page.php"); ?>
+			</div>
 			<!-- END Main Content -->
 
 			<!-- BEGIN Footer -->

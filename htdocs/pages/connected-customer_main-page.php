@@ -25,6 +25,7 @@
 
 			<!-- BEGIN Footer -->
 			<?php require("footer.php"); ?>
+			
 			<!-- END Footer -->
 		</div>
 	</body>
