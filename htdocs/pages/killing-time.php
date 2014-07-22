@@ -3,6 +3,7 @@
 	<head>
 		<title>Game</title>
 		<?php require("page-pieces/imports.php"); ?>
+		<script type="text/javascript" src="../js/killing-time.js"></script>
 	</head>
 	<body>
 		<div data-role="page" id="home">

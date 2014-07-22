@@ -3,6 +3,7 @@
 	<head>
 		<title>Mock-Up Demo</title>
 		<?php require("page-pieces/imports.php"); ?>
+		<script type="text/javascript" src="../js/creating-portfolio.js"></script>
 	</head>
 	<body>
 		<div data-role="page" id="home">
