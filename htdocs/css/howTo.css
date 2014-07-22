@@ -30,9 +30,21 @@
 
 	display: inline-block;
 	float: right;
+	text-align:center;
 
-	background-color: #28AC64;
+	background-color: #4AD875;
 	border-radius: 2px;
+}
+
+.num{
+	font-family:helvetica;
+	font-weight: 600;
+	color:white;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 .nav-number.highlight {
