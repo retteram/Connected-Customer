@@ -26,18 +26,18 @@
 	</div>
 	<div class="container-list">
 		<br>
-		<div class="container" name="page4"><?php
-			$carouselpage = "../json/menu_item_banking101_page4.json";
-			include("six-block-menu.php"); ?></div>
-		<div class="container" name="page3"><?php
-			$carouselpage = "../json/menu_item_banking101_page3.json";
-			include("six-block-menu.php"); ?></div>
-		<div class="container" name="page2"><?php 
-			$carouselpage = "../json/menu_item_banking101_page2.json";
-			include("six-block-menu.php"); ?></div>
-		<div class="container" name="page1"><?php 
-			$carouselpage = "../json/menu_item_banking101_page1.json";
-			include("six-block-menu.php"); ?></div>
+		<div class="container" name="page4">
+			<img src="../assets/portfolioStep-4.png" />
+		</div>
+		<div class="container" name="page3">
+			<img src="../assets/portfolioStep-3.png" />
+		</div>
+		<div class="container" name="page2">
+			<img src="../assets/portfolioStep-2.png" />
+		</div>
+		<div class="container" name="page1">
+			<img src="../assets/portfolioStep-1.png" />
+		</div>
 	</div>
 	<!-- <div id="swipe-hand"> <img src="../assets/Swipe-Hand.png"></img> </div> -->
 </div>

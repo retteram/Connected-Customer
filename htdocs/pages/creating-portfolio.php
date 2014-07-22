@@ -4,6 +4,9 @@
 		<title>Mock-Up Demo</title>
 		<?php require("page-pieces/imports.php"); ?>
 		<script type="text/javascript" src="../js/creating-portfolio.js"></script>
+		 	<script>
+					$('img').on('dragstart', function(event) { event.preventDefault(); });
+			</script>
 	</head>
 	<body>
 		<div data-role="page" id="home">
