@@ -42,21 +42,21 @@
 }
 
 .option-image {
-	height: 160px;
+	height: 100px;
 	display: inline-block;
 }
 
 .option-text-holder {
 	display: inline-block;
 
-	width: 300px;
+	width: 270px;
 
 	position: relative;
 	top: -30px;
 }
 
 .option-title {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 
 	color: #37a85c;
@@ -67,7 +67,7 @@
 
 .option-content {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 15px;
 
 	margin-top: 8px;
 	color:black;

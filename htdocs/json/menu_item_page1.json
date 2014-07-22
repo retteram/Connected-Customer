@@ -1,7 +1,7 @@
 { 
 	"1" : {
 		"type"	:"image-top",
-		"title"	:"TEACHING CHILDREN HOW TO SAVE", 
+		"title"	:"TEACHING CHILDREN <br>HOW TO SAVE", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigDoor.png",
 		"link"	:"indexTest.html"
@@ -41,7 +41,7 @@
 
 	"6" : {
 		"type"	:"image-top",
-		"title"	:"CREDIT CARD ESSENTIALS", 
+		"title"	:"CREDIT CARD <br>ESSENTIALS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/creditCard.png",
 		"link"	:"indexTest.html"
