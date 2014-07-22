@@ -1,7 +1,7 @@
 /* Content List */
 .carousel{
 	/*width: 100%;*/
-	width: 1200px;
+	width: 1080px;
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
@@ -35,7 +35,7 @@
 }
 
 .container-list {
-	width: 6000px;
+	width: 5400px;
 	/*height: 1835px;*/
 	margin-top: 82px;
 
@@ -44,7 +44,7 @@
 }
 
 .container {
-	width: 1200px;
+	width: 1080px;
 	/*height: 1835px;*/
 
 	display: inline-block;
