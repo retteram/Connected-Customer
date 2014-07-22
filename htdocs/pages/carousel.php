@@ -27,11 +27,21 @@
 	</div>
 	<div class="container-list">
 		<br>
-		<div class="container" name="page5"><?php include("six-block-menu.php"); ?></div>
-		<div class="container" name="page4"><?php include("six-block-menu.php"); ?></div>
-		<div class="container" name="page3"><?php include("six-block-menu.php"); ?></div>
-		<div class="container" name="page2"><?php include("six-block-menu.php"); ?></div>
-		<div class="container" name="page1"><?php include("six-block-menu.php"); ?></div>
+		<div class="container" name="page5"><?php 
+			$carouselpage = "../json/menu_item_page5.json";
+			include("six-block-menu.php"); ?></div>
+		<div class="container" name="page4"><?php 
+			$carouselpage = "../json/menu_item_page4.json";
+			include("six-block-menu.php"); ?></div>
+		<div class="container" name="page3"><?php
+			$carouselpage = "../json/menu_item_page3.json";
+			include("six-block-menu.php"); ?></div>
+		<div class="container" name="page2"><?php 
+			$carouselpage = "../json/menu_item_page2.json";
+			include("six-block-menu.php"); ?></div>
+		<div class="container" name="page1"><?php 
+			$carouselpage = "../json/menu_item_page1.json";
+			include("six-block-menu.php"); ?></div>
 	</div>
 	<!-- <div id="swipe-hand"> <img src="../assets/Swipe-Hand.png"></img> </div> -->
 </div>

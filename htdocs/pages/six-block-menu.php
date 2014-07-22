@@ -1,5 +1,5 @@
 <?php
-	$json = file_get_contents("../json/menu_items.json");
+	$json = file_get_contents($carouselpage);
 	$menuitems = json_decode($json, true);
 ?>
 <link href="../css/six-block-menu.css" rel="stylesheet">
