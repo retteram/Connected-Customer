@@ -4,7 +4,7 @@
 		"title"	:"CREATING A PORTFOLIO & BEATING THE MARKET", 
 		"body"	:"Learn what it takes to build a financial portfolio and what it takes to maintain it.", 
 		"image"	:"../assets/pigDoor.png",
-		"link"	:"error-404.html"
+		"link"	:"creating-portfolio.php"
 	}, 
 
 	"2" : {
