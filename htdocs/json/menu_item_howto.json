@@ -1,15 +1,15 @@
 { 
 	"1" : {
 		"type"	:"image-top",
-		"title"	:"PROMOTIONS", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"title"	:"CREATING A PORTFOLIO & BEATING THE MARKET", 
+		"body"	:"Learn what it takes to build a financial portfolio and what it takes to maintain it.", 
 		"image"	:"../assets/pigDoor.png",
 		"link"	:"indexTest.html"
 	}, 
 
 	"2" : {
 		"type"	:"image-top",
-		"title"	:"FINANCIAL TOOLS", 
+		"title"	:"MANAGING MULTIPLE ACCOUNTS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigBusiness.png",
 		"link"	:"indexTest.html"
@@ -25,7 +25,7 @@
 
 	"4" : {
 		"type"	:"image-top",
-		"title"	:"POPULAR STORIES", 
+		"title"	:"SMALL BUSINESS LOAN", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigFlyBoard.png",
 		"link"	:"indexTest.html"
@@ -33,7 +33,7 @@
 
 	"5" : {
 		"type"	:"image-top",
-		"title"	:"HELP FIGHT CANCER", 
+		"title"	:"FUNDAMENTAL BASICS ABOUT CHECKS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/howTo.png",
 		"link"	:"indexTest.html"
@@ -41,7 +41,7 @@
 
 	"6" : {
 		"type"	:"image-top",
-		"title"	:"IDENTITY PROTECTION", 
+		"title"	:"ECONOMIC NEWS", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/creditCard.png",
 		"link"	:"indexTest.html"

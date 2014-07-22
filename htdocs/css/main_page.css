@@ -7,7 +7,7 @@ body {
 }
 
 #home {
-	width: 1200px;
+	width: 1080px;
 	height: 1920px;
 	margin: 0 auto;
 	position: relative;
@@ -39,6 +39,25 @@ body {
 
 .headBox {
 	width:400px;
+	padding:0px 20px 0px 20px;
+	background-color:white;
+	border-style:solid;
+	border-width:10px;
+	border-color:#D1D2D4;
+	margin:0 auto;
+	margin-top:40px;
+}
+
+.headBox2 h1 {
+		font-family:helvetica;
+		font-weight:900;
+		font-size: 30px !important; 
+		color: #198A3E;
+		text-align: center;
+}
+
+.headBox2 {
+	width:500px;
 	padding:0px 20px 0px 20px;
 	background-color:white;
 	border-style:solid;

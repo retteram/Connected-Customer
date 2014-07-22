@@ -1,4 +1,4 @@
-<link href="../css/carousel-sub-page.css" rel="stylesheet">
+<link href="../css/howTo.css" rel="stylesheet">
 <script>
 	$(function() {			
 		$(".carousel").swipe({
@@ -18,8 +18,8 @@
 <div class="carousel">
 	<div class="navigation-bar">
 		<div class="nav-container">
-			<div class="nav-circle" name="page2"></div>
-			<div class="nav-circle highlight" name="page1"></div>
+			<div class="nav-number" name="page2">2</div>
+			<div class="nav-number highlight" name="page1">1</div>
 		</div>
 	</div>
 	<div class="container-list">
