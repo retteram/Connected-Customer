@@ -10,15 +10,15 @@
 	"2" : {
 		"type"	:"image-top",
 		"title"	:"MANAGING MULTIPLE ACCOUNTS", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"body"	:"Check out Mint.com alternative, same investment and real estate support.", 
 		"image"	:"../assets/pigBusiness.png",
 		"link"	:"error-404.html"
 	}, 
 
 	"3" : {
 		"type"	:"image-top",
-		"title"	:"SHOPPING ON A BUDGET", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"title"	:"FINANCIAL TOOLS", 
+		"body"	:"Find out what tools exist to help you use your money as effective as possible.", 
 		"image"	:"../assets/shopping.png",
 		"link"	:"error-404.html"
 	},
@@ -26,7 +26,7 @@
 	"4" : {
 		"type"	:"image-top",
 		"title"	:"SMALL BUSINESS LOAN", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"body"	:"Find out which offers and programs best meets your business needs.", 
 		"image"	:"../assets/pigFlyBoard.png",
 		"link"	:"error-404.html"
 	}, 
@@ -34,15 +34,15 @@
 	"5" : {
 		"type"	:"image-top",
 		"title"	:"FUNDAMENTAL BASICS ABOUT CHECKS", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
-		"image"	:"../assets/howTo.png",
+		"body"	:"Learn anything from filling out a check properly to learning the types that exist.", 
+		"image"	:"../assets/check.png",
 		"link"	:"error-404.html"
 	}, 
 
 	"6" : {
 		"type"	:"image-top",
 		"title"	:"ECONOMIC NEWS", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"body"	:"Stay on top of trending stories and articles.", 
 		"image"	:"../assets/creditCard.png",
 		"link"	:"error-404.html"
 	}

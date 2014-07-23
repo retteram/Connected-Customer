@@ -2,7 +2,7 @@
 	"1" : {
 		"type"	:"image-top",
 		"title"	:"AUTO FINANCING", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"body"	:"Guaranteed lower rates. Tap here to talk to a banker.", 
 		"image"	:"../assets/pigDoor.png",
 		"link"	:"error-404.html"
 	}, 
@@ -10,7 +10,7 @@
 	"2" : {
 		"type"	:"image-top",
 		"title"	:"HOT STOCK MINUTE", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"body"	:"Live video from the NASDAQ market site. Prepares you for trading day live streams.", 
 		"image"	:"../assets/pigBusiness.png",
 		"link"	:"error-404.html"
 	}, 
@@ -18,15 +18,15 @@
 	"3" : {
 		"type"	:"image-top",
 		"title"	:"PRACTICAL MONEY SKILLS", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"body"	:"See how games and stimulations can help you learn about spending, saving, debt reduction and much more.", 
 		"image"	:"../assets/shopping.png",
 		"link"	:"error-404.html"
 	},
 
 	"4" : {
 		"type"	:"image-top",
-		"title"	:"PERSONAL LOANS", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"title"	:"CONSOLIDATE YOUR DEBT", 
+		"body"	:"Consolidate your debt with our banks personal loan or line of credit.", 
 		"image"	:"../assets/pigFlyBoard.png",
 		"link"	:"error-404.html"
 	}
