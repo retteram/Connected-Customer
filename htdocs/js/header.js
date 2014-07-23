@@ -22,6 +22,10 @@ function set_clock() {
 
 	hour = hour % 12;
 
+	if(hour == 0){
+		hour = 1;
+	}
+
 	var date = currentTime.getDate();
 	var month = currentTime.getMonth();
 	var year = currentTime.getFullYear()%100;
