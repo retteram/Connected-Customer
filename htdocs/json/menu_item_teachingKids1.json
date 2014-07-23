@@ -2,31 +2,31 @@
 	"1" : {
 		"type"	:"image-top",
 		"title"	:"ACTIVITIES & TIPS", 
-		"body"	:"See what the area has to offer new, old and unknown.", 
+		"body"	:"- Rewards<br>- Calculations<br>- Money Counting<br>- Tips For Kids", 
 		"image"	:"../assets/pigDoor.png",
 		"link"	:"error-404.html"
 	}, 
 
 	"2" : {
 		"type"	:"image-top",
-		"title"	:"FINANCIAL TOOLS", 
-		"body"	:"Learn about the tools exist to help you make smart financial decisions.", 
+		"title"	:"FINANCIAL NEEDS & ACTIONS TO TAKE", 
+		"body"	:"", 
 		"image"	:"../assets/pigBusiness.png",
 		"link"	:"error-404.html"
 	}, 
 
 	"3" : {
 		"type"	:"image-top",
-		"title"	:"PROMOTIONS", 
-		"body"	:"Find out how you can get free money by setting up any account or savings plans.", 
+		"title"	:"HOW-TO KIDS SAVINGS", 
+		"body"	:"Establish or adjust an education savings plan to meet your goals & services.", 
 		"image"	:"../assets/shopping.png",
 		"link"	:"error-404.html"
 	},
 
 	"4" : {
 		"type"	:"image-top",
-		"title"	:"POPULAR STORIES", 
-		"body"	:"Stay connected with our live stream of news and current events.", 
+		"title"	:"GAMES", 
+		"body"	:"Gamify your childs learning experience and let them play a game that will teach them a thing or two.", 
 		"image"	:"../assets/pigFlyBoard.png",
 		"link"	:"error-404.html"
 	}
