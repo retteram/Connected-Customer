@@ -4,6 +4,7 @@
 		<title>Game</title>
 		<?php require("page-pieces/imports.php"); ?>
 		<script type="text/javascript" src="../js/killing-time.js"></script>
+		<script>var backlink = "banking-101.php"; </script>
 	</head>
 	<body>
 		<div data-role="page" id="home">
@@ -17,7 +18,7 @@
 			<!-- END Main Content -->
 
 			<!-- BEGIN Footer -->
-			<?php require("page-pieces/footer.php"); ?>
+			<?php require("page-pieces/footer-simple.php"); ?>
 			<!-- END Footer -->
 		</div>
 	</body>

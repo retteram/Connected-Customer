@@ -1,8 +1,13 @@
 <link rel="stylesheet" type="text/css" href="../css/footer.css">
+<script>
+	function backClicked() {
+		document.location.href=backlink; 
+	}
+</script>
 <div id="footer">
 	<div class="menu-bar">
 		<div class="menu-bar-wrapper">
-			<a href="#"><div id="placeholder"><div class="back">< BACK</div></div></a>
+			<a href="#" onclick="backClicked()"><div id="placeholder"><div class="back">< BACK</div></div></a>
 			<h1 id="title"></h1>
 			<span class="menu-button" onclick="menu_button()">
 				<div class="white-line"></div>

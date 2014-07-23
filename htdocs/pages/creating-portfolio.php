@@ -5,6 +5,7 @@
 		<?php require("page-pieces/imports.php"); ?>
 		<script type="text/javascript" src="../js/creating-portfolio.js"></script>
 		 	<script>
+					var backlink = "banking-101.php";
 					$('img').on('dragstart', function(event) { event.preventDefault(); });
 			</script>
 	</head>

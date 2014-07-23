@@ -4,7 +4,7 @@
 <div id="footer">
 	<div class="menu-bar">
 		<div class="menu-bar-wrapper">
-			<a href="#"><div id="placeholder"><div class="back">< BACK</div></div></a>
+			<a href="#"><div id="placeholder" style="background-color: #37A85C"><!-- <div class="back">< BACK</div> --></div></a>
 			<h1 id="title"></h1>
 			<span class="menu-button" onclick="menu_button()">
 				<div class="white-line"></div>
