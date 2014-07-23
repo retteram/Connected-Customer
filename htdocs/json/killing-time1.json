@@ -1,32 +1,32 @@
 { 
 	"1" : {
 		"type"	:"image-top",
-		"title"	:"CREATING A PORTFOLIO & BEATING THE MARKET", 
-		"body"	:"Learn what it takes to build a financial portfolio and what it takes to maintain it.", 
+		"title"	:"GAMES", 
+		"body"	:"Gamify your life and learn financial tips and skills to help you in your everyday life.", 
 		"image"	:"../assets/pigDoor.png",
 		"link"	:"creating-portfolio.php"
 	}, 
 
 	"2" : {
 		"type"	:"image-top",
-		"title"	:"MANAGING MULTIPLE ACCOUNTS", 
+		"title"	:"A GOOD LAUGH", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
-		"image"	:"../assets/pigBusiness.png",
+		"image"	:"../assets/pigLaugh.png",
 		"link"	:"error-404.html"
 	}, 
 
 	"3" : {
 		"type"	:"image-top",
-		"title"	:"SHOPPING ON A BUDGET", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"title"	:"INTERESTING FACT", 
+		"body"	:"Click to generate random funny and interesting facts.", 
 		"image"	:"../assets/shopping.png",
 		"link"	:"error-404.html"
 	},
 
 	"4" : {
 		"type"	:"image-top",
-		"title"	:"SMALL BUSINESS LOAN", 
-		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"title"	:"LOCAL ATTRACTIONS", 
+		"body"	:"See what the area has to offer new, old and unknown.", 
 		"image"	:"../assets/pigFlyBoard.png",
 		"link"	:"error-404.html"
 	}

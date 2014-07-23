@@ -28,15 +28,15 @@
 				<div class="related-object">
 					<h1 id="relatedTitle">MORE GAMES</h1>
 					<div class="object1">
-					<img src="../assets/related1.png" />
+					<img src="../assets/ttt.png" />
 					<h2 id="objectTitle">TIC TAC TOE</h2>
 					</div>
 					<div class="object2">
-					<img src="../assets/related2.png" />
+					<img src="../assets/mountain.png" />
 					<h2 id="objectTitle">FINANCIAL MOUNTAIN CLIMBING</h2>	
 					</div>
 					<div class="object3">
-					<img src="../assets/related3.png" />
+					<img src="../assets/pigSplosion.png" />
 					<h2 id="objectTitle">PIG BANK EXPLOSION</h2>
 					</div>
 				</div>
