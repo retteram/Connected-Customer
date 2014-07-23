@@ -4,7 +4,7 @@
 		<title>Game</title>
 		<?php require("page-pieces/imports.php"); ?>
 		<script type="text/javascript" src="../js/killing-time.js"></script>
-		<script>var backlink = "banking-101.php"; </script>
+		<script>var backlink = "connected-customer_main-page.php"; </script>
 	</head>
 	<body>
 		<div data-role="page" id="home">
