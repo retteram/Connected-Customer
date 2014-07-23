@@ -51,6 +51,26 @@ body {
 	margin-top:40px;
 }
 
+.headBox1 {
+	width:500px;
+	padding:0px 20px 0px 20px;
+	background-color:white;
+	border-style:solid;
+	border-width:10px;
+	border-color:#D1D2D4;
+	margin:0 auto;
+	margin-top:40px;
+}
+
+.headBox1 h1 {
+		font-family:helvetica;
+		font-weight:900;
+		font-size: 40px !important; 
+		color: #198A3E;
+		text-align: center;
+		
+}
+
 .headBox2 h1 {
 		font-family:helvetica;
 		font-weight:900;
