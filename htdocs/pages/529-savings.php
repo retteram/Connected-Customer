@@ -12,7 +12,7 @@
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
 			<div class="headBox2">
-			<h1 id="title">GAMES</h1>
+			<h1 id="title">529 COLLEGE<br>SAVINGS PLAN</h1>
 			</div>
 			<!-- END Header -->
 
@@ -21,7 +21,7 @@
 			<div class="game-container">
 		
 		
-			<img src="../assets/gameScreen.png" />
+			<img src="../assets/529Display.png" />
 		
 
 			</div>
@@ -30,18 +30,18 @@
 			<!-- BEGIN Footer -->
 			<div class="related-container">
 				<div class="related-object">
-					<h1 id="relatedTitle">MORE GAMES</h1>
+					<h1 id="relatedTitle">RELATED PRODUCTS AND SERVICES</h1>
 					<div class="object1">
 					<img src="../assets/related1.png" />
-					<h2 id="objectTitle">TIC TAC TOE</h2>
+					<h2 id="objectTitle">TEACH KIDS<br>ABOUT CREDIT</h2>
 					</div>
 					<div class="object2">
-					<img src="../assets/related2.png" />
-					<h2 id="objectTitle">FINANCIAL MOUNTAIN CLIMBING</h2>	
+					<img src="../assets/related4.png" />
+					<h2 id="objectTitle">PAYING OFF<br>STUDENT LOANS</h2>	
 					</div>
 					<div class="object3">
 					<img src="../assets/related3.png" />
-					<h2 id="objectTitle">PIG BANK EXPLOSION</h2>
+					<h2 id="objectTitle">NEED vs. WANT<br>BUDGET APP</h2>
 					</div>
 				</div>
 			</div>

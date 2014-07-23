@@ -68,6 +68,7 @@
 
 	display: inline-block;
 	float: right;
+
 }
 .container img{
 	width:85%;
@@ -77,6 +78,26 @@
 	margin-right: auto;
 }
 
+.game-container{
+	width:1080px;
+	height:1500px;
+
+	display: inline-block;
+	float:right;
+	background-color:;
+
+
+}
+
+.game-container img{
+	width:85%;
+	height:50%;
+
+	margin-top:80px;
+	margin-left:20px;
+	margin-right:auto;
+	
+}
 #swipe-hand {
 	position: absolute;
 	bottom: 8px;
