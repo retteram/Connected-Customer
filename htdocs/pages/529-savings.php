@@ -17,7 +17,10 @@
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
-			
+			<div class="cta">
+				<div id="email">EMAIL TO SELF</div>
+				<div id="banker">DISCUSS WITH BANKER</div>
+			</div>
 			<div class="game-container">
 		
 		
