@@ -11,10 +11,13 @@
 
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
+			<div class="headBox">
+			<h1 id="title">KILLING TIME</h1>
+			</div>
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
-			<?php require("page-pieces/carousel-sub-Page.php"); ?>
+			<?php require("page-pieces/single-page.php"); ?>
 			<!-- END Main Content -->
 
 			<!-- BEGIN Footer -->
