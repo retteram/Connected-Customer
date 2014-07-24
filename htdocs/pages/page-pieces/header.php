@@ -5,9 +5,7 @@
 	<div id="clock">
 		<span class="date"></span>
 		<span class="time">
-			<span id="hours">0</span>
-			<span id="colon">:</span>
-			<span id="minutes">00</span>
+			<span id="hourmin">0:00</span>
 			<span id="am_pm">am</span>
 		</span>
 		<span class="dayofweek"></span>

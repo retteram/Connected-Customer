@@ -23,7 +23,7 @@ function set_clock() {
 	hour = hour % 12;
 
 	if(hour == 0){
-		hour = 1;
+		hour = 12;
 	}
 
 	var date = currentTime.getDate();
@@ -31,8 +31,7 @@ function set_clock() {
 	var year = currentTime.getFullYear()%100;
 
 	$(".date").text(month+"/"+date+"/"+year);
-	$("#hours").text(hour);
-	$("#minutes").text(min);
+	$("#hourmin").text(hour+":"+min);
 	$("#am_pm").text(am_pm);
 
 	var daynum = currentTime.getDay();
