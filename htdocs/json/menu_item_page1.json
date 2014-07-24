@@ -2,8 +2,8 @@
 	"1" : {
 		"type"	:"image-top",
 		"title"	:"TEACHING CHILDREN <br>HOW TO SAVE", 
-		"body"	:"At age 3 children understand concepts like saving & spending, by age 7, a persons money habits are formed.", 
-		"image"	:"../assets/pigDoor.png",
+		"body"	:"At age 3 children understand concepts like saving & spending, by age 7, money habits are formed.", 
+		"image"	:"../assets/teaching2.png",
 		"link"	:"error-404.html"
 	}, 
 
@@ -27,7 +27,7 @@
 		"type"	:"image-top",
 		"title"	:"KILLING TIME", 
 		"body"	:"Just waiting on a line? Stay amused with games, local event awarness and fun & interesting facs.", 
-		"image"	:"../assets/pigFlyBoard.png",
+		"image"	:"../assets/killing.png",
 		"link"	:"killing-time.php"
 	}, 
 

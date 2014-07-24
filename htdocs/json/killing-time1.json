@@ -4,7 +4,7 @@
 		"title"	:"GAMES", 
 		"body"	:"Gamify your life and learn financial tips and skills to help you in your everyday life.", 
 		"image"	:"../assets/pigDoor.png",
-		"link"	:"creating-portfolio.php"
+		"link"	:"game-page.php"
 	}, 
 
 	"2" : {
