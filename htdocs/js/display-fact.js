@@ -9,5 +9,5 @@ function generateRand (){
 
 	var facts = document.getElementsByClassName("fact");
 
-	facts[generateRandomFact(0,31)].className = "showFact";
+	facts[generateRandomFact(0,facts.length-1)].className = "showFact";
 }
