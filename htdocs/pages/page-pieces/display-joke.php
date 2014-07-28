@@ -44,7 +44,7 @@
 	font-weight: 900;
 	color:#37a85c;
 	font-size:50px;
-	text-align:center;
+
 }
 
 .fact-container{
@@ -66,12 +66,12 @@
 	<div class="display-area">
 
 	<div class="did-you-know">
-	DID YOU KNOW?
+	HAVE A LAUGH
 	</div>
 	<div id="line"></div>
 	<div id="factsHolder">
 		<?php
-			$json = file_get_contents("../json/facts.json");
+			$json = file_get_contents("../json/jokes.json");
 			$facts = json_decode($json, true);
 
 		
@@ -84,4 +84,4 @@
 	</div>
 
 </div>
-<button id="random" onclick="generateRand()">Generate Random Fact</button>
+<button id="random" onclick="generateRand()">Generate A Random Joke</button>

@@ -12,11 +12,11 @@
 		<div id="home" data-role="page">
 			<?php require("page-pieces/header.php"); ?>
 			<div class="headBox1">
-			<h1 id="title">INTERESTING FACTS</h1>
+			<h1 id="title">RANDOM JOKES</h1>
 			</div>
 
 			
-			<?php require("page-pieces/display-fact.php"); ?>
+			<?php require("page-pieces/display-joke.php"); ?>
 
 
 
@@ -29,7 +29,7 @@
 					</div>
 					<div class="object2">
 					<img src="../assets/mountain.png" />
-					<h2 id="objectTitle">JOKES</h2>	
+					<h2 id="objectTitle">RANDOM FACTS</h2>	
 					</div>
 					<div class="object3">
 					<img src="../assets/pigSplosion.png" />
