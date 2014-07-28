@@ -22,7 +22,7 @@
 
 			<div class="related-container">
 				<div class="related-object">
-					<h1 id="relatedTitle">RELATED</h1>
+					<h1 id="relatedTitle">RELATED TIME KILLERS</h1>
 					<div class="object1">
 					<img src="../assets/ttt.png" />
 					<h2 id="objectTitle">GAMES</h2>
