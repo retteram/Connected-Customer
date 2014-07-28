@@ -8,13 +8,12 @@
 
 
 .display-area{
-	width:900px;
+	width:800px;
 	height:700px;
 	border-radius:8px;
 	background-color:white;
 	border:solid 2px #37a85c;
-	margin-top:100px;
-	margin-left:90px;
+	margin:90px auto 0px auto;
 }
 
 .did-you-know{
@@ -23,12 +22,12 @@
 	font-family:helvetica;
 	font-weight:900;
 	font-size:70px;
-	margin-top:90px;
+	margin:90px auto 0px auto;
 }
 
 #line {
 	background-color:#D1D2D4;
-	width:800px;
+	width:700px;
 	height:2px;
 	margin-top:30px;
 	margin-left:50px;
@@ -52,6 +51,26 @@
 }
 
 #random {
+	margin:15px auto 0px auto;
+	border-radius: 8px;
+	color:white;
+	width:250px;
+	height:60px;
+	background-color:#37a85c;
+	cursor:pointer;
+	text-align:center;
+	line-height:7px;
+	padding-top:1px;
+}
+
+#random h1{
+	color:white;
+	font-size:25px;
+	font-weight:900;
+}
+
+#random:hover{
+	background-color:#3CB666;
 }
 
 
@@ -84,4 +103,4 @@
 	</div>
 
 </div>
-<button id="random" onclick="generateRand()">Generate A Random Joke</button>
+<div id="random" onclick="generateRand()"><h1>NEW JOKE</h1>(TAP HERE)</div>
