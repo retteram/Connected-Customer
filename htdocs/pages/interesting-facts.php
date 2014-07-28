@@ -7,10 +7,12 @@
 	</head>
 
 	<body>
-		<?php require("page-pieces/header.php"); ?>
+		<div id="home" data-role="page">
+			<?php require("page-pieces/header.php"); ?>
 
-		<?php require("page-pieces/vertical-list.php"); ?>
+			<?php require("page-pieces/display-fact.php"); ?>
 
-		<?php require("page-pieces/footer-simple.php"); ?>
+			<?php require("page-pieces/footer-simple.php"); ?>
+		</div>
 	</body>
 </html>

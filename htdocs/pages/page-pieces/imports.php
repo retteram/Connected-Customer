@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="../css/main_page.css" />
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway">
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
