@@ -12,7 +12,7 @@
 		"title"	:"A GOOD LAUGH", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
 		"image"	:"../assets/pigLaugh.png",
-		"link"	:"error-404.html"
+		"link"	:"jokes.php"
 	}, 
 
 	"3" : {
@@ -20,7 +20,7 @@
 		"title"	:"INTERESTING FACT", 
 		"body"	:"Click to generate random funny and interesting facts.", 
 		"image"	:"../assets/shopping.png",
-		"link"	:"error-404.html"
+		"link"	:"interesting-facsts.php"
 	},
 
 	"4" : {
