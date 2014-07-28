@@ -4,7 +4,7 @@
 		"title"	:"TEACHING CHILDREN <br>HOW TO SAVE", 
 		"body"	:"At age 3 children understand concepts like saving & spending, by age 7, money habits are formed.", 
 		"image"	:"../assets/teaching2.png",
-		"link"	:"error-404.html"
+		"link"	:"teaching-children.php"
 	}, 
 
 	"2" : {
