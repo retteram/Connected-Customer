@@ -58,13 +58,28 @@
 }
 
 .menu-bar .menu-button {
-	width: 51px;
-
-	border: 1px solid #37a85c;
-	/*border-radius: 3px;*/
-
 	float: right;
-	margin: 0 20px;
+
+	background-color: #37A85C;
+
+	height: 100%;
+	width: 120px;
+}
+
+.menu-bar .menu-button:hover {
+	background-color: #26A261;
+	cursor: pointer;
+}
+
+.menu-bar .menu-button.darker {
+	background-color: #198A3E
+}
+
+.white-line-container {
+	display: inline-block;
+	width: 80px;
+
+	margin: 0 auto;
 
 	position: relative;
 	top: 50%;
@@ -73,35 +88,19 @@
 	transform: translateY(-50%);
 }
 
-.menu-button:hover {
-	background-color: #37C85F;
-	width: 51px;
-	border: 1px solid #37885A;
-
-	box-shadow: 0px 0px 1px #555;
-
-	background: -webkit-linear-gradient(#37C85F, #37a85c); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#37C85F, #37a85c); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#37C85F, #37a85c); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#37C85F, #37a85c); /* Standard syntax */
-
-	cursor: pointer;
-}
-
-.menu-button .white-line {
-	height: 4px; 
+.white-line-container .white-line {
+	height: 6px; 
 	width: 100%;
 	background-color: white;
-	margin: 5px 0;
+	margin: 6px 0;
 }
 
 .nav-dropdown {
 	background-color: #198A3E;
 
 	width: 100%;
-	height: 0px;
 
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	padding: 5px 0;
 	display: none;
 	/*box-shadow: inset 0 0 4px #444;*/
@@ -110,13 +109,21 @@
 .nav-dropdown ul {
 	margin: 0 auto;
 
-	padding-left: 0;
+	padding-left: 10%;
 	padding-right: 0;
 }
 
 .nav-dropdown ul li {
 	list-style: none;
-	/*float: left;*/
+	float: left;
 
 	color: white;
+	width: 26%;
+	margin: 2px 1%;
+	padding: 8px 1%;
+}
+
+.nav-dropdown ul li:hover {
+	background-color: #26A261;
+	cursor: pointer;
 }

@@ -6,11 +6,13 @@
 		<div class="menu-bar-wrapper">
 			<a href="#"><div id="placeholder" style="background-color: #37A85C"><!-- <div class="back">< BACK</div> --></div></a>
 			<h1 id="title"></h1>
-			<span class="menu-button" onclick="menu_button()">
-				<div class="white-line"></div>
-				<div class="white-line"></div>
-				<div class="white-line"></div>
-			</span>
+			<div class="menu-button" onclick="menu_button()">
+				<span class="white-line-container">
+					<div class="white-line"></div>
+					<div class="white-line"></div>
+					<div class="white-line"></div>
+				</span>
+			</div>
 		</div>
 		<div class="nav-dropdown">
 			<ul>
