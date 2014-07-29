@@ -73,26 +73,10 @@
 				margin-top:30px;
 				border-bottom:dotted 3px #D1D2D4;
 			}
-		</style>
-		<script>
-			var checkboxes = [];
-			checkboxes['all'] = document.getElementById("all");
-			checkboxes['history'] = document.getElementById("history");
-			checkboxes['shopping'] = document.getElementById("shopping");
-			checkboxes['entertainment'] = document.getElementById("entertainment");
-			checkboxes['nature'] = document.getElementById("nature");
-			checkboxes['food'] = document.getElementById("food");
 
-			function allClicked() {
-				alert("All Clicked")
-				if(checkboxes['all'].checked){
-					alert("All Checked");
-					for(var i = 0; i < checkboxes.length; i++){
-						checkboxes[i].checked = true;
-					}
-				}
-			}
-		</script>
+		</style>
+		
+		<script type="text/javascript" src="../js/local-attractions.js"></script>
 	</head>
 
 	<body>
@@ -115,23 +99,15 @@
 				<div id="attraction2">
 					<label for="history">
 						<h1>HISTORIC</h1>
-		  				<input type="checkbox" name="historic" id="history" value="local-2"/>
+		  				<input type="checkbox" name="historic" id="history" value="local-2" onchange="historyClicked()"/>
 		  				<span></span>
 					</label>
 				</div>
 
 				<div id="attraction3">
-					<label for="shopping">
-						<h1>DINNING</h1>
-		  				<input type="checkbox" name="shopping" id="shopping" value="local-3"/>
-		  				<span></span>
-					</label>
-				</div>
-
-				<div id="attraction5">
-					<label for="entertainment">
-						<h1>ENTERTAINMENT</h1>
-		  				<input type="checkbox" name="entertainment" id="entertainment" value="local-5"/>
+					<label for="dining">
+						<h1>DINING</h1>
+		  				<input type="checkbox" name="dining" id="dining" value="local-3" onchange="diningClicked()"/>
 		  				<span></span>
 					</label>
 				</div>
@@ -139,15 +115,23 @@
 				<div id="attraction4">
 					<label for="nature">
 						<h1>NATURE</h1>
-		  				<input type="checkbox" name="nature" id="nature" value="local-4"/>
+		  				<input type="checkbox" name="nature" id="nature" value="local-4" onchange="natureClicked()"/>
+		  				<span></span>
+					</label>
+				</div>
+
+				<div id="attraction5">
+					<label for="entertainment">
+						<h1>ENTERTAINMENT</h1>
+		  				<input type="checkbox" name="entertainment" id="entertainment" value="local-5" onchange="entertainmentClicked()"/>
 		  				<span></span>
 					</label>
 				</div>
 
 				<div id="attraction6">
-					<label for="food">
+					<label for="shopping">
 						<h1>SHOPPING</h1>
-		  				<input type="checkbox" name="dinning" id="food" value="local-6"/>
+		  				<input type="checkbox" name="shopping" id="shopping" value="local-6" onchange="shoppingClicked()"/>
 		  				<span></span>
 					</label>
 				</div>
