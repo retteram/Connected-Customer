@@ -15,9 +15,10 @@
 
 			input[type="checkbox"] + span:before {
 			font-family: 'FontAwesome';
-			padding-right: 3px;
-			font-size: 30px;
+			font-size: 70px;
 			color:#BBBDC0;
+			padding-left:4px;
+			line-height:110px;
 			}
 
 			input[type="checkbox"] + span:before {
@@ -25,12 +26,39 @@
 			font-size:font-size: 5em;
 			}
 
-			input[type="checkbox"]:checked + span:before {
+			input[type="checkbox"]:checked + span:before  {
 			content: "\f046"; /* check */
 			font-size:font-size: 5em;
 			}
 
+		
+			#local-attractions{
+				margin:50px auto 0px auto;
+				width:1080px;
+				height:50px;
+				background-color:;
+				text-align:center;
+			}
 
+			#local-attractions div{
+				float:left;
+				margin-right:20px;
+				margin-left:20px;
+
+			}
+
+			#local-attractions h1{
+				float:left;
+				font-family:helvetica;
+				font-weight:900;
+				font-size:30px;
+				color:white;
+				background-color:#37a85c;
+				padding:15px;
+				border-radius:6px;
+			}
+
+			
 		</style>
 	</head>
 
@@ -41,14 +69,62 @@
 			<h1 id="title">LOCAL ATTRACTIONS</h1>
 			</div>
 
+			<div id="local-attractions">
 
-			<label for="history">
-				Historic
-  				<input type="checkbox" name="historic" id="history" value="local-1"/>
+			<div id="attraction1">
+			<label for="all">
+				<h1>ALL ATTRACTIONS</h1>
+  				<input type="checkbox" name="all" id="all" value="local-1"/>
   				<span></span>
 			</label>
+			</div>
+
+			<div id="attraction2">
+			<label for="history">
+				
+  				<input type="checkbox" name="historic" id="history" value="local-2"/>
+  				<span><h1>HISTORIC</h1></span>
+			</label>
+			</div>
+
+			<div id="attraction3">
+			<label for="shopping">
+				<h1>DINNING</h1>
+  				<input type="checkbox" name="shopping" id="shopping" value="local-3"/>
+  				<span></span>
+			</label>
+			</div>
+
+			<div id="attraction5">
+			<label for="entertainment">
+				<h1>ENTERTAINMENT</h1>
+  				<input type="checkbox" name="entertainment" id="entertainment" value="local-5"/>
+  				<span></span>
+			</label>
+			</div>
+
+
+			<div id="attraction4">
+			<label for="nature">
+				<h1>NATURE</h1>
+  				<input type="checkbox" name="nature" id="nature" value="local-4"/>
+  				<span></span>
+			</label>
+			</div>
 
 			
+
+			<div id="attraction6">
+			<label for="food">
+				<h1>SHOPPING</h1>
+  				<input type="checkbox" name="dinning" id="food" value="local-6"/>
+  				<span></span>
+			</label>
+			</div>
+
+
+			</div>
+
 			<?php require("page-pieces/footer-simple.php"); ?>
 		</div>
 	</body>
