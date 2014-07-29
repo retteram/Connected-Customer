@@ -20,7 +20,7 @@
 		"title"	:"INTERESTING FACT", 
 		"body"	:"Click to generate random funny and interesting facts.", 
 		"image"	:"../assets/shopping.png",
-		"link"	:"interesting-facsts.php"
+		"link"	:"interesting-facts.php"
 	},
 
 	"4" : {
@@ -28,7 +28,7 @@
 		"title"	:"LOCAL ATTRACTIONS", 
 		"body"	:"See what the area has to offer new, old and unknown.", 
 		"image"	:"../assets/pigFlyBoard.png",
-		"link"	:"error-404.html"
+		"link"	:"local-attractions.php"
 	}
 
 	

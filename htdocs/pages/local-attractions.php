@@ -7,36 +7,34 @@
 		<link rel="stylesheet" type="text/css" href="../css/interesting-joking.css" />
 		<link href="../css/howTo.css" rel="stylesheet">
 		<link rel="stylesheet" href="../libs/font-awesome-4.1.0/css/font-awesome.min.css">
+		<script> var backlink = "killing-time.php"; </script>
 		<style>
-
 			input[type="checkbox"] {
-			display:none;
+				display:none;
 			}
 
 			input[type="checkbox"] + span:before {
-			font-family: 'FontAwesome';
-			/*font-size: 70px;*/
-			font-size:35px;
-			color:#BBBDC0;
-			/*padding-left:4px;*/
-			padding-left:2px;
-			/*line-height:110px;*/
-			line-height:55px;
+				font-family: 'FontAwesome';
+				/*font-size: 70px;*/
+				font-size:35px;
+				color:#BBBDC0;
+				/*padding-left:4px;*/
+				padding-left:2px;
+				/*line-height:110px;*/
+				line-height:55px;
 			}
-
 
 			input[type="checkbox"] + span:before {
-			content: "\f096"; /* check-empty */
-			font-size:font-size: 5em;
+				content: "\f096"; /* check-empty */
+				font-size:font-size: 5em;
 			}
 
-			input[type="checkbox"]:checked + span:before  {
-			content: "\f046"; /* check */
-			font-size:font-size: 5em;
-			color:#3CB666;
+			input[type="checkbox"]:checked + span:before {
+				content: "\f046"; /* check */
+				font-size:font-size: 5em;
+				color:#3CB666;
 			}
 
-		
 			#local-attractions{
 				margin:50px auto 0px auto;
 				width:1080px;
@@ -75,73 +73,91 @@
 				margin-top:30px;
 				border-bottom:dotted 3px #D1D2D4;
 			}
-			
 		</style>
+		<script>
+			var checkboxes = [];
+			checkboxes['all'] = document.getElementById("all");
+			checkboxes['history'] = document.getElementById("history");
+			checkboxes['shopping'] = document.getElementById("shopping");
+			checkboxes['entertainment'] = document.getElementById("entertainment");
+			checkboxes['nature'] = document.getElementById("nature");
+			checkboxes['food'] = document.getElementById("food");
+
+			function allClicked() {
+				alert("All Clicked")
+				if(checkboxes['all'].checked){
+					alert("All Checked");
+					for(var i = 0; i < checkboxes.length; i++){
+						checkboxes[i].checked = true;
+					}
+				}
+			}
+		</script>
 	</head>
 
 	<body>
 		<div id="home" data-role="page">
 			<?php require("page-pieces/header.php"); ?>
 			<div class="headBox1">
-			<h1 id="title">LOCAL ATTRACTIONS</h1>
+				<h1 id="title">LOCAL ATTRACTIONS</h1>
 			</div>
 
 			<div id="local-attractions">
 
-			<div id="attraction1">
-			<label for="all">
-				<h1>ALL ATTRACTIONS</h1>
-  				<input type="checkbox" name="all" id="all" value="local-1"/>
-  				<span></span>
-			</label>
-			</div>
+				<div id="attraction1">
+					<label for="all">
+						<h1>ALL ATTRACTIONS</h1>
+		  				<input type="checkbox" name="all" id="all" value="local-1" onchange="allClicked()"/>
+		  				<span></span>
+					</label>
+				</div>
 
-			<div id="attraction2">
-			<label for="history">
-				
-  				<input type="checkbox" name="historic" id="history" value="local-2"/>
-  				<span><h1>HISTORIC</h1></span>
-			</label>
-			</div>
+				<div id="attraction2">
+					<label for="history">
+						<h1>HISTORIC</h1>
+		  				<input type="checkbox" name="historic" id="history" value="local-2"/>
+		  				<span></span>
+					</label>
+				</div>
 
-			<div id="attraction3">
-			<label for="shopping">
-				<h1>DINNING</h1>
-  				<input type="checkbox" name="shopping" id="shopping" value="local-3"/>
-  				<span></span>
-			</label>
-			</div>
+				<div id="attraction3">
+					<label for="shopping">
+						<h1>DINNING</h1>
+		  				<input type="checkbox" name="shopping" id="shopping" value="local-3"/>
+		  				<span></span>
+					</label>
+				</div>
 
-			<div id="attraction5">
-			<label for="entertainment">
-				<h1>ENTERTAINMENT</h1>
-  				<input type="checkbox" name="entertainment" id="entertainment" value="local-5"/>
-  				<span></span>
-			</label>
-			</div>
+				<div id="attraction5">
+					<label for="entertainment">
+						<h1>ENTERTAINMENT</h1>
+		  				<input type="checkbox" name="entertainment" id="entertainment" value="local-5"/>
+		  				<span></span>
+					</label>
+				</div>
 
+				<div id="attraction4">
+					<label for="nature">
+						<h1>NATURE</h1>
+		  				<input type="checkbox" name="nature" id="nature" value="local-4"/>
+		  				<span></span>
+					</label>
+				</div>
 
-			<div id="attraction4">
-			<label for="nature">
-				<h1>NATURE</h1>
-  				<input type="checkbox" name="nature" id="nature" value="local-4"/>
-  				<span></span>
-			</label>
-			</div>
-
-			
-
-			<div id="attraction6">
-			<label for="food">
-				<h1>SHOPPING</h1>
-  				<input type="checkbox" name="dinning" id="food" value="local-6"/>
-  				<span></span>
-			</label>
-			</div>
-
+				<div id="attraction6">
+					<label for="food">
+						<h1>SHOPPING</h1>
+		  				<input type="checkbox" name="dinning" id="food" value="local-6"/>
+		  				<span></span>
+					</label>
+				</div>
 
 			</div>
 			<div id="line"></div>
+			<!-- End local Attractions and Dividing line -->
+
+			<?php require("page-pieces/attraction-list.php"); ?>
+
 			<?php require("page-pieces/footer-simple.php"); ?>
 		</div>
 	</body>
