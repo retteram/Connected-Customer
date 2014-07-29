@@ -15,11 +15,15 @@
 
 			input[type="checkbox"] + span:before {
 			font-family: 'FontAwesome';
-			font-size: 70px;
+			/*font-size: 70px;*/
+			font-size:35px;
 			color:#BBBDC0;
-			padding-left:4px;
-			line-height:110px;
+			/*padding-left:4px;*/
+			padding-left:2px;
+			/*line-height:110px;*/
+			line-height:55px;
 			}
+
 
 			input[type="checkbox"] + span:before {
 			content: "\f096"; /* check-empty */
@@ -29,6 +33,7 @@
 			input[type="checkbox"]:checked + span:before  {
 			content: "\f046"; /* check */
 			font-size:font-size: 5em;
+			color:#3CB666;
 			}
 
 		
@@ -42,22 +47,34 @@
 
 			#local-attractions div{
 				float:left;
-				margin-right:20px;
+				/*margin-right:20px;*/
+				margin-right:10px;
+				/*margin-left:20px;*/
 				margin-left:20px;
-
 			}
+
 
 			#local-attractions h1{
 				float:left;
 				font-family:helvetica;
 				font-weight:900;
-				font-size:30px;
+				/*font-size:30px;*/
+				font-size:15px;
 				color:white;
-				background-color:#37a85c;
-				padding:15px;
-				border-radius:6px;
+				background-color:#198A3E;
+				/*padding:15px;*/
+				padding:5px;
+				/*border-radius:6px;*/
+				border-radius:3px;
 			}
 
+			#line {
+				background-color:;
+				width:100%;
+				height:;
+				margin-top:30px;
+				border-bottom:dotted 3px #D1D2D4;
+			}
 			
 		</style>
 	</head>
@@ -124,7 +141,7 @@
 
 
 			</div>
-
+			<div id="line"></div>
 			<?php require("page-pieces/footer-simple.php"); ?>
 		</div>
 	</body>
