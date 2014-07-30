@@ -1,0 +1,49 @@
+{ 
+	"1" : {
+		"type"	:"image-left",
+		"title"	:"LOCAL ATTRACTIONS", 
+		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"image"	:"../assets/pigDoor.png",
+		"link"	:"error-404.html"
+	}, 
+
+	"2" : {
+		"type"	:"image-left",
+		"title"	:"FINANCIAL TOOLS", 
+		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"image"	:"../assets/pigBusiness.png",
+		"link"	:"error-404.html"
+	}, 
+
+	"3" : {
+		"type"	:"image-left",
+		"title"	:"PROMOTIONS", 
+		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"image"	:"../assets/shopping.png",
+		"link"	:"error-404.html"
+	},
+
+	"4" : {
+		"type"	:"image-left",
+		"title"	:"POPULAR STORIES", 
+		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"image"	:"../assets/pigFlyBoard.png",
+		"link"	:"error-404.html"
+	}, 
+
+	"5" : {
+		"type"	:"image-left",
+		"title"	:"HELP FIGHT CANCER", 
+		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"image"	:"../assets/howTo.png",
+		"link"	:"error-404.html"
+	}, 
+
+	"6" : {
+		"type"	:"image-left",
+		"title"	:"IDENTITY PROTECTION", 
+		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
+		"image"	:"../assets/creditCard.png",
+		"link"	:"error-404.html"
+	}
+}

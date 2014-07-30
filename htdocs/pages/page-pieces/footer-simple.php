@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="../libs/font-awesome-4.1.0/css/font-awesome.min.css">
 <script>
 	function backClicked() {
-		document.location.href=backlink; 
+		history.go(-1);
 	}
 
 	function enter() {
