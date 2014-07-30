@@ -6,6 +6,7 @@
 		<script src="../js/interesting-facts.js" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="../css/interesting-joking.css" />
 		<link href="../css/howTo.css" rel="stylesheet">
+		<link href="../css/related-section.css" rel="stylesheet">
 	</head>
 
 	<body>
