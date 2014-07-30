@@ -2,7 +2,7 @@
 	"1" : {
 		"type"	:"image-top",
 		"title"	:"GAMES", 
-		"body"	:"Gamify your life and learn financial tips and skills to help you in your everyday life.", 
+		"body"	:"Gamify your life and learn finan- cial tips and skills to help you in your everyday life.", 
 		"image"	:"../assets/pigDoor.png",
 		"link"	:"game-page.php"
 	}, 
@@ -30,7 +30,4 @@
 		"image"	:"../assets/pigFlyBoard.png",
 		"link"	:"local-attractions.php"
 	}
-
-	
-	
 }
