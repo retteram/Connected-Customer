@@ -1,10 +1,17 @@
 <link rel="stylesheet" type="text/css" href="../css/footer.css">
 <link rel="stylesheet" type="text/css" href="../css/footer-banner.css">
 <script type="text/javascript" src="../js/slider.js"></script>
+<script>
+	function backClicked() {
+	document.location.href=backlink; 
+	}
+
+	var backlink = "index1.php";
+</script>
 <div id="footer">
 	<div class="menu-bar">
 		<div class="menu-bar-wrapper">
-			<a href="#"><div id="placeholder" style="background-color: #37A85C"><!-- <div class="back">< BACK</div> --></div></a>
+			<a href="#" onclick="backClicked()"><div id="placeholder"><div class="back">< EXIT</div></div></a>
 			<h1 id="title"></h1>
 			<div class="menu-button" onclick="menu_button()">
 				<span class="white-line-container">
