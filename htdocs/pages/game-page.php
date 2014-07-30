@@ -3,9 +3,13 @@
 	<head>
 		<title>Game</title>
 		<?php require("page-pieces/imports.php"); ?>
-		<script type="text/javascript" src="../js/game-page.js"></script>
 		<link href="../css/howTo.css" rel="stylesheet">
+		<link href="../css/related-section.css" rel="stylesheet">
 		<script>var backlink = "connected-customer_main-page.php";</script>
+
+		<style>
+
+		</style>
 	</head>
 	<body>
 		<div data-role="page" id="home">
@@ -19,7 +23,7 @@
 
 			<!-- BEGIN Main Content -->
 			<div class="game-container">
-			<img src="../assets/gameScreen.png" />
+			<div id="game"><img src="../assets/gameScreen.png" /></div>
 			</div>
 			<!-- END Main Content -->
 

@@ -30,6 +30,23 @@
 	background-color:#26A261;
 }
 
+.menu-bar #placeholder1 {
+	height: 100%;
+	width: 200px;
+	margin: 0px 0px 0px 10px;
+	float: left;
+	padding-top:0px;
+	background-color:#3CB666;
+}
+
+.fa{
+	font-size:50px;
+}
+
+.menu-bar #placeholder1:hover{
+	background-color:#26A261;
+}
+
 .back {
 	width:100%;
 	font-family:helvetica;

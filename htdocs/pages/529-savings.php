@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Game</title>
+		<title>529-Savings</title>
 		<?php require("page-pieces/imports.php"); ?>
-		<script type="text/javascript" src="../js/game-page.js"></script>
 		<link href="../css/howTo.css" rel="stylesheet">
+		<link href="../css/related-section.css" rel="stylesheet">
+
 	</head>
 	<body>
 		<div data-role="page" id="home">
@@ -17,16 +18,15 @@
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
-			<div class="cta">
-				<div id="email">EMAIL TO SELF</div>
-				<div id="banker">DISCUSS WITH BANKER</div>
-			</div>
 			<div class="game-container">
-		
-		
-			<img src="../assets/529Display.png" />
-		
+				<div id="game"><img src="../assets/529Display.png" /></div>
+			</div>
 
+			<div class="cta-container">
+			<div class="cta">
+				<div id="email"><i class="fa fa-envelope-o"></i> EMAIL TO SELF</div>
+				<div id="banker"><i class="fa2 fa-envelope-o"></i> DISCUSS WITH BANKER</div>
+			</div>
 			</div>
 			<!-- END Main Content -->
 

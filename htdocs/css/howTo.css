@@ -51,36 +51,6 @@
 	background-color: #26A261 !important;
 }
 
-.cta {
-	float:right;
-	width:500px;
-	height:50px;
-	background-color:;
-	margin-right:50px;
-}
-.cta div{
-	float:left;
-	background-color:#37a85c;
-	margin-top:70px;
-	margin-left:10px;
-	padding-top:5px;
-	padding-bottom:5px;
-	padding-right:10px;
-	padding-left:10px;
-
-	font-family:helvetica;
-	font-weight:900;
-	font-size:15px;
-	color:white;
-
-	border-radius:3px;
-}
-
-.cta #email:hover{
-	background-color:#26A261;
-	cursor:pointer;
-}
-
 .container-list {
 	width: 4320px;
 	height:1510px;
@@ -109,79 +79,81 @@
 }
 
 .game-container{
+	margin:0 auto;
 	width:1080px;
-	height:1500px;
-
-	display: inline-block;
-	float:right;
 	background-color:;
-
 }
 
-.game-container img{
+.game-container div{
 	width:85%;
-	height:50%;
-
-	margin-top:80px;
-	margin-left:20px;
-	margin-right:auto;
-	
+	margin:0 auto;
+	padding-top:4%;
 }
+
+#game img {
+	width:100%;
+	margin:0 auto;
+}
+
+.cta-container{
+	margin:0 auto;
+	width:1080px;
+	background-color:red;
+}
+
+.cta {
+	margin:0 auto;
+	width:50%;
+	background-color:blue;
+}
+.cta div{
+	width:45%;
+	float:left;
+	margin-left:7px;
+	margin-top:70px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:10px;
+
+	text-align:center;
+	font-family:helvetica;
+	font-weight:900;
+	font-size:15px;
+	color:white;
+	border-radius:5px;
+	background-color:#37a85c;
+}
+
+#email:hover{
+	background-color:#3CB666;
+	cursor:pointer;
+}
+
+#banker:hover{
+	background-color:#3CB666;
+	cursor:pointer;
+}
+
+.fa {
+	font-size:26px;
+	line-height:29px;
+}
+
+.fa2 {
+	font-size:20px;
+	line-height:29px;
+	color:#37a85c;
+	opacity:0;
+}
+
+
 #swipe-hand {
 	position: absolute;
 	bottom: 8px;
 	right: 8px;
 }
 
-.related-container{
-	width:100%;
-	height:500px;
-	background-color:;
-	bottom:100px;
-	position:absolute;
-	border-top:dotted 5px;
-	border-color:#37a85c;
-}
-
-.related-object{
-	width:1080px;
-	height:500px;
-	background-color:;
-	position:absolute;
-	margin-left:50px;
-	float:left;
-}
-
-#relatedTitle {
-	font-family:helvetica;
-	font-weight:100;
-	font-size:30px !important;
-	color:#37a85c;
-	margin:0 auto;
-	margin-top:50px;
-}
-
-.related-object div{
-	float:left;
-	width:192px;
-	background-color:;
-	margin:0 auto;
-	text-align:center;
-	margin-top:60px;
-	margin-left:130px;
-}
-
-.related-object img{
-	width:192px;
-	height:162px;
-}
-
-.related-object h2{
-	font-family:helvetica;
-	font-weight:600;
-	font-size:20px !important;
-	color:#37a85c;
-}
 
 
 

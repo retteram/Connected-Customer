@@ -1,61 +1,23 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Game</title>
+		<title>Teaching Children How to Save</title>
 		<?php require("page-pieces/imports.php"); ?>
+		<link href="../css/related-section.css" rel="stylesheet">
 		<script type="text/javascript" src="../js/killing-time.js"></script>
-		<script>var backlink = "connected-customer_main-page.php"; </script>
-		<style>
-			.related-container{
-	width:100%;
-	height:500px;
-	background-color:;
-	bottom:100px;
-	position:absolute;
-	border-top:dotted 5px;
-	border-color:#37a85c;
-}
+		<script>
+			var backlink = "connected-customer_main-page.php"; 
 
-.related-object{
-	width:1080px;
-	height:500px;
-	background-color:;
-	position:absolute;
-	margin-left:50px;
-	float:left;
-}
+			function enter() {
+				document.location.href=entering; 
+				}
 
-#relatedTitle {
-	font-family:helvetica;
-	font-weight:100;
-	font-size:30px !important;
-	color:#37a85c;
-	margin:0 auto;
-	margin-top:50px;
-}
+				var entering = "529-savings.php";
 
-.related-object div{
-	float:left;
-	width:192px;
-	background-color:;
-	margin:0 auto;
-	text-align:center;
-	margin-top:60px;
-	margin-left:130px;
-}
 
-.related-object img{
-	width:192px;
-	height:162px;
-}
-
-.related-object h2{
-	font-family:helvetica;
-	font-weight:600;
-	font-size:20px !important;
-	color:#37a85c;
-}
-		</style>
+		</script>
+		
+		
 	</head>
 	<body>
 		<div data-role="page" id="home">
@@ -79,10 +41,10 @@
 					<img src="../assets/related1.png" />
 					<h2 id="objectTitle">TEACH KIDS <br> ABOUT CREDIT</h2>
 					</div>
-					<div class="object2">
+					<a href="#" onclick="enter()"><div class="object2">
 					<img src="../assets/related2.png" />
 					<h2 id="objectTitle">529 COLLEGE<br>SAVINGS PLAN</h2>	
-					</div>
+					</div></a>
 					<div class="object3">
 					<img src="../assets/related3.png" />
 					<h2 id="objectTitle">NEED vs. WANT<br>BUDGET APP</h2>
