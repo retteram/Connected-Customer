@@ -1,6 +1,6 @@
 { 
 	"1" : {
-		"type"	:"image-top",
+		"type"	:"image-left",
 		"title"	:"AUTO FINANCING", 
 		"body"	:"Guaranteed lower rates. Tap here to talk to a banker.", 
 		"image"	:"../assets/pigDoor.png",
@@ -8,7 +8,7 @@
 	}, 
 
 	"2" : {
-		"type"	:"image-top",
+		"type"	:"image-left",
 		"title"	:"HOT STOCK MINUTE", 
 		"body"	:"Live video from the NASDAQ market site. Prepares you for trading day live streams.", 
 		"image"	:"../assets/pigBusiness.png",
@@ -16,7 +16,7 @@
 	}, 
 
 	"3" : {
-		"type"	:"image-top",
+		"type"	:"image-left",
 		"title"	:"PRACTICAL MONEY SKILLS", 
 		"body"	:"See how games and stimulations can help you learn about spending, saving, debt reduction and much more.", 
 		"image"	:"../assets/shopping.png",
@@ -24,7 +24,7 @@
 	},
 
 	"4" : {
-		"type"	:"image-top",
+		"type"	:"image-left",
 		"title"	:"CONSOLIDATE YOUR DEBT", 
 		"body"	:"Consolidate your debt with our banks personal loan or line of credit.", 
 		"image"	:"../assets/pigFlyBoard.png",

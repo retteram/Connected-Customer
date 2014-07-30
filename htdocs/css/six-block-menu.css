@@ -41,12 +41,60 @@
 	text-align: center;
 }
 
-.option-image {
+/* This class is for <li> elements that will have
+   their 'option-image' displayed on the top. */
+.image-top {
+	margin-bottom: 50px !important;
+}
+
+.image-top img {
+	margin: 0 auto;
+}
+
+.image-top .well {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.image-top .option-image {
+	height: 160px;
+	display: block;
+}
+
+.image-top .option-text-holder {
+	display: block;
+	width: 240px;
+}
+
+.image-top .option-text-holder .option-title {
+	text-align: center;
+	margin-bottom: 2px;
+}
+
+.image-top .option-text-holder .option-content {
+	border-top: dotted 3px #D1D2D4;
+	padding: 7px 5px;
+	margin-top: 0px;
+
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+/* This class is for <li> elements that will have
+   their 'option-image' displayed on the left. */
+.image-left {
+
+}
+
+.image-left .option-image {
 	height: 100px;
 	display: inline-block;
 }
 
-.option-text-holder {
+.image-left .option-text-holder {
 	display: inline-block;
 
 	width: 270px;
@@ -55,6 +103,9 @@
 	top: 0px;
 }
 
+
+/* These define the font and box size of the
+   text and images in the menu items. */
 .option-title {
 	font-size: 20px;
 	font-weight: bold;
@@ -74,6 +125,8 @@
 	text-align: left;
 }
 
+/* The 'well' class just means that it
+   turns grey on hover, or click. */
 .well:hover {
 	background-color: #DDDDDD;
 	border-radius: 10px;

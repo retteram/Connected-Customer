@@ -1,6 +1,6 @@
 { 
 	"1" : {
-		"type"	:"image-top",
+		"type"	:"image-left",
 		"title"	:"CREATING A PORTFOLIO & BEATING THE MARKET", 
 		"body"	:"Learn what it takes to build a financial portfolio and what it takes to maintain it.", 
 		"image"	:"../assets/pigDoor.png",
@@ -8,7 +8,7 @@
 	}, 
 
 	"2" : {
-		"type"	:"image-top",
+		"type"	:"image-left",
 		"title"	:"MANAGING MULTIPLE ACCOUNTS", 
 		"body"	:"Check out Mint.com alternative, same investment and real estate support.", 
 		"image"	:"../assets/pigBusiness.png",
@@ -16,7 +16,7 @@
 	}, 
 
 	"3" : {
-		"type"	:"image-top",
+		"type"	:"image-left",
 		"title"	:"FINANCIAL TOOLS", 
 		"body"	:"Find out what tools exist to help you use your money as effective as possible.", 
 		"image"	:"../assets/shopping.png",
@@ -24,7 +24,7 @@
 	},
 
 	"4" : {
-		"type"	:"image-top",
+		"type"	:"image-left",
 		"title"	:"SMALL BUSINESS LOAN", 
 		"body"	:"Find out which offers and programs best meets your business needs.", 
 		"image"	:"../assets/pigFlyBoard.png",
@@ -32,7 +32,7 @@
 	}, 
 
 	"5" : {
-		"type"	:"image-top",
+		"type"	:"image-left",
 		"title"	:"FUNDAMENTAL BASICS ABOUT CHECKS", 
 		"body"	:"Learn anything from filling out a check properly to learning the types that exist.", 
 		"image"	:"../assets/check.png",
@@ -40,7 +40,7 @@
 	}, 
 
 	"6" : {
-		"type"	:"image-top",
+		"type"	:"image-left",
 		"title"	:"ECONOMIC NEWS", 
 		"body"	:"Stay on top of trending stories and articles.", 
 		"image"	:"../assets/creditCard.png",
