@@ -1,0 +1,50 @@
+.attractionList {
+	padding-top: 3px;
+}
+
+.attractionList div {
+	width: 100%;
+	height: 0px;
+	display: none;
+	padding: 10px 10px;
+}
+
+.attractionList div h2 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.attractionList div p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.history {
+	background-color: #F0E68C;
+	border-top: 1px solid #FFFFBF;
+	border-bottom: 1px solid #A49A40;
+}
+
+.dining {
+	background-color: #87CEEB;
+	border-top: 1px solid #A1E8FF;
+	border-bottom: 1px solid #3B829F;
+}
+
+.nature {
+	background-color: #90EE90;
+	border-top: 1px solid #C3FFC3;
+	border-bottom: 1px solid #2A882A;
+}
+
+.entertainment {
+	background-color: #FF6347;
+	border-top: 1px solid #FF967A;
+	border-bottom: 1px solid #CC3014;
+}
+
+.shopping {
+	background-color: #DDA0DD;
+	border-top: 1px solid #F7BAF7;
+	border-bottom: 1px solid #773A77;
+}

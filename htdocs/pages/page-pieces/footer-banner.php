@@ -3,7 +3,7 @@
 <script type="text/javascript" src="../js/slider.js"></script>
 <script>
 	function backClicked() {
-	document.location.href=backlink; 
+		document.location.href=backlink; 
 	}
 
 	var backlink = "index1.php";
@@ -11,7 +11,11 @@
 <div id="footer">
 	<div class="menu-bar">
 		<div class="menu-bar-wrapper">
-			<a href="#" onclick="backClicked()"><div id="placeholder"><div class="back">< EXIT</div></div></a>
+			<a href="#" onclick="backClicked()">
+				<div id="placeholder">
+					<div class="back">< EXIT</div>
+				</div>
+			</a>
 			<h1 id="title"></h1>
 			<div class="menu-button" onclick="menu_button()">
 				<span class="white-line-container">

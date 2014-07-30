@@ -1,0 +1,40 @@
+{
+	"history" : [
+		{
+			"title"		: "Historical Thing",
+			"content"	: "Founded a long, long, time ago."
+		}
+	],
+
+	"dining" : [
+		{
+			"title"		: "Cool Place to Dine",
+			"content"	: "Nice place to dine."
+		}
+	],
+
+	"nature" : [
+		{
+			"title"		: "Natural Monument",
+			"content"	: "Natural place to go."
+		}
+	],
+
+	"entertainment" : [
+		{
+			"title"		: "A Neat Show",
+			"content"	: "Go see this event."
+		},
+		{
+			"title"		: "More stuff",
+			"content"	: "Another envent"
+		}
+	],
+
+	"shopping" : [
+		{
+			"title"		: "Store Place",
+			"content"	: "Go shopping here."
+		}
+	]
+}

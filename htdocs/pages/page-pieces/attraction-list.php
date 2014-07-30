@@ -1,36 +1,20 @@
-<style>
-	.attractionList div {
-		height: 50px;
-		width: 100%;
-		display: none;
-	}
-
-	.history {
-		background-color: yellow;
-	}
-
-	.dining {
-		background-color: skyblue;
-	}
-
-	.nature {
-		background-color: limegreen;
-	}
-
-	.entertainment {
-		background-color: red;
-	}
-
-	.shopping {
-		background-color: orange;
-	}
-</style>
-
+<?php 
+	$json = file_get_contents("../json/attraction-list.json");
+	$list = json_decode($json);
+?>
+<link rel="stylesheet" href="../css/attraction-list.css"></link>
 <div id="list"></div>
 <div class="attractionList">
-	<div class="history">History</div>
-	<div class="dining">Dining</div>
-	<div class="nature">Nature</div>
-	<div class="entertainment">Entertainment</div>
-	<div class="shopping">Shopping</div>
+	<?php foreach($list as $key => $value){ ?>
+		<?php foreach($value as $val) { ?>
+			<div class=<?php echo $key;?>>
+				<h2>
+					<?php echo $val->title; ?>
+				</h2>
+				<p>
+					<?php echo $val->content; ?>
+				</p>
+			</div>
+		<?php } ?>
+	<?php } ?>
 </div>
