@@ -7,7 +7,6 @@
 		<link rel="stylesheet" type="text/css" href="../css/interesting-joking.css" />
 		<link href="../css/howTo.css" rel="stylesheet">
 		<link rel="stylesheet" href="../libs/font-awesome-4.1.0/css/font-awesome.min.css">
-		<script> var backlink = "killing-time.php"; </script>
 		<style>
 			input[type="checkbox"] {
 				display:none;

@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="../css/footer.css">
 <script>
 	function backClicked() {
-		document.location.href=backlink; 
+		history.go(-1);
 	}
 </script>
 <div id="footer">

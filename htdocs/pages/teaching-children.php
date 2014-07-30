@@ -4,7 +4,6 @@
 		<title>Game</title>
 		<?php require("page-pieces/imports.php"); ?>
 		<script type="text/javascript" src="../js/killing-time.js"></script>
-		<script>var backlink = "connected-customer_main-page.php"; </script>
 		<style>
 			.related-container{
 	width:100%;

@@ -4,7 +4,6 @@
 		<title>Banking 101</title>
 		<?php require("page-pieces/imports.php"); ?>
 		<script type="text/javascript" src="../js/banking-101.js"></script>
-		<script> var backlink = "connected-customer_main-page.php"; </script>
 	</head>
 	<body>
 		<div data-role="page" id="home">
