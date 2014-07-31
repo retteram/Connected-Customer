@@ -88,6 +88,7 @@
 
 		</style>
 		
+		<script type="text/javascript" src="../libs/iscroll-4/src/iscroll.js"></script>
 		<script type="text/javascript" src="../js/local-attractions.js"></script>
 	</head>
 

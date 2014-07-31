@@ -2,10 +2,9 @@
 	$json = file_get_contents("../json/attraction-list.json");
 	$list = json_decode($json);
 ?>
-<script type="text/javascript" src="../libs/iscroll-4/src/iscroll.js"></script>
 <script>
 	/* Scrolling Functions */
-	var myScroll;
+	// var myScroll;
 	function loaded() {
 		myScroll = new iScroll('wrapper');
 	}

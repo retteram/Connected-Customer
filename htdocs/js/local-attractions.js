@@ -1,3 +1,5 @@
+var myScroll;
+
 $(function(){
 	filterAdd(whichChecked());
 });
@@ -30,6 +32,7 @@ function whichChecked() {
 	if(document.getElementById("shopping").checked){
 		filterAdd(['shopping']);
 	}
+
 	return checked;
 }
 
@@ -48,7 +51,8 @@ function filterAdd(options) {
 			'padding-right'	:'',
 			'padding-bottom':'',
 			'padding-left'	:''
-		}, 300);
+		}, 300, function(){myScroll.refresh();});
+
 		/*var classElements = document.getElementsByClassName(options[i]);
 		for(var j = 0; j < classElements.length; j++){
 			classElements[j].style.display = 'block';
@@ -70,8 +74,10 @@ function filterRemove(options) {
 			'padding-bottom': '0px'
 			},200, function(){
 				$(this).hide();
+				myScroll.refresh();
 			}
 		);
+
 		/*var classElements = document.getElementsByClassName(options[i]);
 		for(var j = 0; j < classElements.length; j++){
 			classElements[j].style.display = 'none';
