@@ -21,15 +21,21 @@
 		<ul class="attraction-list">
 		<?php foreach($list as $key => $value){ ?>
 			<?php foreach($value as $val) { ?>
-				<li class=<?php echo $key;?>>
+				<li class=<?php echo '"'.$key.'"';?>>
+				<div clas="class-color"></div>
+				<div class="list-text">
 					<h2>
 						<?php echo $val->title; ?>
 					</h2>
 					<p>
 						<?php echo $val->content; ?>
 					</p>
-					
+				</div>
+				<div class="list-image">
+					<img src=<?php echo'"'.$val->image. '"'; ?> height="100%" />
+				</div>
 				</li>
+				
 			<?php } ?>
 		<?php } ?>
 		</ul>
