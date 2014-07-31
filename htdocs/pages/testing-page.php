@@ -11,5 +11,6 @@
 	</style>
 	<body onload="canvasSpaceGame()">
 	    <canvas id="myCanvas" width="846" height="766"></canvas>
+	    <?php echo "" ?>
 	</body>
 </html>

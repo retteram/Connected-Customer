@@ -8,6 +8,11 @@ body {
 	/*overflow:hidden;*/
 }
 
+/* Only works on Chrome and Safari */
+body::-webkit-scrollbar {
+	display: none;
+}
+
 #home {
 	overflow: hidden;
 	width: 100%;

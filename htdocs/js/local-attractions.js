@@ -1,8 +1,9 @@
-var filterList = [];
-
 $(function(){
 	filterAdd(whichChecked());
 });
+
+/* BEGIN LIST FUNCTIONS */
+var filterList = [];
 
 function whichChecked() {
 	var checked = [];
@@ -149,3 +150,4 @@ function shoppingClicked() {
 	else
 		filterRemove(['shopping']);
 }
+/* END LIST FUNCTIONS */
