@@ -28,6 +28,7 @@
 					<p>
 						<?php echo $val->content; ?>
 					</p>
+					
 				</li>
 			<?php } ?>
 		<?php } ?>
