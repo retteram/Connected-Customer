@@ -22,7 +22,7 @@
 		<?php foreach($list as $key => $value){ ?>
 			<?php foreach($value as $val) { ?>
 				<li class=<?php echo '"'.$key.'"';?>>
-				<div clas="class-color"></div>
+				<div class="left-color"></div>
 				<div class="list-text">
 					<h2>
 						<?php echo $val->title; ?>

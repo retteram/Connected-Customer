@@ -43,12 +43,12 @@ function filterAdd(options) {
 		// document.getElementById('list').innerHTML = filterList.toString();
 		$('.'+options[i]).stop();
 		$('.'+options[i]).show();
-		$('.'+options[i]).animate({height: '70px',
-			'padding-top'	:'10px',
-			'padding-right'	:'10px',
-			'padding-bottom':'10px',
-			'padding-left'	:'10px'
-		}, 200);
+		$('.'+options[i]).animate({height: '200px',
+			'padding-top'	:'',
+			'padding-right'	:'',
+			'padding-bottom':'',
+			'padding-left'	:''
+		}, 300);
 		/*var classElements = document.getElementsByClassName(options[i]);
 		for(var j = 0; j < classElements.length; j++){
 			classElements[j].style.display = 'block';
