@@ -5,7 +5,20 @@ $(function(){
 });
 
 function enlarge(loader) {
-	loader.parentNode.className = "attraction large";
+	var listItem = loader.parentNode;
+	loader.style.height = "200px";
+	$(listItem).switchClass("attraction-small", "attraction-large", 500, "easeInOutQuad");
+	$(listItem).find(".list-item").animate({
+		position: 'absolute',
+		height: '200px',
+		top: '60px',
+		left: '100px'
+	});
+}
+
+function shrink(loader) {
+	var listItem = loader.parentNode;
+	$(listItem).switchClass("attraction-large", "attraction-small", 500, "easeInOutQuad");
 }
 
 /* BEGIN LIST FUNCTIONS */
