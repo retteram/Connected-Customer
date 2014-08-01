@@ -86,6 +86,7 @@
 				border-bottom:dotted 3px #D1D2D4;
 			}
 
+			
 		</style>
 		
 		<script type="text/javascript" src="../js/local-attractions.js"></script>
@@ -149,6 +150,8 @@
 				</div>
 
 			</div>
+
+			<div clas="blend"></div>
 			<div id="line"></div>
 			<!-- End local Attractions and Dividing line -->
 
