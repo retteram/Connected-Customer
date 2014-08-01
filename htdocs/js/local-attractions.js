@@ -4,6 +4,10 @@ $(function(){
 	filterAdd(whichChecked());
 });
 
+function enlarge(loader) {
+	loader.parentNode.className = "attraction large";
+}
+
 /* BEGIN LIST FUNCTIONS */
 var filterList = [];
 
@@ -46,11 +50,12 @@ function filterAdd(options) {
 		// document.getElementById('list').innerHTML = filterList.toString();
 		$('.'+options[i]).stop();
 		$('.'+options[i]).show();
-		$('.'+options[i]).animate({height: '200px',
-			'padding-top'	:'',
-			'padding-right'	:'',
-			'padding-bottom':'',
-			'padding-left'	:''
+		$('.'+options[i]).animate({
+			'height'		: '200px',
+			'padding-top'	: '',
+			'padding-right'	: '',
+			'padding-bottom': '',
+			'padding-left'	: ''
 		}, 300, function(){myScroll.refresh();});
 
 		/*var classElements = document.getElementsByClassName(options[i]);
@@ -69,7 +74,8 @@ function filterRemove(options) {
 
 		// document.getElementById('list').innerHTML = filterList.toString();
 		$('.'+options[i]).stop();
-		$('.'+options[i]).animate({'height': '0px', 
+		$('.'+options[i]).animate({
+			'height'		: '0px', 
 			'padding-top'	: '0px',
 			'padding-bottom': '0px'
 			},200, function(){
@@ -86,7 +92,6 @@ function filterRemove(options) {
 }
 
 function changeAllBoxes(torf) {
-
 	var checkboxes = [];
 	checkboxes['all'] = document.getElementById("all");
 	checkboxes['history'] = document.getElementById("history");
@@ -103,7 +108,6 @@ function changeAllBoxes(torf) {
 }
 
 function allClicked() {
-
 	var checkboxes = [];
 	checkboxes['all'] = document.getElementById("all");
 	checkboxes['history'] = document.getElementById("history");
@@ -119,7 +123,6 @@ function allClicked() {
 		filterRemove(['history','shopping','entertainment','nature','dining']);
 		changeAllBoxes(false);
 	}
-
 }
 
 function historyClicked() {
