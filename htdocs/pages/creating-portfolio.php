@@ -3,6 +3,7 @@
 	<head>
 		<title>Mock-Up Demo</title>
 		<link href="../css/howTo.css" rel="stylesheet">
+		<link href="../css/related-section.css" rel="stylesheet">
 		<?php require("page-pieces/imports.php"); ?>
 		<script type="text/javascript" src="../js/creating-portfolio.js"></script>
 		 	<script>
