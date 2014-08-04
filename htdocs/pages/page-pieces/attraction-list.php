@@ -23,12 +23,9 @@
 				<li class=<?php echo '"'.$key.' attraction-small"';?> >
 					<div class="left-color"></div>
 					<div class="list-text">
-						<h2>
-							<?php echo $val->title;	?>
-						</h2>
-						<p>
-							<?php echo $val->content; ?>
-						</p>
+						<h2> <?php echo $val->title; ?> </h2>
+						<div class="list-line"></div>
+						<p> <?php echo $val->content; ?> </p>
 					</div>
 					<div class="list-image" onclick="enlarge(this)">
 						<img src=<?php echo'"'.$val->image.'"'; ?> height="100%" />

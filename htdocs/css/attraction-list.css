@@ -57,15 +57,46 @@
     transform: scaleX(-1);
 }
 
-.list-text{
+.attraction-small .list-text {
 	background-color:;
 	height:calc(100% - 30px);
-	padding-top:30px;
+	padding-top: 30px;
 	margin-left:5%;
 	overflow:hidden;
 }
 
-.list-image{
+.attraction-small .list-line {
+	display: none;
+}
+
+.attraction-large .list-text {
+	height: calc(100% - 30px);
+	padding-top: 30px;
+	margin-left: 5%;
+	overflow: hidden;
+	width: calc(100% - 200px);
+}
+
+.attraction-large .list-text h2 {
+	top: 30px;
+	margin-left: 0;
+}
+
+.attraction-large .list-text p {
+	position: absolute;
+	right: 0px;
+	margin-top: 0;
+}
+
+.attraction-large .list-line {
+	display: block;
+	height: 2px;
+	background-color: gray;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.list-image {
 	/*float:right;*/
 	/*height:200px;*/
 	/*overflow:hidden;*/
