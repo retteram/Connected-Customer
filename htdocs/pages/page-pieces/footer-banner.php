@@ -6,7 +6,7 @@
 		document.location.href=backlink; 
 	}
 
-	var backlink = "index1.php";
+	var backlink = "index.php";
 </script>
 <div id="footer">
 	<div class="menu-bar">
