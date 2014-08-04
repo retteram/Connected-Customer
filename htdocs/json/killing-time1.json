@@ -3,7 +3,7 @@
 		"type"	:"image-top",
 		"title"	:"GAMES", 
 		"body"	:"Gamify your life and learn finan- cial tips and skills to help you in your everyday life.", 
-		"image"	:"../assets/pigDoor.png",
+		"image"	:"../assets/gamesIcon.png",
 		"link"	:"game-page.php"
 	}, 
 
@@ -19,7 +19,7 @@
 		"type"	:"image-top",
 		"title"	:"INTERESTING FACT", 
 		"body"	:"Click to generate random funny and interesting facts.", 
-		"image"	:"../assets/shopping.png",
+		"image"	:"../assets/interestingFacts.png",
 		"link"	:"interesting-facts.php"
 	},
 
@@ -27,7 +27,7 @@
 		"type"	:"image-top",
 		"title"	:"LOCAL ATTRACTIONS", 
 		"body"	:"See what the area has to offer new, old and unknown.", 
-		"image"	:"../assets/pigFlyBoard.png",
+		"image"	:"../assets/pigDoor.png",
 		"link"	:"local-attractions.php"
 	}
 }

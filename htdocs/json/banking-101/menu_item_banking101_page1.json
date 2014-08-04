@@ -3,7 +3,7 @@
 		"type"	:"image-left",
 		"title"	:"CREATING A PORTFOLIO & BEATING THE MARKET", 
 		"body"	:"Learn what it takes to build a financial portfolio and what it takes to maintain it.", 
-		"image"	:"../assets/pigDoor.png",
+		"image"	:"../assets/creatingPortfolio.png",
 		"link"	:"creating-portfolio.php"
 	}, 
 
@@ -11,7 +11,7 @@
 		"type"	:"image-left",
 		"title"	:"MANAGING MULTIPLE ACCOUNTS", 
 		"body"	:"Check out Mint.com alternative, same investment and real estate support.", 
-		"image"	:"../assets/pigBusiness.png",
+		"image"	:"../assets/multipleAccounts.png",
 		"link"	:"error-404.html"
 	}, 
 
@@ -19,7 +19,7 @@
 		"type"	:"image-left",
 		"title"	:"FINANCIAL TOOLS", 
 		"body"	:"Find out what tools exist to help you use your money as effective as possible.", 
-		"image"	:"../assets/shopping.png",
+		"image"	:"../assets/financial-tools.png",
 		"link"	:"error-404.html"
 	},
 
@@ -27,7 +27,7 @@
 		"type"	:"image-left",
 		"title"	:"SMALL BUSINESS LOAN", 
 		"body"	:"Find out which offers and programs best meets your business needs.", 
-		"image"	:"../assets/pigFlyBoard.png",
+		"image"	:"../assets/smallLoan1.png",
 		"link"	:"error-404.html"
 	}, 
 
@@ -43,7 +43,7 @@
 		"type"	:"image-left",
 		"title"	:"ECONOMIC NEWS", 
 		"body"	:"Stay on top of trending stories and articles.", 
-		"image"	:"../assets/creditCard.png",
+		"image"	:"../assets/economicNews1.png",
 		"link"	:"error-404.html"
 	}
 }
