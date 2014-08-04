@@ -2,23 +2,83 @@ var myScroll;
 
 $(function(){
 	filterAdd(whichChecked());
+	$('.list-close').hide();
+	$('.list-line').hide();
 });
 
 function enlarge(loader) {
 	var listItem = loader.parentNode;
 	loader.style.height = "200px";
-	$(listItem).switchClass("attraction-small", "attraction-large", 500, "easeInOutQuad");
-	$(listItem).find(".list-item").animate({
-		position: 'absolute',
-		height: '200px',
-		top: '60px',
-		left: '100px'
+
+	$(listItem).animate({
+		height: '400px'
+	});
+
+	$(listItem).find(".list-image").animate({
+		width: '283px',
+		top: '110px',
+		left: '135px'
+	});
+
+	$(listItem).find(".paragraph").css('position', 'relative');
+	$(listItem).find(".paragraph").css('right', '0px');
+	$(listItem).find(".paragraph").animate({
+		right: '-300px',
+		top: '20px',
+		width: '500px'
+	});
+
+	$(listItem).find(".list-close").show();
+	$(listItem).find(".list-close").css('right', '25px');
+	$(listItem).find(".list-close").css('top', '30px');
+	$(listItem).find(".list-close").animate({
+		right: '25px',
+		top: '30px'
+	});
+
+	$(listItem).find(".list-line").show();
+	$(listItem).find(".list-line").animate({
+		height: '2px',
+		width: '800px'
 	});
 }
 
 function shrink(loader) {
 	var listItem = loader.parentNode;
-	$(listItem).switchClass("attraction-large", "attraction-small", 500, "easeInOutQuad");
+
+	$(listItem).animate({
+		height: '200px'
+	});
+
+	$(listItem).find(".list-image").css("position", "absolute");
+	$(listItem).find(".list-image").css("left", "auto");
+	$(listItem).find(".list-image").css("right", "600px");
+	$(listItem).find(".list-image").animate({
+		width: '283px',
+		top: '0px',
+		right: '0px'
+	});
+
+	$(listItem).find(".paragraph").animate({
+		position: 'relative',
+		right: '0px',
+		top: '4px'
+	});
+
+	$(listItem).find(".list-close").hide();
+	$(listItem).find(".list-close").animate({
+		position: 'absolute',
+		right: '0px',
+		top: '0px'
+	});
+
+	$(listItem).find(".list-line").animate({
+		width: '0px',
+		height: '0px'
+	}, function(){
+		$(listItem).find(".list-line").hide();
+	});
+
 }
 
 /* BEGIN LIST FUNCTIONS */
@@ -69,12 +129,10 @@ function filterAdd(options) {
 			'padding-right'	: '',
 			'padding-bottom': '',
 			'padding-left'	: ''
-		}, 300, function(){myScroll.refresh();});
-
-		/*var classElements = document.getElementsByClassName(options[i]);
-		for(var j = 0; j < classElements.length; j++){
-			classElements[j].style.display = 'block';
-		}*/
+			}, 300, function(){
+				myScroll.refresh();
+			}
+		);
 	}
 }
 
@@ -91,16 +149,11 @@ function filterRemove(options) {
 			'height'		: '0px', 
 			'padding-top'	: '0px',
 			'padding-bottom': '0px'
-			},200, function(){
+			}, 300, function(){
 				$(this).hide();
 				myScroll.refresh();
 			}
 		);
-
-		/*var classElements = document.getElementsByClassName(options[i]);
-		for(var j = 0; j < classElements.length; j++){
-			classElements[j].style.display = 'none';
-		}*/
 	}
 }
 
