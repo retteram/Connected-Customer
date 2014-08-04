@@ -7,6 +7,13 @@
 		<link rel="stylesheet" type="text/css" href="../css/interesting-joking.css" />
 		<link href="../css/howTo.css" rel="stylesheet">
 		<link href="../css/related-section.css" rel="stylesheet">
+
+		<script> 
+			$(function() {
+				generateRand();
+			});
+		</script>
+		
 	</head>
 
 	<body>

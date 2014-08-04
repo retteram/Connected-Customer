@@ -72,6 +72,28 @@
 	background-color:#3CB666;
 }
 
+.blink{
+    -webkit-animation: blink 600ms infinite alternate;
+    -moz-animation: blink 600ms infinite alternate;
+    -o-animation: blink 600ms infinite alternate;
+    animation: blink 600ms infinite alternate;
+}
+@-webkit-keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+}
+@-o-keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+}
+@-moz-keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+}
+@keyframes blink {
+	from { opacity:1; }
+	to { opacity:0; }
+};
 
 </style>
 
@@ -102,4 +124,4 @@
 	</div>
 
 </div>
-<div id="random" onclick="generateRand()"><h1>NEW FACT</h1>(TAP HERE)</div>
+<div id="random" onclick="generateRand()"><div class="blink"><h1>NEW FACT</h1>(TAP HERE)</div></div>
