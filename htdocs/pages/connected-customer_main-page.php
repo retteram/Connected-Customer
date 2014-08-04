@@ -13,7 +13,7 @@
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
-			<?php require("page-pieces/carousel.php"); ?>
+			<?php require("page-pieces/carousel-sub.php"); ?>
 			<!-- END Main Content -->
 
 			<!-- BEGIN Footer -->

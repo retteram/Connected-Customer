@@ -5,16 +5,9 @@
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
-	padding-top:100px;
-	background-color:;
+
 }
 
-.carousel1{
-	width: 1080px;
-	position: relative;
-	overflow: hidden;
-	margin: 0 auto;
-}
 
 .navigation-bar {
 	height: 82px;
@@ -24,9 +17,6 @@
 .navigation-bar .nav-container {
 	height: 12px;
 	padding: 35px;
-	background-color:;
-	margin-right:330px;
-	margin-top:-100px;
 }
 
 .navigation-bar .nav-circle {
@@ -49,7 +39,7 @@
 .container-list {
 	width: 2160px;
 	/*height: 1835px;*/
-	margin-top: 82px;
+	margin-top: 0px;
 
 	position: relative;
 	left: 0px;

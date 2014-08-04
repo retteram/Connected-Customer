@@ -11,7 +11,7 @@
 		"type"	:"image-left",
 		"title"	:"FINANCIAL TOOLS", 
 		"body"	:"Learn about the tools exist to help you make smart financial decisions.", 
-		"image"	:"../assets/pigBusiness.png",
+		"image"	:"../assets/financial-tools.png",
 		"link"	:"error-404.html"
 	}, 
 
@@ -19,7 +19,7 @@
 		"type"	:"image-left",
 		"title"	:"PROMOTIONS", 
 		"body"	:"Find out how you can get free money by setting up any account or savings plans.", 
-		"image"	:"../assets/shopping.png",
+		"image"	:"../assets/promotions.png",
 		"link"	:"error-404.html"
 	},
 
@@ -27,7 +27,7 @@
 		"type"	:"image-left",
 		"title"	:"POPULAR STORIES", 
 		"body"	:"Stay connected with our live stream of news and current events.", 
-		"image"	:"../assets/pigFlyBoard.png",
+		"image"	:"../assets/popular-stories.png",
 		"link"	:"error-404.html"
 	}, 
 
@@ -43,7 +43,7 @@
 		"type"	:"image-left",
 		"title"	:"IDENTITY PROTECTION", 
 		"body"	:"Learn how we are continually increasing data security & protecting identities.", 
-		"image"	:"../assets/creditCard.png",
+		"image"	:"../assets/identity-protection.png",
 		"link"	:"error-404.html"
 	}
 }
