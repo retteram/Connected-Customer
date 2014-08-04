@@ -3,14 +3,14 @@
 		{
 			"title"		: "Dayton Aviation Heritage National Park",
 			"content"	: "Founded a long, long, time ago.",
-			"image"		: "../assets/hist-5.png",
+			"image"		: "../assets/local-attractions/hist-5.png",
 			"distance"	: "1.5 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 		},
 		{
 			"title"		: "SunWatch Indian Village",
 			"content"	: "Founded a long, long, time ago.",
-			"image"		: "../assets/hist-6.png",
+			"image"		: "../assets/local-attractions/hist-6.png",
 			"distance"	: "3.1 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -18,7 +18,7 @@
 		{
 			"title"		: "National Air Force Museum",
 			"content"	: "Founded a long, long, time ago.",
-			"image"		: "../assets/hist-2.png",
+			"image"		: "../assets/local-attractions/hist-2.png",
 			"distance"	: "9 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -26,7 +26,7 @@
 		{
 			"title"		: "Dayton Art Institute",
 			"content"	: "Founded a long, long, time ago.",
-			"image"		: "../assets/hist-1.png",
+			"image"		: "../assets/local-attractions/hist-1.png",
 			"distance"	: "1.9 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -34,7 +34,7 @@
 		{
 			"title"		: "Miamisburg Mound",
 			"content"	: "Founded a long, long, time ago.",
-			"image"		: "../assets/hist-3.png",
+			"image"		: "../assets/local-attractions/hist-3.png",
 			"distance"	: "12.3 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -42,7 +42,7 @@
 		{
 			"title"		: "Woodland Cemetary",
 			"content"	: "Founded a long, long, time ago.",
-			"image"		: "../assets/hist-4.png",
+			"image"		: "../assets/local-attractions/hist-4.png",
 			"distance"	: "3.3 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -53,7 +53,7 @@
 		{
 			"title"		: "The Pine Club",
 			"content"	: "Nice place to dine.",
-			"image"		: "../assets/food-1.png",
+			"image"		: "../assets/local-attractions/food-1.png",
 			"distance"	: "2.2 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -61,7 +61,7 @@
 		{
 			"title"		: "Marion's Pizza",
 			"content"	: "Nice place to dine.",
-			"image"		: "../assets/food-2.png",
+			"image"		: "../assets/local-attractions/food-2.png",
 			"distance"	: "6 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -69,7 +69,7 @@
 		{
 			"title"		: "Thai 9",
 			"content"	: "Nice place to dine.",
-			"image"		: "../assets/food-3.png",
+			"image"		: "../assets/local-attractions/food-3.png",
 			"distance"	: "1.6 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -77,7 +77,7 @@
 		{
 			"title"		: "El Meson",
 			"content"	: "Nice place to dine.",
-			"image"		: "../assets/food-4.png",
+			"image"		: "../assets/local-attractions/food-4.png",
 			"distance"	: "6.1 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -85,7 +85,7 @@
 		{
 			"title"		: "Jimmie's Ladder 11",
 			"content"	: "Nice place to dine.",
-			"image"		: "../assets/food-5.png",
+			"image"		: "../assets/local-attractions/food-5.png",
 			"distance"	: "2.8 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -93,7 +93,7 @@
 		{
 			"title"		: "Tanks Bar & Grill",
 			"content"	: "Nice place to dine.",
-			"image"		: "../assets/food-6.png",
+			"image"		: "../assets/local-attractions/food-6.png",
 			"distance"	: "3.6 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -104,7 +104,7 @@
 		{
 			"title"		: "Caeser Creek State Park",
 			"content"	: "Natural place to go.",
-			"image"		: "../assets/nature-2.png",
+			"image"		: "../assets/local-attractions/nature-2.png",
 			"distance"	: "27 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -112,7 +112,7 @@
 		{
 			"title"		: "Carriage Hill Metro Park",
 			"content"	: "Natural place to go.",
-			"image"		: "../assets/nature-3.png",
+			"image"		: "../assets/local-attractions/nature-3.png",
 			"distance"	: "16 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -120,7 +120,7 @@
 		{
 			"title"		: "Cox Arboretum",
 			"content"	: "Natural place to go.",
-			"image"		: "../assets/nature-4.png",
+			"image"		: "../assets/local-attractions/nature-4.png",
 			"distance"	: "7 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -128,7 +128,7 @@
 		{
 			"title"		: "Glen Helen State Park",
 			"content"	: "Natural place to go.",
-			"image"		: "../assets/nature-5.png",
+			"image"		: "../assets/local-attractions/nature-5.png",
 			"distance"	: "21 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -136,7 +136,7 @@
 		{
 			"title"		: "Wegerzyn Gardens Metro Park",
 			"content"	: "Natural place to go.",
-			"image"		: "../assets/nature-6.png",
+			"image"		: "../assets/local-attractions/nature-6.png",
 			"distance"	: "5 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -144,7 +144,7 @@
 		{
 			"title"		: "Clifton Gorge State Park",
 			"content"	: "Natural place to go.",
-			"image"		: "../assets/nature-7.png",
+			"image"		: "../assets/local-attractions/nature-7.png",
 			"distance"	: "25 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -155,7 +155,7 @@
 		{
 			"title"		: "Wiley's Comedy Club",
 			"content"	: "Go see this event.",
-			"image"		: "../assets/ent-1.png",
+			"image"		: "../assets/local-attractions/ent-1.png",
 			"distance"	: "2.9 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -163,7 +163,7 @@
 		{
 			"title"		: "The Schuster Center",
 			"content"	: "Another envent",
-			"image"		: "../assets/ent-2.png",
+			"image"		: "../assets/local-attractions/ent-2.png",
 			"distance"	: "1.7 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -171,7 +171,7 @@
 		{
 			"title"		: "The Dayton Dragons",
 			"content"	: "Another envent",
-			"image"		: "../assets/ent-3.png",
+			"image"		: "../assets/local-attractions/ent-3.png",
 			"distance"	: "1.6 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -179,7 +179,7 @@
 		{
 			"title"		: "The Neon",
 			"content"	: "Another envent",
-			"image"		: "../assets/ent-4.png",
+			"image"		: "../assets/local-attractions/ent-4.png",
 			"distance"	: "1.5 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -187,7 +187,7 @@
 		{
 			"title"		: "The Nutter Center",
 			"content"	: "Another envent",
-			"image"		: "../assets/ent-5.png",
+			"image"		: "../assets/local-attractions/ent-5.png",
 			"distance"	: "11.7 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -195,7 +195,7 @@
 		{
 			"title"		: "Blind Bob's",
 			"content"	: "Another envent",
-			"image"		: "../assets/ent-6.png",
+			"image"		: "../assets/local-attractions/ent-6.png",
 			"distance"	: "2.8 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -206,7 +206,7 @@
 		{
 			"title"		: "Town & Country Shopping Center",
 			"content"	: "Go shopping here.",
-			"image"		: "../assets/shop-1.png",
+			"image"		: "../assets/local-attractions/shop-1.png",
 			"distance"	: "5.3 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -214,7 +214,7 @@
 		{
 			"title"		: "Cincinnati Premium Outlets",
 			"content"	: "Go shopping here.",
-			"image"		: "../assets/shop-2.png",
+			"image"		: "../assets/local-attractions/shop-2.png",
 			"distance"	: "24.6 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -222,7 +222,7 @@
 		{
 			"title"		: "The Dayton Mall",
 			"content"	: "Go shopping here.",
-			"image"		: "../assets/shop-3.png",
+			"image"		: "../assets/local-attractions/shop-3.png",
 			"distance"	: "8.9 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -230,7 +230,7 @@
 		{
 			"title"		: "The Mall at Fairfield Commons",
 			"content"	: "Go shopping here.",
-			"image"		: "../assets/shop-4.png",
+			"image"		: "../assets/local-attractions/shop-4.png",
 			"distance"	: "12.6 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
@@ -238,7 +238,7 @@
 		{
 			"title"		: "The Greene",
 			"content"	: "Go shopping here.",
-			"image"		: "../assets/shop-5.png",
+			"image"		: "../assets/local-attractions/shop-5.png",
 			"distance"	: "11 Miles Away",
 			"read-more"	: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor interdum leo, eu scelerisque nisi vehicula ac. In at mi id turpis ullamcorper pellentesque. Etiam ac mauris orci. Nunc iaculis ut magna et fringilla. Donec magna nibh, faucibus sit amet gravida et, tincidunt nec ante. Vestibulum volutpat enim eget vestibulum tempus. Aliquam bibendum egestas est egestas sollicitudin. "
 
