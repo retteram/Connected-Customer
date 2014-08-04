@@ -6,15 +6,11 @@
 		<link href="../css/related-section.css" rel="stylesheet">
 		<script type="text/javascript" src="../js/killing-time.js"></script>
 		<script>
-			var backlink = "connected-customer_main-page.php"; 
-
-			function enter() {
+			// var backlink = "connected-customer_main-page.php"; 
+			var entering = "529-savings.php";
+			function enter529() {
 				document.location.href=entering; 
-				}
-
-				var entering = "529-savings.php";
-
-
+			}
 		</script>
 		
 		
@@ -41,7 +37,7 @@
 					<img src="../assets/related1.png" />
 					<h2 id="objectTitle">TEACH KIDS <br> ABOUT CREDIT</h2>
 					</div>
-					<a href="#" onclick="enter()"><div class="object2">
+					<a href="#" onclick="enter529()"><div class="object2">
 					<img src="../assets/related2.png" />
 					<h2 id="objectTitle">529 COLLEGE<br>SAVINGS PLAN</h2>	
 					</div></a>
