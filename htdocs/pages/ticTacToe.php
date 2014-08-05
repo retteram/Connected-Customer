@@ -6,12 +6,32 @@
 		<link href="../css/howTo.css" rel="stylesheet">
 		<link href="../css/related-section.css" rel="stylesheet">
 		<script>
-		function enterttt() {
-			document.location.href="ticTacToe.php"; 
+
+		function enterGames() {
+			document.location.href="game-page.php"; 
 			}
+
 		</script>
+
 		<style>
 
+		iframe{
+			margin:70px 70px 70px 80px;
+			border:3px solid #26A261;
+			background-color:white;
+			border-radius:6px;
+		}
+
+		#ttt {
+			background-color:;
+			width:900px;
+			height:900px;
+			margin:0 auto;
+		}
+
+		.related-object div:hover{
+			cursor:pointer;
+		}
 		</style>
 	</head>
 	<body>
@@ -20,13 +40,17 @@
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
 			<div class="headBox2">
-			<h1 id="title">GAMES</h1>
+			<h1 id="title">TIC TAC TOE</h1>
 			</div>
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
 			<div class="game-container">
-			<div id="game"><img src="../assets/gameScreen.png" /></div>
+			<div id="game">
+			<div id="ttt">
+			<iframe src="page-pieces/ttt.html" width="720" height="720"></iframe>
+			</div>
+			</div>
 			</div>
 			<!-- END Main Content -->
 
@@ -35,10 +59,10 @@
 				<div class="related-object">
 					<h1 id="relatedTitle">MORE GAMES</h1>
 
-					<a href="#" onclick="enterttt()">
+					<a href="#" onclick="enterGames()">
 					<div class="object1">
-					<img src="../assets/ttt.png" />
-					<h2 id="objectTitle">TIC TAC TOE</h2>
+					<img src="../assets/flyingPigGame.png" />
+					<h2 id="objectTitle">CHANGE CATCH</h2>
 					</div>
 					</a>
 

@@ -5,6 +5,9 @@
 		<?php require("page-pieces/imports.php"); ?>
 		<link href="../css/howTo.css" rel="stylesheet">
 		<link href="../css/related-section.css" rel="stylesheet">
+		<style>
+		
+		</style>
 
 	</head>
 	<body>
