@@ -3,6 +3,16 @@
 	<head>
 		<title>Connected Customer</title>
 		<?php require("page-pieces/imports.php"); ?>
+		<style>
+			#title{
+				font-family:helvetica;
+				font-weight:900;
+				font-size: 60px !important; 
+				color: #198A3E;
+				text-align: center;
+			}
+
+		</style>
 	</head>
 	<body>
 		<div data-role="page" id="home">
