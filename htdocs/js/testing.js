@@ -81,8 +81,8 @@ function makeShip() {
     var shipImage = new Image();
     shipImage.src = "../assets/pigLaugh.png";
 
-    /*
-    ctx.beginPath();
+    
+    /*ctx.beginPath();
     ctx.moveTo(28.4, 16.9);
     ctx.bezierCurveTo(28.4, 19.7, 22.9, 22.0, 16.0, 22.0);
     ctx.bezierCurveTo( 9.1, 22.0,  3.6, 19.7,  3.6, 16.9);
@@ -90,12 +90,12 @@ function makeShip() {
     ctx.bezierCurveTo(22.9, 11.8, 28.4, 14.1, 28.4, 16.9);
     ctx.closePath();
     ctx.fillStyle = "rgb(222, 103, 0)";
-    ctx.fill();
-    */
+    ctx.fill();*/
+    
 
     // Draw saucer top.
-    /*
-    ctx.beginPath();
+    
+    /*ctx.beginPath();
     ctx.moveTo(22.3, 12.0);
     ctx.bezierCurveTo(22.3, 13.3, 19.4, 14.3, 15.9, 14.3);
     ctx.bezierCurveTo(12.4, 14.3,  9.6, 13.3,  9.6, 12.0);
@@ -103,8 +103,8 @@ function makeShip() {
     ctx.bezierCurveTo(19.4,  9.7, 22.3, 10.8, 22.3, 12.0);
     ctx.closePath();
     ctx.fillStyle = "rgb(51, 190, 0)";
-    ctx.fill();
-    */
+    ctx.fill();*/
+    
 
     // Save ship data.
     ship = shipImage; //ctx.getImageData(0, 0, 30, 30);
