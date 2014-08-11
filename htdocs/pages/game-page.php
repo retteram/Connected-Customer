@@ -12,6 +12,20 @@
 		</script>
 		<style>
 
+		iframe{
+			margin-left:-76px;
+			border:none;
+			background-color:;
+			
+		}
+
+		#ttt {
+			background-color:;
+			width:900px;
+			height:900px;
+			margin:0 auto;
+		}
+
 		</style>
 	</head>
 	<body>
@@ -26,7 +40,11 @@
 
 			<!-- BEGIN Main Content -->
 			<div class="game-container">
-			<div id="game"><img src="../assets/gameScreen.png" /></div>
+			<div id="ttt">
+			<div id="game">
+			<iframe src="../assets/Untitled-6.html" width="910" height="840"></iframe>
+			</div>
+			</div>
 			</div>
 			<!-- END Main Content -->
 
