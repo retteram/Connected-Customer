@@ -90,6 +90,12 @@
 		</style>
 		
 		<script type="text/javascript" src="../js/local-attractions.js"></script>
+		<script>
+			function toggleCheckbox() {
+				alert("stuff");
+    			document.getElementById(id).checked = !document.getElementById(id).checked;
+			}
+		</script>
 	</head>
 
 	<body>
@@ -112,7 +118,7 @@
 				<div id="attraction2">
 					<label for="history">
 						<h1>HISTORIC</h1>
-		  				<input type="checkbox" name="historic" id="history" value="local-2" onchange="historyClicked()"/>
+		  				<input type="checkbox" name="history" id="history" value="local-2" onchange="historyClicked()"/>
 		  				<span></span>
 					</label>
 				</div>
