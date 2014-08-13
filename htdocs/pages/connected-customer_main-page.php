@@ -11,7 +11,6 @@
 				color: #198A3E;
 				text-align: center;
 			}
-
 		</style>
 	</head>
 	<body>
