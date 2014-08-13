@@ -16,6 +16,37 @@
 	padding: 0;
 }
 
+#popup {
+	display: none;
+	position: fixed;
+	height: 500px;
+	width: 600px;
+
+	border: solid 1px black;
+
+	top: calc(50% - 250px);
+	left: -612px;
+
+	background-color: white;
+	opacity: 1.4;
+
+	z-index: 3;
+}
+
+#screen {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+
+	top: 0;
+	left: 0;
+	opacity: 0.4;
+
+	background-color: black;
+	z-index: 2;
+}
+
 .attraction-list {
 	margin: 0;
 	padding: 0;
@@ -86,23 +117,23 @@
 	cursor: pointer;
 }
 
-.history-close {
+.history .list-close, .history .directions-button {
 	background-color: #3CB666;
 }
 
-.dining-close {
+.dining .list-close, .dining .directions-button {
 	background-color: #1D96B1;
 }
 
-.entertainment-close {
+.entertainment .list-close, .entertainment .directions-button {
 	background-color: #E1A925;
 }
 
-.nature-close {
+.nature .list-close, .nature .directions-button {
 	background-color: #449F7E;
 }
 
-.shopping-close {
+.shopping .list-close, .shopping .directions-button {
 	background-color: #302541;
 }
 
@@ -126,7 +157,7 @@
 }
 
 .read-more {
-	height: 20px;
+	height: 5px;
 	width: 800px;
 
 	color: white;
@@ -135,17 +166,35 @@
 	margin: 0 !important;
 
 	position: relative;
-	top: 4px;
+	top: 10px;
+	left: -6px;
 	text-align: right;
 
-	-moz-box-shadow:    3px -3px 9px 8px white;
-	-webkit-box-shadow: 3px -3px 9px 8px white;
-	box-shadow:         3px -3px 9px 8px white;
+	-moz-box-shadow:    3px -8px 9px 8px white;
+	-webkit-box-shadow: 3px -8px 9px 8px white;
+	box-shadow:         3px -8px 9px 8px white;
+}
+
+.directions-button {
+	text-decoration: none;
+	font-weight: 800;
+	color: white;
+
+	position: absolute;
+	right: 35px;
+	bottom: 35px;
+	padding: 6px 6px;
+
+	display: none;
+}
+
+.directions-button:hover {
+	cursor: pointer;
 }
 
 .infobox {
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 800;
 
 	position: relative;
 	left: 135px;
@@ -154,23 +203,23 @@
 	display: none;
 }
 
-.history-distance {
+.history .infobox {
 	color: #3CB666;
 }
 
-.dining-distance {
+.dining .infobox {
 	color: #1D96B1;
 }
 
-.entertainment-distance {
+.entertainment .infobox {
 	color: #E1A925;
 }
 
-.nature-distance {
+.nature .infobox {
 	color: #449F7E;
 }
 
-.shopping-distance {
+.shopping .infobox {
 	color: #302541;
 }
 

@@ -3,9 +3,13 @@
 	<head>
 		<title>Local Attractions</title>
 		<?php require("page-pieces/imports.php"); ?>
-		<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
+		<!-- <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" /> -->
 		<!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script> -->
 		<script src="../js/interesting-facts.js" type="text/javascript"></script>
+
+		<script type="text/javascript" src="../libs/iscroll-4/src/iscroll.js"></script>
+		<script type="text/javascript" src="../js/local-attractions.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="../css/interesting-joking.css" />
 		<link href="../css/howTo.css" rel="stylesheet">
 		<link rel="stylesheet" href="../libs/font-awesome-4.1.0/css/font-awesome.min.css">
@@ -89,9 +93,6 @@
 			}
 
 		</style>
-		
-		<script type="text/javascript" src="../libs/iscroll-4/src/iscroll.js"></script>
-		<script type="text/javascript" src="../js/local-attractions.js"></script>
 	</head>
 
 	<body>

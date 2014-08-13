@@ -3,19 +3,19 @@
 // 	myScroll = new iScroll('wrapper');
 // }
 
-var globalTime = 200;
+var globalTime = 300;
 
 var myScroll;
 document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
 //document.addEventListener('DOMContentLoaded', function () { setTimeout(loaded, 200); }, false);
 /* END Scrolling Functions */
 
+var openListItem = null;
 
 $(function(){
 	myScroll = new iScroll('wrapper');
 	filterAdd(whichChecked());
 	$('.list-close').hide();
-	// $('.list-line').hide();
 
 	$('#attraction1').click(function(){toggleCheckbox(	   'all'	 ); allClicked();});
 	$('#attraction2').click(function(){toggleCheckbox(	 'history'	 ); historyClicked();});
@@ -25,6 +25,27 @@ $(function(){
 	$('#attraction6').click(function(){toggleCheckbox(	'shopping'	 ); shoppingClicked();});
 });
 
+function openDirections(type) {
+	$("#screen").show();
+	$("#popup").show();
+
+	// $("#popup").html('<iframe height="100%" width="100%"></iframe>');
+
+	$("#popup").animate({
+		left: '230px'
+	}, globalTime);
+	// window.location.href="http://www.google.com/maps/dir/Current+Location/"+type;
+}
+
+function closeDirections() {
+	$("#popup").animate({
+		left: '-600px'
+	}, globalTime, function(){
+		$("#screen").hide();
+		$("#popup").hide();
+	});
+}
+
 function toggleCheckbox(id) {
     document.getElementById(id).checked = !document.getElementById(id).checked;
 }
@@ -32,6 +53,12 @@ function toggleCheckbox(id) {
 function enlarge(loader) {
 	var listItem = loader.parentNode;
 	loader.style.height = "200px";
+
+	if(openListItem != null){
+		shrink(openListItem);
+	}
+	openListItem = loader;
+
 	var time = globalTime;
 
 	$(listItem).animate({
@@ -62,6 +89,8 @@ function enlarge(loader) {
 		top: '30px'
 	}, time);
 
+	$(listItem).find(".directions-button").show();
+
 	// $(listItem).find(".list-line").show();
 	$(listItem).find(".list-line").css('background-color', '#808284');
 	$(listItem).find(".list-line").animate({
@@ -75,6 +104,7 @@ function enlarge(loader) {
 function shrink(loader) {
 	var listItem = loader.parentNode;
 	var time = globalTime;
+	openListItem = null;
 
 	$(listItem).animate({
 		height: '200px'
@@ -104,6 +134,8 @@ function shrink(loader) {
 		top: '0px'
 	}, time);
 
+	$(listItem).find(".directions-button").hide();
+
 	$(listItem).find(".list-line").animate({
 		width: '2px',
 		height: '2px'
@@ -120,35 +152,52 @@ function shrink(loader) {
 var filterList = [];
 
 function whichChecked() {
+
+	var all = document.getElementById("all");
+	var history = document.getElementById("history");
+	var dining = document.getElementById("dining");
+	var nature = document.getElementById("nature");
+	var entertainment = document.getElementById("entertainment");
+	var shopping = document.getElementById("shopping");
+
 	var checked = [];
-	if(document.getElementById("all").checked){
-		checked = ['all','history','dining','nature','entertainment','shopping'];
-		// filterAdd(['all','history','dining','nature','entertainment','shopping']);
-	}
-
-	if(document.getElementById("history").checked){
+	if(history.checked){
 		checked.push('history');
-		// filterAdd(['history']);
+	} else {
+		all.checked = false;
 	}
 
-	if(document.getElementById("dining").checked){
+	if(dining.checked){
 		checked.push('dining');
-		// filterAdd(['dining']);
+	} else {
+		all.checked = false;
 	}
 
-	if(document.getElementById("nature").checked){
+	if(nature.checked){
 		checked.push('nature');
-		// filterAdd(['nature']);
+	} else {
+		all.checked = false;
 	}
 
-	if(document.getElementById("entertainment").checked){
+	if(entertainment.checked){
 		checked.push('entertainment');
-		// filterAdd(['entertainment']);
+	} else {
+		all.checked = false;
 	}
 
-	if(document.getElementById("shopping").checked){
+	if(shopping.checked){
 		checked.push('shopping');
-		// filterAdd(['shopping']);
+	} else {
+		all.checked = false;
+	}
+
+	if(all.checked){
+		checked = ['all','history','dining','nature','entertainment','shopping'];
+		history.checked = true;
+		dining.checked = true;
+		nature.checked = true;
+		entertainment.checked = true;
+		shopping.checked = true;
 	}
 
 	return checked;
@@ -185,6 +234,10 @@ function filterAdd(options) {
 }
 
 function filterRemove(options) {
+	if(openListItem != null){
+		shrink(openListItem);
+	}
+
 	for(var i = 0; i < options.length; i++){
 		var index = filterList.indexOf(options[i]);
 
@@ -214,6 +267,7 @@ function changeAllBoxes(torf) {
 	checkboxes['nature'] = document.getElementById("nature");
 	checkboxes['dining'] = document.getElementById("dining");
 
+	checkboxes['all'].checked = torf;
 	checkboxes['history'].checked = torf;
 	checkboxes['shopping'].checked = torf;
 	checkboxes['entertainment'].checked = torf;
@@ -222,15 +276,9 @@ function changeAllBoxes(torf) {
 }
 
 function allClicked() {
-	var checkboxes = [];
-	checkboxes['all'] = document.getElementById("all");
-	checkboxes['history'] = document.getElementById("history");
-	checkboxes['shopping'] = document.getElementById("shopping");
-	checkboxes['entertainment'] = document.getElementById("entertainment");
-	checkboxes['nature'] = document.getElementById("nature");
-	checkboxes['dining'] = document.getElementById("dining");
+	all = document.getElementById("all");
 
-	if(checkboxes['all'].checked){
+	if(all.checked){
 		filterAdd(['history','shopping','entertainment','nature','dining']);
 		changeAllBoxes(true);
 	} else {
@@ -240,38 +288,48 @@ function allClicked() {
 }
 
 function historyClicked() {
-	if(document.getElementById("history").checked)
+	if(document.getElementById("history").checked){
 		filterAdd(['history']);
-	else
+	} else {
 		filterRemove(['history']);
+		document.getElementById("all").checked = false;
+	}
 }
 
 function diningClicked() {
-	if(document.getElementById("dining").checked)
+	if(document.getElementById("dining").checked){
 		filterAdd(['dining']);
-	else
+	} else {
 		filterRemove(['dining']);
+		document.getElementById("all").checked = false;
+	}
 }
 
 function entertainmentClicked() {
-	if(document.getElementById("entertainment").checked)
+	if(document.getElementById("entertainment").checked){
 		filterAdd(['entertainment']);
-	else
+	} else {
 		filterRemove(['entertainment']);
+		document.getElementById("all").checked = false;
+	}
 }
 
 function natureClicked() {
-	if(document.getElementById("nature").checked)
+	if(document.getElementById("nature").checked){
 		filterAdd(['nature']);
-	else
+	} else {
 		filterRemove(['nature']);
+		document.getElementById("all").checked = false;
+	}
 }
 
 function shoppingClicked() {
-	if(document.getElementById("shopping").checked)
+	if(document.getElementById("shopping").checked){
 		filterAdd(['shopping']);
-	else
+	} else {
 		filterRemove(['shopping']);
+		document.getElementById("all").checked = false;
+	}
 }
 /* END LIST FUNCTIONS */
 
