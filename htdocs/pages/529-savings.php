@@ -5,10 +5,6 @@
 		<?php require("page-pieces/imports.php"); ?>
 		<link href="../css/howTo.css" rel="stylesheet">
 		<link href="../css/related-section.css" rel="stylesheet">
-		<style>
-		
-		</style>
-
 	</head>
 	<body>
 		<div data-role="page" id="home">
@@ -24,12 +20,11 @@
 			<div class="game-container">
 				<div id="game"><img src="../assets/529Display.png" /></div>
 			</div>
-
 			<div class="cta-container">
-			<div class="cta">
-				<div id="email"><i class="fa fa-envelope-o"></i> EMAIL TO SELF</div>
-				<div id="banker"><i class="fa2 fa-envelope-o"></i> DISCUSS WITH BANKER</div>
-			</div>
+				<div class="cta">
+					<div id="email"><i class="fa fa-envelope-o"></i> EMAIL TO SELF</div>
+					<div id="banker"><i class="fa2 fa-envelope-o"></i> DISCUSS WITH BANKER</div>
+				</div>
 			</div>
 			<!-- END Main Content -->
 

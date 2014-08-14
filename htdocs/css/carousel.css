@@ -1,15 +1,15 @@
 /* Content List */
 .carousel{
 	/*width: 100%;*/
-	width: 1080px;
-	position: relative;
-	overflow: hidden;
-	margin: 0 auto;
+	/*width: 1080px;*/
+	/*position: relative;*/
+	/*overflow: hidden;*/
+	/*margin: 0 auto;*/
 }
 
 .navigation-bar {
 	height: 82px;
-	float: right;
+	margin:0 auto;
 }
 
 .navigation-bar .nav-container {
@@ -35,12 +35,12 @@
 }
 
 .container-list {
-	width: 5400px;
+	/*width: 2160px;*/
 	/*height: 1835px;*/
-	margin-top: 82px;
+	/*margin-top: 0px;
 
 	position: relative;
-	left: 0px;
+	left: 0px;*/
 }
 
 .container {
@@ -48,7 +48,7 @@
 	/*height: 1835px;*/
 
 	display: inline-block;
-	float: right;
+	float: left;
 }
 
 #swipe-hand {
@@ -57,3 +57,101 @@
 	right: 8px;
 }
 /* END Content List */
+
+#wrapper {
+	width:1080px;
+	/*height:160px;*/
+
+	margin: 0 auto;
+	margin-top: 50px;
+	overflow:hidden;
+}
+
+#scroller {
+	width:2160px;
+	height:100%;
+	float:left;
+	padding:0;
+}
+
+#scroller > ul {
+	list-style:none;
+	display:block;
+	float:left;
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	text-align:left;
+}
+
+#scroller > li {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+	display: block; 
+	float: left;
+	width: 50%; 
+	height: 30%;
+	min-height: 300px;
+}
+
+#nav {
+	width: 100%;
+	height: 40px;
+	/*float:left;*/
+	display: block;
+}
+
+#prev, #next {
+	float:left;
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 0;
+	width:80px;
+}
+
+#next {
+	float: right;
+	text-align: right;
+}
+
+#indicator, #indicator > li {
+	display: block; 
+	float: left;
+	list-style: none;
+	padding: 0; 
+	margin: 0;
+}
+
+#indicator {
+	width: 140px;
+	padding: 30px 0 0 30px;
+	margin-right: 75px;
+	display: block;
+	float: right;
+}
+
+#indicator > li {
+	text-indent: -9999em;
+	width: 12px; 
+	height: 12px;
+
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+
+	background: #bbb;
+	overflow: hidden;
+	margin-right: 16px;
+}
+
+#indicator > li.active {
+	background:#666;
+}
+
+#indicator > li:last-child {
+	margin:0;
+}

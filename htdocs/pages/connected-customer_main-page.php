@@ -22,7 +22,8 @@
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
-			<?php require("page-pieces/carousel-sub.php"); ?>
+			<!-- <?php // require("page-pieces/carousel-sub.php"); ?> -->
+			<?php require("page-pieces/carousel.php"); ?>
 			<!-- END Main Content -->
 
 			<!-- BEGIN Footer -->

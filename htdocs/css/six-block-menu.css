@@ -32,7 +32,7 @@
 	position: relative;
 }
 
-.content-list li {
+.content-list > li {
 	margin-bottom: 15px;
 
 	float: left;

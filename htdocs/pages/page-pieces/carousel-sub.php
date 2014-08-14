@@ -1,9 +1,6 @@
 <link href="../css/carousel-sub.css" rel="stylesheet">
-<style>
-
-</style>
 <script>
-	$(function() {			
+	$(function() {
 		$(".carousel").swipe({
 		  swipe:function(event, direction, distance, duration, fingerCount) {
 

@@ -17,12 +17,12 @@ $(function(){
 	filterAdd(whichChecked());
 	$('.list-close').hide();
 
-	$('#attraction1').click(function(){toggleCheckbox(	   'all'	 ); allClicked();});
-	$('#attraction2').click(function(){toggleCheckbox(	 'history'	 ); historyClicked();});
-	$('#attraction3').click(function(){toggleCheckbox(	 'dining'	 ); diningClicked();});
-	$('#attraction4').click(function(){toggleCheckbox('entertainment'); entertainmentClicked();});
-	$('#attraction5').click(function(){toggleCheckbox(	 'nature'	 ); natureClicked();});
-	$('#attraction6').click(function(){toggleCheckbox(	'shopping'	 ); shoppingClicked();});
+	$('#attraction1').click(function(){toggleCheckbox(	   'all'	 ); allClicked();			});
+	$('#attraction2').click(function(){toggleCheckbox(	 'history'	 ); historyClicked();		});
+	$('#attraction3').click(function(){toggleCheckbox(	 'dining'	 ); diningClicked();		});
+	$('#attraction4').click(function(){toggleCheckbox('entertainment'); entertainmentClicked();	});
+	$('#attraction5').click(function(){toggleCheckbox(	 'nature'	 ); natureClicked();		});
+	$('#attraction6').click(function(){toggleCheckbox(	'shopping'	 ); shoppingClicked();		});
 });
 
 function openDirections(type) {
@@ -99,6 +99,7 @@ function enlarge(loader) {
 	}, time);
 
 	$(listItem).find(".infobox").css("display", "block");
+	myScroll.refresh();
 }
 
 function shrink(loader) {
