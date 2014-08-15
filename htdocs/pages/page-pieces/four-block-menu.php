@@ -11,9 +11,9 @@
 </script>
 <link href="../css/six-block-menu.css" rel="stylesheet">
 <ul class="content-list">
-			<li class=<?php echo '"'.$ival['type'].'"' ?> >
+			<li class=<?php echo '"'.$ival['type'].'"'; ?> >
 			 <div class=<?php echo '"li-container '.$sideclass.' well"';?> 
-			 		href=<?php echo '"'.$ival['link'].'"' ?> >
+			 		href=<?php echo '"'.$ival['link'].'"'; ?> >
 				<img class="option-image" src=<?php echo $ival['image'];?> />
 				<div class="option-text-holder">
 					<h3 class="option-title"><?php echo $ival['title'];?></h3>
