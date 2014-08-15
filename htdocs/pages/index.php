@@ -6,11 +6,11 @@
 		<?php require("page-pieces/imports.php"); ?>
 		<script type="text/javascript" src="../js/creating-portfolio.js"></script>
 		 	<script>
-		 			function enter() {
+		 		function enter() {
 					document.location.href=entering; 
-					}
+				}
 
-					var entering = "connected-customer_main-page.php";
+				var entering = "connected-customer_main-page.php";
 			</script>
 
 		<style>
