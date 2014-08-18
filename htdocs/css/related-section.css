@@ -5,7 +5,7 @@
 	bottom:100px;
 	position:absolute;
 	border-top:dotted 5px;
-	border-color:#37a85c;
+	border-color:#e02826;
 }
 
 .related-object{
@@ -19,7 +19,7 @@
 	font-family:helvetica;
 	font-weight:100;
 	font-size:30px !important;
-	color:#37a85c;
+	color:#e02826;
 	margin:0 auto;
 	margin-top:50px;
 }
@@ -43,5 +43,5 @@
 	font-family:helvetica;
 	font-weight:600;
 	font-size:20px !important;
-	color:#37a85c;
+	color:#e02826;
 }

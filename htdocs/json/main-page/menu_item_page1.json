@@ -3,7 +3,7 @@
 		"type"	:"image-left",
 		"title"	:"TEACHING CHILDREN <br>HOW TO SAVE", 
 		"body"	:"At age 3 children understand concepts like saving & spending, by age 7, money habits are formed.", 
-		"image"	:"../assets/teaching3.png",
+		"image"	:"../assets/teaching3-o.png",
 		"link"	:"teaching-children.php"
 	}, 
 
@@ -11,7 +11,7 @@
 		"type"	:"image-left",
 		"title"	:"TALK TO A BANKER", 
 		"body"	:"Applying for a loan is easy, find out what kinds of loans you can get.", 
-		"image"	:"../assets/pigBusiness.png",
+		"image"	:"../assets/pigBusiness-o.png",
 		"link"	:"error-404.html"
 	}, 
 
@@ -19,7 +19,7 @@
 		"type"	:"image-left",
 		"title"	:"SHOPPING", 
 		"body"	:"Discover local brands & flavors around the area. See for yourself why they are popular.", 
-		"image"	:"../assets/shopping.png",
+		"image"	:"../assets/shopping-o.png",
 		"link"	:"error-404.html"
 	},
 
@@ -27,7 +27,7 @@
 		"type"	:"image-left",
 		"title"	:"KILLING TIME", 
 		"body"	:"Just waiting on a line? Stay amused with games, local event awarness and fun & interesting facs.", 
-		"image"	:"../assets/killing.png",
+		"image"	:"../assets/killing-o.png",
 		"link"	:"killing-time.php"
 	}, 
 
@@ -35,7 +35,7 @@
 		"type"	:"image-left",
 		"title"	:"BANKING 101 <br>FOR DUMMIES", 
 		"body"	:"Explore an A to Z list of finance terms. Access useful calculators & learn why banking is important.", 
-		"image"	:"../assets/howTo.png",
+		"image"	:"../assets/howTo-o.png",
 		"link"	:"../pages/banking-101.php"
 	}, 
 
@@ -43,7 +43,7 @@
 		"type"	:"image-left",
 		"title"	:"CREDIT CARD <br>ESSENTIALS", 
 		"body"	:"Learn about building up credit, types of existing cards that can help you and so much more.", 
-		"image"	:"../assets/creditCard.png",
+		"image"	:"../assets/creditCard-o.png",
 		"link"	:"error-404.html"
 	}
 }

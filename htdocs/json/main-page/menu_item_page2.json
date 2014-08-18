@@ -3,7 +3,7 @@
 		"type"	:"image-left",
 		"title"	:"LOCAL ATTRACTIONS", 
 		"body"	:"See what the area has to offer new, old and unknown.", 
-		"image"	:"../assets/pigDoor.png",
+		"image"	:"../assets/pigDoor-o.png",
 		"link"	:"error-404.html"
 	}, 
 
@@ -11,7 +11,7 @@
 		"type"	:"image-left",
 		"title"	:"FINANCIAL TOOLS", 
 		"body"	:"Learn about the tools exist to help you make smart financial decisions.", 
-		"image"	:"../assets/financial-tools.png",
+		"image"	:"../assets/financial-tools-o.png",
 		"link"	:"error-404.html"
 	}, 
 
@@ -19,7 +19,7 @@
 		"type"	:"image-left",
 		"title"	:"PROMOTIONS", 
 		"body"	:"Find out how you can get free money by setting up any account or savings plans.", 
-		"image"	:"../assets/promotions.png",
+		"image"	:"../assets/promotions-o.png",
 		"link"	:"error-404.html"
 	},
 
@@ -27,7 +27,7 @@
 		"type"	:"image-left",
 		"title"	:"POPULAR STORIES", 
 		"body"	:"Stay connected with our live stream of news and current events.", 
-		"image"	:"../assets/popular-stories.png",
+		"image"	:"../assets/popular-stories-o.png",
 		"link"	:"error-404.html"
 	}, 
 
@@ -35,7 +35,7 @@
 		"type"	:"image-left",
 		"title"	:"HELP FIGHT CANCER", 
 		"body"	:"With every swipe you can help fight cancer.", 
-		"image"	:"../assets/cancer.png",
+		"image"	:"../assets/cancer-o.png",
 		"link"	:"error-404.html"
 	}, 
 
@@ -43,7 +43,7 @@
 		"type"	:"image-left",
 		"title"	:"IDENTITY PROTECTION", 
 		"body"	:"Learn how we are continually increasing data security & protecting identities.", 
-		"image"	:"../assets/identity-protection.png",
+		"image"	:"../assets/identity-protection-o.png",
 		"link"	:"error-404.html"
 	}
 }

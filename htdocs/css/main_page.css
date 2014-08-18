@@ -36,7 +36,7 @@ body::-webkit-scrollbar {
 
 #home h1 {
 	font-size: 60px;
-	color: #198A3E;
+	color: #e02826;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -46,7 +46,7 @@ body::-webkit-scrollbar {
 		font-family:helvetica;
 		font-weight:900;
 		font-size: 40px !important; 
-		color: #198A3E;
+		color: #e02826;
 		text-align: center;
 		
 }

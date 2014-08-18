@@ -46,8 +46,8 @@
 
 			<!-- BEGIN Main Content -->
 			<a href="#" onclick="enter()"><div class="body">
-			<div id="img1"><img src="../assets/splash1.png" /></div>
-			<div id="img2"><img src="../assets/splash1.2.png" /></div>
+			<div id="img1"><img src="../assets/splash1-o.png" /></div>
+			<div id="img2"><img src="../assets/splash1.2-o.png" /></div>
 			</div></a>
 			<!-- END Main Content -->
 

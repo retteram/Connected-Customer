@@ -27,16 +27,16 @@
 	<div class="container-list">
 		<br>
 		<div class="container" name="page4">
-			<img src="../assets/portfolioStep-4.png" />
+			<img src="../assets/portfolioStep-4-o.png" />
 		</div>
 		<div class="container" name="page3">
-			<img src="../assets/portfolioStep-3.png" />
+			<img src="../assets/portfolioStep-3-o.png" />
 		</div>
 		<div class="container" name="page2">
-			<img src="../assets/portfolioStep-2.png" />
+			<img src="../assets/portfolioStep-2-o.png" />
 		</div>
 		<div class="container" name="page1">
-			<img src="../assets/portfolioStep-1.png" />
+			<img src="../assets/portfolioStep-1-o.png" />
 		</div>
 	</div>
 	<!-- <div id="swipe-hand"> <img src="../assets/Swipe-Hand.png"></img> </div> -->

@@ -32,15 +32,15 @@
 				<div class="related-object">
 					<h1 id="relatedTitle">RELATED TIME KILLERS</h1>
 					<div class="object1">
-					<img src="../assets/ttt.png" />
+					<img src="../assets/ttt-o.png" />
 					<h2 id="objectTitle">GAMES</h2>
 					</div>
 					<div class="object2">
-					<img src="../assets/mountain.png" />
+					<img src="../assets/jokes-o.png" />
 					<h2 id="objectTitle">JOKES</h2>	
 					</div>
 					<div class="object3">
-					<img src="../assets/pigSplosion.png" />
+					<img src="../assets/pigSplosion-o.png" />
 					<h2 id="objectTitle">LOCAL ATTRACTIONS</h2>
 					</div>
 				</div>

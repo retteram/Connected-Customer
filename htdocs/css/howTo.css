@@ -32,7 +32,7 @@
 	float: right;
 	text-align:center;
 
-	background-color: #4AD875;
+	background-color: #9ad6ec;
 	border-radius: 2px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .nav-number.highlight {
-	background-color: #26A261 !important;
+	background-color: #e02826 !important;
 }
 
 .container-list {
@@ -122,30 +122,20 @@
 	font-size:15px;
 	color:white;
 	border-radius:5px;
-	background-color:#37a85c;
+	background-color:#ee3d3b;
 }
 
 #email:hover{
-	background-color:#3CB666;
+	background-color:#ef4b4c;
 	cursor:pointer;
 }
 
 #banker:hover{
-	background-color:#3CB666;
+	background-color:#ef4b4c;
 	cursor:pointer;
 }
 
-.fa {
-	font-size:26px;
-	line-height:29px;
-}
 
-.fa2 {
-	font-size:20px;
-	line-height:29px;
-	color:#37a85c;
-	opacity:0;
-}
 
 
 #swipe-hand {

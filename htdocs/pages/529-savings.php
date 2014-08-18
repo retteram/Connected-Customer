@@ -18,12 +18,12 @@
 
 			<!-- BEGIN Main Content -->
 			<div class="game-container">
-				<div id="game"><img src="../assets/529Display.png" /></div>
+				<div id="game"><img src="../assets/529Display-o.png" /></div>
 			</div>
 			<div class="cta-container">
 				<div class="cta">
-					<div id="email"><i class="fa fa-envelope-o"></i> EMAIL TO SELF</div>
-					<div id="banker"><i class="fa2 fa-envelope-o"></i> DISCUSS WITH BANKER</div>
+					<div id="email"></i> EMAIL TO SELF</div>
+					<div id="banker"></i> DISCUSS WITH BANKER</div>
 				</div>
 			</div>
 			<!-- END Main Content -->
@@ -33,15 +33,15 @@
 				<div class="related-object">
 					<h1 id="relatedTitle">RELATED PRODUCTS AND SERVICES</h1>
 					<div class="object1">
-					<img src="../assets/related1.png" />
+					<img src="../assets/related1-o.png" />
 					<h2 id="objectTitle">TEACH KIDS<br>ABOUT CREDIT</h2>
 					</div>
 					<div class="object2">
-					<img src="../assets/related4.png" />
+					<img src="../assets/related4-o.png" />
 					<h2 id="objectTitle">PAYING OFF<br>STUDENT LOANS</h2>	
 					</div>
 					<div class="object3">
-					<img src="../assets/related3.png" />
+					<img src="../assets/related3-o.png" />
 					<h2 id="objectTitle">NEED vs. WANT<br>BUDGET APP</h2>
 					</div>
 				</div>

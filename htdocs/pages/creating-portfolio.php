@@ -33,15 +33,15 @@
 				<div class="related-object">
 					<h1 id="relatedTitle">RELATED PRODUCTS & SERVICES</h1>
 					<div class="object1">
-					<img src="../assets/related1.png" />
+					<img src="../assets/related1-o.png" />
 					<h2 id="objectTitle">TEACH KIDS <br> ABOUT CREDIT</h2>
 					</div>
 					<div class="object2">
-					<img src="../assets/related2.png" />
+					<img src="../assets/related2-o.png" />
 					<h2 id="objectTitle">529 COLLEGE<br>SAVINGS PLAN</h2>	
 					</div>
 					<div class="object3">
-					<img src="../assets/related3.png" />
+					<img src="../assets/related3-o.png" />
 					<h2 id="objectTitle">NEED vs. WANT<br>BUDGET APP</h2>
 					</div>
 				</div>

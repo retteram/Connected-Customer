@@ -12,7 +12,7 @@
 	height:700px;
 	border-radius:8px;
 	background-color:white;
-	border:solid 2px #37a85c;
+	border:solid 2px #9ad6ec;
 	margin:90px auto 0px auto;
 }
 
@@ -41,7 +41,7 @@
 	color:white;
 	font-family:helvetica;
 	font-weight: 900;
-	color:#37a85c;
+	color:#ee3d3b;
 	font-size:50px;
 
 }
@@ -56,7 +56,7 @@
 	color:white;
 	width:250px;
 	height:60px;
-	background-color:#37a85c;
+	background-color:#ee3d3b;
 	cursor:pointer;
 	text-align:center;
 	line-height:7px;
@@ -70,7 +70,7 @@
 }
 
 #random:hover{
-	background-color:#3CB666;
+	background-color:#ef4b4c;
 }
 
 .blink{

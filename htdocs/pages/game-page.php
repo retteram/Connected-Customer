@@ -55,17 +55,17 @@
 
 					<a href="#" onclick="enterttt()">
 					<div class="object1">
-					<img src="../assets/ttt.png" />
+					<img src="../assets/ttt-o.png" />
 					<h2 id="objectTitle">TIC TAC TOE</h2>
 					</div>
 					</a>
 
 					<div class="object2">
-					<img src="../assets/mountain.png" />
+					<img src="../assets/mountain-o.png" />
 					<h2 id="objectTitle">FINANCIAL MOUNTAIN CLIMBING</h2>	
 					</div>
 					<div class="object3">
-					<img src="../assets/pigSplosion.png" />
+					<img src="../assets/pigSplosion-o.png" />
 					<h2 id="objectTitle">PIG BANK EXPLOSION</h2>
 					</div>
 				</div>

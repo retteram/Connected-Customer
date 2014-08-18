@@ -10,7 +10,7 @@
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 0;
-	background-color: #37a85c;
+	background-color: #9ad6ec;
 }
 
 .menu-bar .menu-bar-wrapper {
@@ -24,11 +24,11 @@
 	margin: 0 0px;
 	float: left;
 	padding-top:0px;
-	background-color:#3CB666;
+	background-color:#78abb4;
 }
 
 .menu-bar #placeholder:hover{
-	background-color:#26A261;
+	background-color:#a9dff2;
 }
 
 .menu-bar #placeholder1 {
@@ -37,7 +37,7 @@
 	margin: 0px 0px 0px 10px;
 	float: left;
 	padding-top:0px;
-	background-color:#3CB666;
+	background-color:#78abb4;
 }
 
 .fa{
@@ -45,7 +45,7 @@
 }
 
 .menu-bar #placeholder1:hover{
-	background-color:#26A261;
+	background-color:#78abb4;
 }
 
 .back {
@@ -78,19 +78,19 @@
 .menu-bar .menu-button {
 	float: right;
 
-	background-color: #37A85C;
+	background-color: #78abb4;
 
 	height: 100%;
 	width: 120px;
 }
 
 .menu-bar .menu-button:hover {
-	background-color: #26A261;
+	background-color: #a9dff2;
 	cursor: pointer;
 }
 
 .menu-bar .menu-button.darker {
-	background-color: #198A3E
+	background-color: #a9dff2
 }
 
 .white-line-container {
@@ -114,7 +114,7 @@
 }
 
 .nav-dropdown {
-	background-color: #198A3E;
+	background-color: #a9dff2;
 
 	width: 100%;
 	height: 0px;
@@ -134,13 +134,13 @@
 	list-style: none;
 	float: left;
 
-	color: white;
+	color: #78abb4;
 	width: 26%;
 	margin: 2px 1%;
 	padding: 8px 1%;
 }
 
 .nav-dropdown ul li:hover {
-	background-color: #26A261;
+	background-color: #9ad6ec;
 	cursor: pointer;
 }
