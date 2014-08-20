@@ -48,7 +48,14 @@
        		<div id="slider">
            		<img src="../assets/ad1.jpg" />
            		<img src="../assets/ad2.jpg" />
-           		<img src="../assets/ad3.jpg" />
+           		<img src="../assets/ad7.jpg" />
+           		<img src="../assets/ad8.jpg" />
+           		<img src="../assets/ad4.jpg" />
+           		<img src="../assets/ad6.jpg" />
+           		<img src="../assets/ad5.png" />
+           		<img src="../assets/ad9.jpg" />
+
+
            	</div>
        		</div>
 		</div>
