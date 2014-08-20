@@ -51,6 +51,9 @@ function toggleCheckbox(id) {
 }
 
 function enlarge(loader) {
+
+	document.getElementsByClassName('list-image')[0].onclick = "";
+
 	var listItem = loader.parentNode;
 	loader.style.height = "200px";
 
@@ -103,6 +106,9 @@ function enlarge(loader) {
 }
 
 function shrink(loader) {
+
+	document.getElementsByClassName('list-image')[0].onclick = function(){enlarge(this);};
+
 	var listItem = loader.parentNode;
 	var time = globalTime;
 	openListItem = null;
