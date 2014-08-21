@@ -3,7 +3,7 @@
 		"type"	:"image-left",
 		"title"	:"LOCAL ATTRACTIONS", 
 		"body"	:"See what the area has to offer new, old and unknown.", 
-		"image"	:"../assets/pigDoor-o.png",
+		"image"	:"../assets/local-attractions1-o.png",
 		"link"	:"error-404.html"
 	}, 
 

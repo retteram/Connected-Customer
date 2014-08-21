@@ -40,19 +40,21 @@
 	document.addEventListener('DOMContentLoaded', loaded, false);
 </script>
 <div class="carousel">
+<div class="background">
 	<div id="nav">
 		<!-- <div id="prev" onclick="myScroll.scrollToPage('prev', 0);return false">&larr; prev</div> -->
 		<ul id="indicator">
 		</ul>
 		<!-- <div id="next" onclick="myScroll.scrollToPage('next', 0);return false">next &rarr;</div> -->
 	</div>
-	<div id="wrapper">
-		<div id="scroller">
-			<ul class="container-list">
-				<?php require("carousel-pages/main-pages.php"); ?>
-			</ul>
+		<div id="wrapper">
+			<div id="scroller">
+				<ul class="container-list">
+					<?php require("carousel-pages/main-pages.php"); ?>
+				</ul>
+			</div>
 		</div>
-	</div>
+</div>
 	<!--
 	<div class="navigation-bar">
 		<div class="nav-container">

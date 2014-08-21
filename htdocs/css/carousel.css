@@ -31,7 +31,7 @@
 }
 
 .nav-circle.highlight {
-	background-color: #666 !important;
+	background-color: #e02826 !important;
 }
 
 .container-list {
@@ -57,6 +57,13 @@
 	right: 8px;
 }
 /* END Content List */
+.background {
+	width:1146.11px;
+	height:1000px;
+	margin:0 auto;
+	background-image: url('../assets/background.png');
+
+}
 
 #wrapper {
 	width:1080px;
@@ -65,6 +72,7 @@
 	margin: 0 auto;
 	margin-top: 50px;
 	overflow:hidden;
+
 }
 
 #scroller {
@@ -72,6 +80,7 @@
 	height:100%;
 	float:left;
 	padding:0;
+
 }
 
 #scroller > ul {
@@ -128,9 +137,10 @@
 #indicator {
 	width: 140px;
 	padding: 30px 0 0 30px;
-	margin-right: 75px;
+	margin-left:47%;
+	margin-top:-55px;
 	display: block;
-	float: right;
+	
 }
 
 #indicator > li {
@@ -149,7 +159,7 @@
 }
 
 #indicator > li.active {
-	background:#666;
+	background:#e02826;
 }
 
 #indicator > li:last-child {

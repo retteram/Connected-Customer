@@ -26,10 +26,10 @@ body::-webkit-scrollbar {
 	margin: 0 auto;
 	position: relative;
 
-	background: -webkit-linear-gradient(#ddd, #fff, #ddd); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#ddd, #fff, #ddd); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#ddd, #fff, #ddd); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#ddd, #fff, #ddd); /* Standard syntax */
+	/* background: -webkit-linear-gradient(#ddd, #fff, #ddd);*/ /* For Safari 5.1 to 6.0 */
+	/*background: -o-linear-gradient(#ddd, #fff, #ddd); /* For Opera 11.1 to 12.0 */
+	/*background: -moz-linear-gradient(#ddd, #fff, #ddd); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(#ddd, #fff, #ddd); /* Standard syntax */
 }
 
 /* This is the "How can we help you?" title */
@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
 	font-size: 60px;
 	color: #e02826;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 
@@ -60,6 +60,7 @@ body::-webkit-scrollbar {
 	border-color:#D1D2D4;
 	margin:0 auto;
 	margin-top:40px;
+	margin-bottom:;
 }
 
 .headBox1 {

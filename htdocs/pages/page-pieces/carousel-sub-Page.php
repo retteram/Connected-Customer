@@ -16,20 +16,21 @@
 	});
 </script>
 <div class="carousel">
-	<div class="navigation-bar">
-		<div class="nav-container">
-			<div class="nav-circle" name="page2"></div>
-			<div class="nav-circle highlight" name="page1"></div>
+<div class="navigation-bar">
+				<div class="nav-circle" name="page2"></div>
+				<div class="nav-circle highlight" name="page1"></div>
 		</div>
-	</div>
-	<div class="container-list">
-		<br>
-		<div class="container" name="page2"><?php 
-			$carouselpage = "../json/banking-101/menu_item_banking101_page2.json";
-			include("six-block-menu.php"); ?></div>
-		<div class="container" name="page1"><?php 
-			$carouselpage = "../json/banking-101/menu_item_banking101_page1.json";
-			include("six-block-menu.php"); ?></div>
+	<div class="background">
+		
+		<div class="container-list">
+			<br>
+			<div class="container" name="page2"><?php 
+				$carouselpage = "../json/banking-101/menu_item_banking101_page2.json";
+				include("six-block-menu.php"); ?></div>
+			<div class="container" name="page1"><?php 
+				$carouselpage = "../json/banking-101/menu_item_banking101_page1.json";
+				include("six-block-menu.php"); ?></div>
+		</div>
 	</div>
 	<!-- <div id="swipe-hand"> <img src="../assets/Swipe-Hand.png"></img> </div> -->
 </div>
