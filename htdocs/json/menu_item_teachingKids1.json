@@ -28,6 +28,6 @@
 		"title"	:"GAMES", 
 		"body"	:"Gamify your childs learning ex- perience and let them play a game that will teach them a thing or two.", 
 		"image"	:"../assets/gamesIcon-o.png",
-		"link"	:"error-404.html"
+		"link"	:"game-page.php"
 	}
 }
