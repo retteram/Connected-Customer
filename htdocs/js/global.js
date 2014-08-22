@@ -14,11 +14,14 @@ function menu_button() {
 	}
 }
 
+pageWidth = 1000;
+pageWidth2 = 1080;
+
 // Move the menu to the Right
 function moveRight() {
 	var x = 0;
-	if(parseInt($('.container-list').css('left')) > (-4240)){
-		x = parseInt($('.container-list').css('left'))-1080;
+	if(parseInt($('.container-list').css('left')) > (-(4*pageWidth))){
+		x = parseInt($('.container-list').css('left'))-pageWidth;
 		$('.container-list').animate({left: (x.toString()+"px")}, 300);
 		$('.container-list').css('left', x.toString()+"px");
 		update_navbar(x);
@@ -27,8 +30,8 @@ function moveRight() {
 
 function moveRight2() {
 	var x = 0;
-	if(parseInt($('.container-list').css('left')) > (-1080)){
-		x = parseInt($('.container-list').css('left'))-1080;
+	if(parseInt($('.container-list').css('left')) > (-pageWidth)){
+		x = parseInt($('.container-list').css('left'))-pageWidth;
 		$('.container-list').animate({left: (x.toString()+"px")}, 300);
 		$('.container-list').css('left', x.toString()+"px");
 		update_navbar2(x);
@@ -37,8 +40,8 @@ function moveRight2() {
 
 function moveRight3() {
 	var x = 0;
-	if(parseInt($('.container-list').css('left')) > (-4320)){
-		x = parseInt($('.container-list').css('left'))-1080;
+	if(parseInt($('.container-list').css('left')) > (-(3*pageWidth2))){
+		x = parseInt($('.container-list').css('left'))-pageWidth2;
 		$('.container-list').animate({left: (x.toString()+"px")}, 300);
 		$('.container-list').css('left', x.toString()+"px");
 		update_navbar3(x);
@@ -48,7 +51,7 @@ function moveRight3() {
 function moveLeft() {
 	var x = 0;
 	if(parseInt($('.container-list').css('left')) < 0){
-		x = parseInt($('.container-list').css('left'))+1080;
+		x = parseInt($('.container-list').css('left'))+pageWidth;
 		$('.container-list').animate({left: (x.toString()+"px")}, 300);
 		$('.container-list').css('left', x.toString()+"px");
 		update_navbar(x);
@@ -58,7 +61,7 @@ function moveLeft() {
 function moveLeft2() {
 	var x = 0;
 	if(parseInt($('.container-list').css('left')) < 0){
-		x = parseInt($('.container-list').css('left'))+1080;
+		x = parseInt($('.container-list').css('left'))+pageWidth;
 		$('.container-list').animate({left: (x.toString()+"px")}, 300);
 		$('.container-list').css('left', x.toString()+"px");
 		update_navbar2(x);
@@ -67,7 +70,7 @@ function moveLeft2() {
 function moveLeft3() {
 	var x = 0;
 	if(parseInt($('.container-list').css('left')) < 0){
-		x = parseInt($('.container-list').css('left'))+1080;
+		x = parseInt($('.container-list').css('left'))+pageWidth2;
 		$('.container-list').animate({left: (x.toString()+"px")}, 300);
 		$('.container-list').css('left', x.toString()+"px");
 		update_navbar3(x);
@@ -82,7 +85,7 @@ function update_navbar(position) {
 		navcircles[i].className = "nav-circle";
 	}
 
-	x = x/1080;
+	x = x/pageWidth;
 	if(x < 0)
 		x = -x;
 
@@ -98,7 +101,7 @@ function update_navbar2(position) {
 		navcircles[i].className = "nav-circle";
 	}
 
-	x = x/1080;
+	x = x/pageWidth;
 	if(x < 0)
 		x = -x;
 
@@ -113,7 +116,7 @@ function update_navbar3(position) {
 		navnumbers[i].className = "nav-number";
 	}
 
-	x = x/1080;
+	x = x/pageWidth2;
 	if(x < 0)
 		x = -x;
 

@@ -1,7 +1,7 @@
 /* Content List */
 .carousel{
 	/*width: 100%;*/
-	width: 1080px;
+	width: 1000px;
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
@@ -10,7 +10,7 @@
 }
 
 .background {
-	width:1146.11px;
+	width:1000px;
 	height:1108.23px;
 	margin:0 auto;
 	background-image: url('../assets/background.png');
@@ -18,7 +18,7 @@
 }
 
 .carousel1{
-	width: 1080px;
+	width: 1000px;
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
@@ -55,7 +55,7 @@
 }
 
 .container-list {
-	width: 2160px;
+	width: 2000px;
 	/*height: 1835px;*/
 	margin-top: 100px;
 
@@ -65,7 +65,7 @@
 
 .container {
 	padding-top:80px;
-	width: 1080px;
+	width: 1000px;
 	/*height: 1835px;*/
 
 	display: inline-block;

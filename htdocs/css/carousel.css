@@ -44,7 +44,7 @@
 }
 
 .container {
-	width: 1080px;
+	width: 1000px;
 	/*height: 1835px;*/
 
 	display: inline-block;
@@ -58,7 +58,7 @@
 }
 /* END Content List */
 .background {
-	width:1146.11px;
+	width:1000px;
 	height:1000px;
 	margin:0 auto;
 	background-image: url('../assets/background.png');
@@ -66,7 +66,7 @@
 }
 
 #wrapper {
-	width:1080px;
+	width:1000px;
 	/*height:160px;*/
 
 	margin: 0 auto;
@@ -76,11 +76,11 @@
 }
 
 #scroller {
-	width:2160px;
+	width:2000px;
 	height:100%;
 	float:left;
 	padding:0;
-
+	
 }
 
 #scroller > ul {
