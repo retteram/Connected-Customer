@@ -27,7 +27,7 @@ function set_clock() {
 	}
 
 	var date = currentTime.getDate();
-	var month = currentTime.getMonth();
+	var month = currentTime.getMonth()+1;
 	var year = currentTime.getFullYear()%100;
 
 	$(".date").text(month+"/"+date+"/"+year);
