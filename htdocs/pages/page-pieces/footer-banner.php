@@ -46,14 +46,14 @@
 		<div class="footer-bar-wrapper">
 			<div id="sliderFrame">
        		<div id="slider">
-           		<img src="../assets/ad1.jpg" />
-           		<img src="../assets/ad2.jpg" />
-           		<img src="../assets/ad7.jpg" />
-           		<img src="../assets/ad8.jpg" />
-           		<img src="../assets/ad4.jpg" />
-           		<img src="../assets/ad6.jpg" />
+           		<img src="../assets/ad1.png" />
+           		<img src="../assets/ad2.png" />
+           		<img src="../assets/ad3.png" />
+           		<img src="../assets/ad4.png" />
            		<img src="../assets/ad5.png" />
-           		<img src="../assets/ad9.jpg" />
+           		<img src="../assets/ad6.png" />
+           		<img src="../assets/ad7.png" />
+           		<img src="../assets/ad8.png" />
 
 
            	</div>
