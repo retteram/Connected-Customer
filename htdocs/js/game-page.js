@@ -51,6 +51,7 @@ function init() {
 
 	var stage = new createjs.Stage("demoCanvas");
 	addBackground(stage);
+	createjs.Touch.enable(stage);
 	var myActor = stage.addChild(new Actor("#000"));
 
 	myActor.x = 100;
@@ -136,5 +137,12 @@ function stars(stage) {
 	}
 }
 
-
+$('#demoCanvas').mousemove(function(e) {
+	alert("More things");
+    var pos = findPos(this);
+    var x = e.pageX - pos.x;
+    var y = e.pageY - pos.y;
+    var coordinateDisplay = "x=" + x + ", y=" + y;
+    $('#message').text(coordinateDisplay);
+});
 
