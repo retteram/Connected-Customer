@@ -10,15 +10,19 @@
 	});
 
 	function sendClick() {
-		alert("Button Clicked");
+		// alert("Button Clicked");
 		// ga('send', 'event', 'button', 'click', 'shopping', 1);
 		ga('send', {
 		  'hitType': 'event',          // Required.
 		  'eventCategory': 'button',   // Required.
 		  'eventAction': 'click',      // Required.
 		  'eventLabel': 'nav buttons',
-		  'eventValue': 4
+		  'eventValue': 4,
+		  'hitCallback' : function () {
+		      alert("Event received");
+		   }
 		});
+		alert("Done with analytics");
 	}
 </script>
 <link href="../css/six-block-menu.css" rel="stylesheet">
