@@ -5,10 +5,14 @@
 <script>
 	$(function(){
 		$(".well").click(function(){
-			ga('send', 'event', 'button', 'click', 'shopping', 1);
 			document.location.href=$(this).attr('href');
 		});
 	});
+
+	function sendClick() {
+		alert("Button Clicked");
+		ga('send', 'event', 'button', 'click', 'shopping', 1);
+	}
 </script>
 <link href="../css/six-block-menu.css" rel="stylesheet">
 <ul class="content-list">
@@ -29,7 +33,7 @@
 	?>
 		<li class=<?php echo '"'.$ival['type'].'"' ?> >
 			 <div class=<?php echo '"li-container '.$sideclass.' well"';?> 
-			 		href=<?php echo '"'.$ival['link'].'"' ?> >
+			 		href=<?php echo '"'.$ival['link'].'"' ?> onclick="sendClick()" >
 			 	<div class="absolute-container">
 			 		<div class="image-container">
 						<img class="option-image" src=<?php echo $ival['image'];?> />
