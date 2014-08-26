@@ -11,7 +11,14 @@
 
 	function sendClick() {
 		alert("Button Clicked");
-		ga('send', 'event', 'button', 'click', 'shopping', 1);
+		// ga('send', 'event', 'button', 'click', 'shopping', 1);
+		ga('send', {
+		  'hitType': 'event',          // Required.
+		  'eventCategory': 'button',   // Required.
+		  'eventAction': 'click',      // Required.
+		  'eventLabel': 'nav buttons',
+		  'eventValue': 4
+		});
 	}
 </script>
 <link href="../css/six-block-menu.css" rel="stylesheet">
