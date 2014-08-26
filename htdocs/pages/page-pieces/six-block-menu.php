@@ -5,7 +5,8 @@
 <script>
 	$(function(){
 		$(".well").click(function(){
-			document.location.href=$(this).attr('href'); 
+			ga('send', 'event', 'button', 'click', 'shopping', 1);
+			document.location.href=$(this).attr('href');
 		});
 	});
 </script>
