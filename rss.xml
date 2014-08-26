@@ -5,92 +5,100 @@
 		<link>http://connected-customer-sr.herokuapp.com/</link>
 		<description>History of button clicks</description>
 		<item>
- 			<title>Button Click</title>
+ 			<title>TALK TO A BANKER</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
+			<guid>4888</guid>
+			<category></category>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>2014-08-26 17:42:33</description>
 			<guid>8727</guid>
-			<category>LOCAL ATTRACTIONS</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
 			<link>http://localhost:8000/htdocs/pages/killing-time.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
 			<guid>32436</guid>
-			<category>GAMES</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
 			<guid>95944</guid>
-			<category>KILLING TIME</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
 			<guid>75024</guid>
-			<category>KILLING TIME</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
 			<guid>40180</guid>
-			<category>TALK TO A BANKER</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
 			<guid>43586</guid>
-			<category>TALK TO A BANKER</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
 			<guid>17574</guid>
-			<category>TEACHING CHILDREN HOW TO SAVE</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
 			<guid>21101</guid>
-			<category>CREDIT CARD ESSENTIALS</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
 			<guid>54833.19051895583</guid>
-			<category>TEACHING CHILDREN HOW TO SAVE</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
 			<guid>0.6468109176793065</guid>
-			<category>TALK TO A BANKER</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
 			<link>http://connected-customer-sr.herokuapp.com/htdocs/pages/banking-101.php</link>
-			<description>Time and Click Info</description>
+			<description>2014-08-26 17:42:33</description>
 			<guid>things</guid>
-			<category>otherthings</category>
-			<pubDate>2014-08-26 17:36:03</pubDate>
+			<category></category>
+			<pubDate></pubDate>
 		</item>
 	</channel>
 </rss>

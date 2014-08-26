@@ -42,12 +42,12 @@
 			  ."		<description>History of button clicks</description>\n";
 
 	$content = "		<item>\n"
-			  ." 			<title>Button Click</title>\n"
+			  ." 			<title>$button</title>\n"
 			  ."			<link>$page</link>\n"
-			  ."			<description>Time and Click Info</description>\n"
+			  ."			<description>$date</description>\n"
 			  ."			<guid>$user</guid>\n"
-			  ."			<category>$button</category>\n"
-			  ."			<pubDate>$date</pubDate>\n"
+			  ."			<category></category>\n"
+			  ."			<pubDate></pubDate>\n"
 			  ."		</item>\n";
 
 	//echo "<br><br>" . count($array['channel']['item']) . "<br><br>";
@@ -61,25 +61,25 @@
 			$arraysize = 1;
 		}
 
-		for($i = 0; $i < $arraysize; $i++){
+		for($i = 0; ($i < $arraysize) && $i < 30; $i++){
 
 			if($arraysize == 1){
 				$user = $array['channel']['item']['guid'];
-				$button = $array['channel']['item']['category'];
+				$button = $array['channel']['item']['title'];
 				$page = $array['channel']['item']['link'];
 			} else {
 				$user  = $array['channel']['item'][$i]['guid'];
-				$button= $array['channel']['item'][$i]['category'];
+				$button= $array['channel']['item'][$i]['title'];
 				$page  = $array['channel']['item'][$i]['link'];
 			}
 
 			$content .="		<item>\n"
-					  ."			<title>Button Click</title>\n"
+					  ."			<title>$button</title>\n"
 					  ."			<link>$page</link>\n"
-					  ."			<description>Time and Click Info</description>\n"
+					  ."			<description>$date</description>\n"
 					  ."			<guid>$user</guid>\n"
-					  ."			<category>$button</category>\n"
-					  ."			<pubDate>$date</pubDate>\n"
+					  ."			<category></category>\n"
+					  ."			<pubDate></pubDate>\n"
 					  ."		</item>\n";
 		}
 	}
