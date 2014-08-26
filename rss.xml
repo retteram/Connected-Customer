@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Clicks on Site</title>
+		<link>http://connected-customer-sr.herokuapp.com/</link>
+		<description>History of button clicks</description>
+		<item>
+ 			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>Time and Click Info</description>
+			<guid>21101</guid>
+			<category>CREDIT CARD ESSENTIALS</category>
+			<pubDate>2014-08-26 17:19:12</pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>Time and Click Info</description>
+			<guid>54833.19051895583</guid>
+			<category>TEACHING CHILDREN HOW TO SAVE</category>
+			<pubDate>2014-08-26 17:19:12</pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>Time and Click Info</description>
+			<guid>0.6468109176793065</guid>
+			<category>TALK TO A BANKER</category>
+			<pubDate>2014-08-26 17:19:12</pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://connected-customer-sr.herokuapp.com/htdocs/pages/banking-101.php</link>
+			<description>Time and Click Info</description>
+			<guid>things</guid>
+			<category>otherthings</category>
+			<pubDate>2014-08-26 17:19:12</pubDate>
+		</item>
+	</channel>
+</rss>

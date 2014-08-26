@@ -9,7 +9,7 @@
 		});
 	});
 
-	function sendClick() {
+	function sendClick(s_element) {
 		// alert("Button Clicked");
 		// ga('send', 'event', 'button', 'click', 'shopping', 1);
 		ga('send', {
@@ -19,10 +19,20 @@
 		  'eventLabel': 'nav buttons',
 		  'eventValue': 4,
 		  'hitCallback' : function () {
-		      alert("Event received");
+		      // alert("Event received");
 		   }
 		});
-		alert("Done with analytics");
+		// alert("Done with analytics");
+
+		var buttontitle = s_element.getElementsByClassName('option-title')[0].textContent;
+		var URLCompose = "user="+Math.floor(Math.random()*100000)+"&button="+buttontitle+"&page="+document.URL;
+		$.ajax({
+			type: "GET",
+			url: "page-pieces/writeRSS.php",
+			data: URLCompose,
+			success: function(data){ //alert(data); 
+			}
+		});
 	}
 </script>
 <link href="../css/six-block-menu.css" rel="stylesheet">
@@ -44,7 +54,7 @@
 	?>
 		<li class=<?php echo '"'.$ival['type'].'"' ?> >
 			 <div class=<?php echo '"li-container '.$sideclass.' well"';?> 
-			 		href=<?php echo '"'.$ival['link'].'"' ?> onclick="sendClick()" >
+			 		href=<?php echo '"'.$ival['link'].'"' ?> onclick="sendClick(this)" >
 			 	<div class="absolute-container">
 			 		<div class="image-container">
 						<img class="option-image" src=<?php echo $ival['image'];?> />
