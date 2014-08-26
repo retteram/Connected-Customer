@@ -55,19 +55,19 @@
 			}
 
 			#attraction1{
-				background-color:#4EC1BB;
+				background-color:#9ad6ec;
 			}
 			#attraction2{
-				background-color:#3CB666;
+				background-color:#a7a9ab;
 			}
 			#attraction3{
-				background-color:#1D96B1;
+				background-color:#25b4cb;
 			}
 			#attraction4{
-				background-color:#E1A925;
+				background-color:#ee3d3b;
 			}
 			#attraction5{
-				background-color:#449F7E;
+				background-color:#449f7e;
 			}
 			#attraction6{
 				background-color:#302541;
