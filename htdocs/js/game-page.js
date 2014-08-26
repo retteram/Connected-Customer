@@ -189,10 +189,11 @@ function handleMouseUp() {
 	// alert(getCookie("isaac_cookie"));
 }
 
-// Create a cookie
-//   name:  name of the cookie
-//   value: content of the cookie
-//   days:  how many days until it expires
+/** Create a cookie
+  *  name:  name of the cookie
+  *  value: content of the cookie
+  *  days:  how many days until it expires
+  */  
 function createCookie(name, value, days) {
     var expires;
     if (days) {

@@ -6,6 +6,11 @@
 		<script type="text/javascript" src="../js/killing-time.js"></script>
 	</head>
 	<body>
+
+		<!-- Google Analytics -->
+		<?php include("google-analytics.php"); ?>
+		<!-- END GA -->
+
 		<div data-role="page" id="home">
 
 			<!-- BEGIN Header -->

@@ -15,6 +15,11 @@
 	</head>
 
 	<body>
+
+		<!-- Google Analytics -->
+		<?php include("google-analytics.php"); ?>
+		<!-- END GA -->
+	
 		<div id="home" data-role="page">
 			<?php require("page-pieces/header.php"); ?>
 			<div class="headBox1">

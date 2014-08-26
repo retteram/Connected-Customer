@@ -10,6 +10,11 @@
 		}
 	</style>
 	<body onload="canvasSpaceGame()">
+
+		<!-- Google Analytics -->
+		<?php include("google-analytics.php"); ?>
+		<!-- END GA -->
+	
 	    <canvas id="myCanvas" width="846" height="766"></canvas>
 	    <?php echo "" ?>
 	</body>

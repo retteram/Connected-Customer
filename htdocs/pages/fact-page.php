@@ -17,6 +17,11 @@
 		</style>
 	</head>
 	<body>
+
+		<!-- Google Analytics -->
+		<?php include("google-analytics.php"); ?>
+		<!-- END GA -->
+
 		<center>
 		<a href=http://goo.gl/nTr9cQ>This Random Fact program is sponsored by <strong>free rewards!</strong> :)</a><br>
 		<script type="text/javascript">
