@@ -1,18 +1,85 @@
 <html>
 <head><title></title>
 <style>
-#board{}
 
+#screen {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+
+  background-color: black;
+  z-index: 2;
+}
+
+.win{
+  z-index:10;
+  position:absolute;
+  margin-top:150px;
+  margin-left:25px;
+  display:none;
+}
+
+.lose{
+  z-index:10;
+  position:absolute;
+  margin-top:150px;
+  margin-left:25px;
+  display:none;
+}
+
+.nobody{
+  z-index:10;
+  position:absolute;
+  margin-top:150px;
+  margin-left:25px;
+  display:none;
+}
+
+#close{
+  margin-top:-380px;
+  margin-left:600px;
+  font-family:helvetica;
+  font-weight:900;
+  font-size:30px;
+  color:white;
+  position:absolute;
+  z-index:5;
+  cursor: pointer
+}
 
 </style>
+
 </head>
+
+  <div id="screen" onclick="closeState()"></div>
+
+    <div class="win">
+      <img src="../../assets/ttt-win.png">
+        <div id="close" onclick="closeState()">X</div>
+      </div>
+
+    <div class="lose">
+      <img src="../../assets/ttt-lose.png">
+        <div id="close" onclick="closeState()">X</div>
+    </div>
+
+    <div class="nobody">
+      <img src="../../assets/ttt-nobody.png">
+        <div id="close" onclick="closeState()">X</div>
+    </div>
+
 <body onload="javascript: paintBoard();">
 
 
 <div id="space">
 <canvas width="700" height="700" id="board" onclick="javascript: clickHandler(event);"></canvas>
 </div>
-
+<script src="../../libs/jquery-1.11.1.js" type="text/javascript"></script>
 
 <script>
 
@@ -75,7 +142,7 @@ function paintX(x, y) {
 
    context.beginPath();
 
-   context.strokeStyle = '#1E844B'; 
+   context.strokeStyle = '#b71f28'; 
    context.lineWidth   = 10;
 
    var offsetX = (width / 3) * 0.1;
@@ -101,7 +168,7 @@ function paintO(x, y) {
 	
    context.beginPath();
 
-   context.strokeStyle = '#34B66C'; 
+   context.strokeStyle = '#ee3d3b'; 
    context.lineWidth   = 10;
 
    var offsetX = (width / 3) * 0.1;
@@ -128,39 +195,54 @@ function clickHandler(e) {
 
     if (isEmpty(xBoard, oBoard, bit)) {
 
-	markBit(bit, 'X')
+	    markBit(bit, 'X')
 
-        if (!checkNobody())  {
-		if (checkWinner(xBoard)) {
+      if (!checkNobody())  {
+      		if (checkWinner(xBoard)) {
 
-		    alert('You win!!');
-		    restart();
+              $('.win').show();
+              $("#screen").show();
+      		    // restart();
 
-		} else {
+      		} else {
 		
-	     	   play();
-		   if (!checkNobody()) {
+	     	    play();
+		        if (!checkNobody()) {
 		     
-		       if (checkWinner(oBoard)) {
-			   alert('Loser!!');
-			   restart();
+		          if (checkWinner(oBoard)) {
+                $('.lose').show();
+                $("#screen").show();
+			          // restart();
+		          }
 		        }
-		    }
-	 	}
-	   }	
-     }
+	 	      }
+	    }	
+    }
 }
 
 function checkNobody(){
    if ((xBoard | oBoard) == 0x1FF) {	 
-       alert('Nobody won!!');
-       restart();
+       $('.nobody').show();
+       $("#screen").show();
+       //restart();
        return true;
    }
    return false;
 }
 
+function closeState() {
+  $('.win').hide();
+  $('.lose').hide();
+  $('.nobody').hide();
+  $("#screen").hide();
+  restart();
+}
+
 function restart() {
+   $('.win').hide();
+   $('.lose').hide();
+   $('.nobody').hide();
+   $("#screen").hide();
    context.clearRect (0, 0, width , height);
    xBoard = 0;
    oBoard = 0;

@@ -31,7 +31,7 @@
 			<!-- BEGIN Footer -->
 			<div class="related-container">
 				<div class="related-object">
-					<h1 id="relatedTitle">RELATED PRODUCTS & SERVICES</h1>
+					<h1 id="relatedTitle2">RELATED PRODUCTS & SERVICES</h1>
 					<div class="object1">
 					<img src="../assets/related1-o.png" />
 					<h2 id="objectTitle">TEACH KIDS <br> ABOUT CREDIT</h2>

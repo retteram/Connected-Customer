@@ -1,11 +1,11 @@
 .related-container{
 	width:100%;
 	height:500px;
-	background-color:;
+	background-image: url('../assets/background-related.png');
 	bottom:100px;
 	position:absolute;
-	border-top:dotted 5px;
-	border-color:#e02826;
+	/*border-top:dotted 5px;
+	border-color:#e02826;*/
 }
 
 .related-object{
@@ -20,6 +20,19 @@
 	font-weight:100;
 	font-size:30px !important;
 	color:#e02826;
+	background-color:white;
+	width:300px;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+#relatedTitle2 {
+	font-family:helvetica;
+	font-weight:100;
+	font-size:30px !important;
+	color:#e02826;
+	background-color:white;
+	width:600px;
 	margin:0 auto;
 	margin-top:50px;
 }
@@ -31,17 +44,19 @@
 	margin:0 auto;
 	text-align:center;
 	margin-top:60px;
-	margin-left:130px;
+	margin-left:128px;
 }
 
 .related-object img{
 	width:192px;
 	height:162px;
+	border:4px white solid;
 }
 
 .related-object h2{
 	font-family:helvetica;
 	font-weight:600;
 	font-size:20px !important;
-	color:#e02826;
+	color:white;
+	background-color:#e02826;
 }
