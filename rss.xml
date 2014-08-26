@@ -8,9 +8,65 @@
  			<title>Button Click</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
 			<description>Time and Click Info</description>
+			<guid>8727</guid>
+			<category>LOCAL ATTRACTIONS</category>
+			<pubDate>2014-08-26 17:36:03</pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/killing-time.php</link>
+			<description>Time and Click Info</description>
+			<guid>32436</guid>
+			<category>GAMES</category>
+			<pubDate>2014-08-26 17:36:03</pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>Time and Click Info</description>
+			<guid>95944</guid>
+			<category>KILLING TIME</category>
+			<pubDate>2014-08-26 17:36:03</pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>Time and Click Info</description>
+			<guid>75024</guid>
+			<category>KILLING TIME</category>
+			<pubDate>2014-08-26 17:36:03</pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>Time and Click Info</description>
+			<guid>40180</guid>
+			<category>TALK TO A BANKER</category>
+			<pubDate>2014-08-26 17:36:03</pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>Time and Click Info</description>
+			<guid>43586</guid>
+			<category>TALK TO A BANKER</category>
+			<pubDate>2014-08-26 17:36:03</pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>Time and Click Info</description>
+			<guid>17574</guid>
+			<category>TEACHING CHILDREN HOW TO SAVE</category>
+			<pubDate>2014-08-26 17:36:03</pubDate>
+		</item>
+		<item>
+			<title>Button Click</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>Time and Click Info</description>
 			<guid>21101</guid>
 			<category>CREDIT CARD ESSENTIALS</category>
-			<pubDate>2014-08-26 17:19:12</pubDate>
+			<pubDate>2014-08-26 17:36:03</pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
@@ -18,7 +74,7 @@
 			<description>Time and Click Info</description>
 			<guid>54833.19051895583</guid>
 			<category>TEACHING CHILDREN HOW TO SAVE</category>
-			<pubDate>2014-08-26 17:19:12</pubDate>
+			<pubDate>2014-08-26 17:36:03</pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
@@ -26,7 +82,7 @@
 			<description>Time and Click Info</description>
 			<guid>0.6468109176793065</guid>
 			<category>TALK TO A BANKER</category>
-			<pubDate>2014-08-26 17:19:12</pubDate>
+			<pubDate>2014-08-26 17:36:03</pubDate>
 		</item>
 		<item>
 			<title>Button Click</title>
@@ -34,7 +90,7 @@
 			<description>Time and Click Info</description>
 			<guid>things</guid>
 			<category>otherthings</category>
-			<pubDate>2014-08-26 17:19:12</pubDate>
+			<pubDate>2014-08-26 17:36:03</pubDate>
 		</item>
 	</channel>
 </rss>

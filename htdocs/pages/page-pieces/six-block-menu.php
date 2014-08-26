@@ -5,7 +5,7 @@
 <script>
 	$(function(){
 		$(".well").click(function(){
-			document.location.href=$(this).attr('href');
+			// document.location.href=$(this).attr('href');
 		});
 	});
 
@@ -22,15 +22,16 @@
 		      // alert("Event received");
 		   }
 		});
-		// alert("Done with analytics");
-
+		
 		var buttontitle = s_element.getElementsByClassName('option-title')[0].textContent;
 		var URLCompose = "user="+Math.floor(Math.random()*100000)+"&button="+buttontitle+"&page="+document.URL;
 		$.ajax({
 			type: "GET",
 			url: "page-pieces/writeRSS.php",
 			data: URLCompose,
-			success: function(data){ //alert(data); 
+			success: function(data){ 
+				document.location.href=$(s_element).attr('href');
+				// alert(data); 
 			}
 		});
 	}
