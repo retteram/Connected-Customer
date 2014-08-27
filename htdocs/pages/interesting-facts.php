@@ -51,7 +51,7 @@
 
 					<a href="#" onClick="goToGames()">
 					<div class="object1">
-					<img src="../assets/ttt-o.png" />
+					<img src="../assets/related8-o.png" />
 					<h2 id="objectTitle">GAMES</h2>
 					</div>
 					</a>
@@ -65,7 +65,7 @@
 
 					<a href="#" onClick="goToLocalAttractions()">
 					<div class="object3">
-					<img src="../assets/pigSplosion-o.png" />
+					<img src="../assets/related5-o.png" />
 					<h2 id="objectTitle">LOCAL ATTRACTIONS</h2>
 					</div>
 					</a>
