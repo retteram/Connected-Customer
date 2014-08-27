@@ -12,6 +12,18 @@
 			$(function() {
 				generateRand();
 			});
+
+			function goToGames() {
+				document.location.href="game-page.php";
+			}
+
+			function goToJokes() {
+				document.location.href="jokes.php";
+			}
+
+			function goToLocalAttractions() {
+				document.location.href="local-attractions.php";
+			}
 		</script>
 		
 	</head>
@@ -36,18 +48,27 @@
 			<div class="related-container">
 				<div class="related-object">
 					<h1 id="relatedTitle">RELATED TIME KILLERS</h1>
+
+					<a href="#" onClick="goToGames()">
 					<div class="object1">
 					<img src="../assets/ttt-o.png" />
 					<h2 id="objectTitle">GAMES</h2>
 					</div>
+					</a>
+
+					<a href="#" onClick="goToJokes()">
 					<div class="object2">
 					<img src="../assets/jokes-o.png" />
 					<h2 id="objectTitle">JOKES</h2>	
 					</div>
+					</a>
+
+					<a href="#" onClick="goToLocalAttractions()">
 					<div class="object3">
 					<img src="../assets/pigSplosion-o.png" />
 					<h2 id="objectTitle">LOCAL ATTRACTIONS</h2>
 					</div>
+					</a>
 				</div>
 			</div>
 			<?php require("page-pieces/footer-simple.php"); ?>
