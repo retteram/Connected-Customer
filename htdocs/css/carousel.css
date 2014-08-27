@@ -61,7 +61,9 @@
 	width:1000px;
 	height:1000px;
 	margin:0 auto;
-	background-image: url('../assets/background.png');
+	display:block;
+	background-image: url('../assets/svg/background.svg');
+	background-size:1000px 1000px;
 
 }
 

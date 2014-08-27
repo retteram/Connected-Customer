@@ -7,8 +7,12 @@
 		<?php require("page-pieces/imports.php"); ?>
 		<script type="text/javascript" src="../js/creating-portfolio.js"></script>
 		 	<script>
-				var backlink = "banking-101.php";
-				$('img').on('dragstart', function(event) { event.preventDefault(); });
+			
+
+				var entering = "529-savings.php";
+			function enter529() {
+				document.location.href=entering; 
+			}
 			</script>
 
 	</head>
@@ -41,7 +45,7 @@
 					<img src="../assets/related1-o.png" />
 					<h2 id="objectTitle">TEACH KIDS <br> ABOUT CREDIT</h2>
 					</div>
-					<div class="object2">
+					<a href="#" onclick="enter529()"><div class="object2">
 					<img src="../assets/related2-o.png" />
 					<h2 id="objectTitle">529 COLLEGE<br>SAVINGS PLAN</h2>	
 					</div>

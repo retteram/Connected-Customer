@@ -1,7 +1,9 @@
 .related-container{
 	width:100%;
 	height:500px;
-	background-image: url('../assets/background-related.png');
+	display:block;
+	background-image: url('../assets/svg/background-related.svg');
+	background-size:100% 500px;
 	bottom:100px;
 	position:absolute;
 	/*border-top:dotted 5px;
