@@ -17,56 +17,98 @@
 		}
 
 		#construction {
-			display: inline-block;
+			height: 100%;
+			width: 1080px;
 
+			padding-top: 100px;
+			margin: 0 auto;
+			background-color: #DD2929;
+		}
+
+		#construction:hover {
+			/*background-color: gray;*/
+		}
+
+		#title-message {
+			margin-top: 50px;
+			color: white;
+			font-size: 35px;
+			font-weight: bold;
+			transform: scale(1.10,1);
+			-webkit-transform: scale(1.10,1);
+			-moz-transform: scale(1.10,1);
+			-ms-transform: scale(1.10,1);
+			-o-transform: scale(1.10,1);
+		}
+
+		#separator-line {
+			height: 5px;
+			width: 800px;
+			margin: 0 auto;
+			margin-top: 15px;
+			background-color: white;
+		}
+
+		#jokes {
+			margin: 0 auto;
+			margin-top: 50px;
+			width: 500px;
+			color: white;
+			font-size: 28px;
+			font-weight: bold;
+			transform: scale(1.10,1);
+			-webkit-transform: scale(1.10,1);
+			-moz-transform: scale(1.10,1);
+			-ms-transform: scale(1.10,1);
+			-o-transform: scale(1.10,1);
+		}
+
+		#button-message {
+			margin: 0 auto;
+			margin-top: 500px;
+
+			height: 100px;
+			width: 400px;
+
+			border: 5px solid white;
+
+			color: white;
+			font-size: 30px;
+			font-weight: bold;
+			transform: scale(1.10,1);
+			-webkit-transform: scale(1.10,1);
+			-moz-transform: scale(1.10,1);
+			-ms-transform: scale(1.10,1);
+			-o-transform: scale(1.10,1);
+		}
+
+		#button-message:hover {
+			background-color: #FF2929;
+			cursor: pointer;
+		}
+
+		#button-message span {
 			position: relative;
-			top: 50%;
-			-webkit-transform: translateY(-50%);
-			-ms-transform: translateY(-50%);
+			top: 30%;
 			transform: translateY(-50%);
 		}
-
-		.construction-graphic {
-			height: 100px;
-			display: inline-block;
-		}
-
-		.construction-handle {
-			width: 150px;
-			height: 25px;
-			background-color: seagreen;
-
-			margin-left: 25px;
-
-			-webkit-transform: rotate(30deg);
-			-ms-transform: rotate(30deg);
-			transform: rotate(30deg);
-		}
-
-		.construction-circle {
-			height: 50px;
-			width: 50px;
-			background-color: seagreen;
-
-			position: relative;
-			top: -80px;
-			border-radius: 25px;
-		}
-
-		.construction-square {
-			height: 25px;
-			width: 25px;
-			background-color: white;
-
-			position: relative;
-			top: -122px;
-
-			-webkit-transform: rotate(30deg);
-			-ms-transform: rotate(30deg);
-			transform: rotate(30deg);
-		}
 	</style>
-	<script>function goBack(){history.go(-1);}</script>
+	<script>
+		$(function(){
+			$.getJSON("../json/jokes.json", function(json) {
+				console.log(json);
+				console.log(json.length);
+				var randvalue = Math.ceil(Math.random() * json.length);
+				console.log(Math.ceil(Math.random() * json.length));
+
+				$('#jokes').html(json[randvalue]);
+			});
+		});
+
+		function goBack(){
+			history.go(-1);
+		}
+	</script>
 	<body>
 
 		<!-- Google Analytics -->
@@ -75,14 +117,16 @@
 
 		<div data-role="page" id="home">
 			<div id="construction">
-				<div class="construction-graphic">
-					<div class="construction-handle"></div>
-					<div class="construction-circle"></div>
-					<div class="construction-square"></div>
-				</div>
-				<div>Sorry! <br> This page isn't finished yet! :(</div>
-				<button onclick="goBack()">BACK</button>
+				<div id="title-message">SORRY, THIS PAGE ISN'T FINISHED YET</div>
+				<div id="separator-line"></div>
+				<div id="jokes"></div>
+				<div id="button-message" onClick="goBack()"><span>Go Back</span></div>
 			</div>
+			
+			<!-- <div>
+				<img src="../assets/splash1-o.png">
+			</div> -->
+			
 		</div>
 	</body>
 </html>

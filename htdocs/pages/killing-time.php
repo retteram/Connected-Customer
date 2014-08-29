@@ -16,7 +16,7 @@
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
 			<div class="headBox">
-			<h1 id="title">KILLING TIME</h1>
+				<h1 id="title">KILLING TIME</h1>
 			</div>
 			<!-- END Header -->
 

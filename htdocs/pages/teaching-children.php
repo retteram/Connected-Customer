@@ -22,11 +22,11 @@
 		<!-- END GA -->
 	
 		<div data-role="page" id="home">
-
+		
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
 			<div class="headBox1">
-			<h1 id="title">TEACHING CHILDREN<br>HOW TO SAVE</h1>
+				<h1 id="title">TEACHING CHILDREN<br>HOW TO SAVE</h1>
 			</div>
 			<!-- END Header -->
 
@@ -39,16 +39,18 @@
 				<div class="related-object">
 					<h1 id="relatedTitle2">RELATED PRODUCTS & SERVICES</h1>
 					<div class="object1">
-					<img src="../assets/related1-o.png" />
-					<h2 id="objectTitle">TEACH KIDS <br> ABOUT CREDIT</h2>
+						<img src="../assets/related1-o.png" />
+						<h2 id="objectTitle">TEACH KIDS <br> ABOUT CREDIT</h2>
 					</div>
-					<a href="#" onclick="enter529()"><div class="object2">
-					<img src="../assets/related2-o.png" />
-					<h2 id="objectTitle">529 COLLEGE<br>SAVINGS PLAN</h2>	
-					</div></a>
+					<a href="#" onclick="enter529()">
+						<div class="object2">
+							<img src="../assets/related2-o.png" />
+							<h2 id="objectTitle">529 COLLEGE<br>SAVINGS PLAN</h2>	
+						</div>
+					</a>
 					<div class="object3">
-					<img src="../assets/related3-o.png" />
-					<h2 id="objectTitle">NEED vs. WANT<br>BUDGET APP</h2>
+						<img src="../assets/related3-o.png" />
+						<h2 id="objectTitle">NEED vs. WANT<br>BUDGET APP</h2>
 					</div>
 				</div>
 			</div>

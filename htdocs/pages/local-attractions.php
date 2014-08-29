@@ -6,10 +6,8 @@
 		<!-- <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" /> -->
 		<!-- <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script> -->
 		<script src="../js/interesting-facts.js" type="text/javascript"></script>
-
 		<script type="text/javascript" src="../libs/iscroll-4/src/iscroll.js"></script>
 		<script type="text/javascript" src="../js/local-attractions.js"></script>
-
 		<link rel="stylesheet" type="text/css" href="../css/interesting-joking.css" />
 		<link href="../css/howTo.css" rel="stylesheet">
 		<link rel="stylesheet" href="../libs/font-awesome-4.1.0/css/font-awesome.min.css">
@@ -54,24 +52,12 @@
 				background-color:;
 			}
 
-			#attraction1{
-				background-color:#9ad6ec;
-			}
-			#attraction2{
-				background-color:#a7a9ab;
-			}
-			#attraction3{
-				background-color:#25b4cb;
-			}
-			#attraction4{
-				background-color:#ee3d3b;
-			}
-			#attraction5{
-				background-color:#449f7e;
-			}
-			#attraction6{
-				background-color:#302541;
-			}
+			#attraction1{ background-color:#9ad6ec; }
+			#attraction2{ background-color:#a7a9ab; }
+			#attraction3{ background-color:#25b4cb; }
+			#attraction4{ background-color:#ee3d3b; }
+			#attraction5{ background-color:#449f7e; }
+			#attraction6{ background-color:#302541; }
 
 			#local-attractions h1{
 				margin:20px auto 20px 60px;
@@ -91,7 +77,6 @@
 				margin-top:100px;
 				border-bottom:dotted 3px #D1D2D4;
 			}
-
 		</style>
 	</head>
 
@@ -108,7 +93,6 @@
 			</div>
 
 			<div id="local-attractions">
-
 				<div id="attraction1">
 					<label for="all">
 						<h1>ALL ATTRACTIONS</h1>
@@ -116,7 +100,6 @@
 		  				<span></span>
 					</label>
 				</div>
-
 				<div id="attraction2">
 					<label for="history">
 						<h1>HISTORIC</h1>
@@ -124,7 +107,6 @@
 		  				<span></span>
 					</label>
 				</div>
-
 				<div id="attraction3">
 					<label for="dining">
 						<h1>DINING</h1>
@@ -132,7 +114,6 @@
 		  				<span></span>
 					</label>
 				</div>
-
 				<div id="attraction4">
 					<label for="entertainment">
 						<h1>ENTERTAINMENT</h1>
@@ -140,7 +121,6 @@
 		  				<span></span>
 					</label>
 				</div>
-
 				<div id="attraction5">
 					<label for="nature">
 						<h1>NATURE</h1>
@@ -148,7 +128,6 @@
 		  				<span></span>
 					</label>
 				</div>
-
 				<div id="attraction6">
 					<label for="shopping">
 						<h1>SHOPPING</h1>
@@ -156,7 +135,6 @@
 		  				<span></span>
 					</label>
 				</div>
-
 			</div>
 			<div id="line"></div>
 			<!-- End local Attractions and Dividing line -->

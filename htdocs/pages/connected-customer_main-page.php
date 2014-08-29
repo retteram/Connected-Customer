@@ -33,7 +33,6 @@
 
 			<!-- BEGIN Footer -->
 			<?php require("page-pieces/footer-banner.php"); ?>
-			
 			<!-- END Footer -->
 		</div>
 	</body>

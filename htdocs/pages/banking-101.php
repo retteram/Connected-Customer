@@ -16,13 +16,13 @@
 			<!-- BEGIN Header -->
 			<?php require("page-pieces/header.php"); ?>
 			<div class="headBox">
-			<h1 id="title">BANKING 101 FOR DUMMIES</h1>
+				<h1 id="title">BANKING 101 FOR DUMMIES</h1>
 			</div>
 			<!-- END Header -->
 
 			<!-- BEGIN Main Content -->
 			<div class="body">
-			<?php require("page-pieces/carousel-sub-Page.php"); ?>
+				<?php require("page-pieces/carousel-sub-Page.php"); ?>
 			</div>
 			<!-- END Main Content -->
 
