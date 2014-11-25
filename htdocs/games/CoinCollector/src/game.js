@@ -3,7 +3,7 @@
 		this.initialize(color);
 	}
 
-	var p = Actor.prototype = new createjs.Bitmap("../assets/flying-pig.png");
+	var p = Actor.prototype = new createjs.Bitmap("assets/flying-pig.png");
 	p.pixelsPerSecond = 300;
 
 	p.initialize = function(color) {
@@ -24,10 +24,14 @@
 }());
 
 
-var canvas;
-var ctx;
+var canvas;	// Will be linked to the canvas on the HTML page
+var ctx;		// Context, equivalent to 'stage' in AS3
+
+// Setting the Stage
 var stageHeight;
 var stageWidth;
+
+// Pig location
 var pigX = 0;
 var pigY = 0;
 var pigLives = [];
@@ -49,8 +53,11 @@ function init() {
 	var myActor = stage.addChild(new Actor("#000"));
 
 
-	myActor.x = 60;
-	myActor.y = stage.canvas.height - 130;
+	myActor.x = 300; // 60;
+	myActor.y = 250; // stage.canvas.height - 130;
+
+	myActor.regX = myActor.image.width/2;
+	myActor.regY = myActor.image.height/2;
 
 	var up = false;
 	var down = false;
@@ -63,53 +70,28 @@ function init() {
 
 	function tick(event) {
 
-		/*
-			if ((key.isPressed('up') || key.isPressed('w')) && (myActor.y > 0)) {
-				myActor.moveUp(event.delta);
-			}
-			
-			if ((key.isPressed('down') || key.isPressed('s')) && (myActor.y < (stageHeight - (myActor.image.height * myActor.scaleY)))) {
-				myActor.moveDown(event.delta);
-			}
-
-			if ((key.isPressed('left') || key.isPressed('a')) && (myActor.x > 0)) {
-				if(!myActor.faceLeft){
-					myActor.regX = 0;
-					myActor.scaleX = -myActor.scaleX;
-					myActor.faceLeft = true;
-				}
-				myActor.moveLeft(event.delta);
-			}
-
-			if ((key.isPressed('right') || key.isPressed('d')) && (myActor.x < (stageWidth - (myActor.image.width * Math.abs(myActor.scaleX))))) {
-				if(myActor.faceLeft){
-					myActor.regX = myActor.image.width;
-					myActor.scaleX = -myActor.scaleX;
-					myActor.faceLeft = false;
-				}
-				myActor.moveRight(event.delta);
-			}
-		*/
-
 		centerpointX = (myActor.image.width  * (Math.abs(myActor.scaleX))/2) + myActor.x;
 		centerpointY = (myActor.image.height * (Math.abs(myActor.scaleY))/2) + myActor.y;
 
 
-		if( Math.abs(centerpointX - pigX) > event.delta*2) {
+		if( Math.abs(centerpointX - pigX) > 2) { //event.delta*2) {
 			if(centerpointX < pigX){
 				// alert("PigX: "+pigX+"\nCenterpointX: "+ centerpointX);
-				myActor.moveRight(event.delta);
+				//myActor.moveRight(event.delta);
 				myActor.faceLeft = false;
 			} else if(centerpointX > pigX){
-				myActor.moveLeft(event.delta);
+				//myActor.moveLeft(event.delta);
+				myActor.faceLeft = true;
 			}
 		}
 
-		if( Math.abs(centerpointY - pigY) > event.delta*2) {
+		myActor.rotation += 1;
+
+		if( Math.abs(centerpointY - pigY) > 2) { //event.delta*2) {
 			if(centerpointY < pigY){
-				myActor.moveDown(event.delta);
+				//myActor.moveDown(event.delta);
 			} else if(centerpointY > pigY){
-				myActor.moveUp(event.delta);
+				//myActor.moveUp(event.delta);
 			}
 		}
 
@@ -148,7 +130,7 @@ function addHUD(stage) {
 	stage.addChild(score);
 
 	for(var i = 0; i < 4; i++){
-		var pigLife = new createjs.Bitmap("../assets/flying-pig.png");
+		var pigLife = new createjs.Bitmap("assets/flying-pig.png");
 		pigLife.x = 20;
 		pigLife.y = 20 + 45*i;
 		pigLife.scaleX = 0.1;
@@ -174,6 +156,16 @@ function stars(stage) {
 	    //Add Shape instance to stage display list.
 	    stage.addChild(circle);
 	}
+}
+
+
+// Add a new Asteroid
+function createAsteroid(stage) {
+	// When called add new asteroid
+	
+	// Load image
+	bitemap = new createjs.Bitmap("assets/asteroid.png");
+	
 }
 
 
