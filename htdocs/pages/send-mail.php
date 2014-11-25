@@ -67,10 +67,30 @@
 				var root = document.location.hostname;
 
 				$.ajax({
-					url: root+"/src/tools/mailer.php",
-					context: document.body
-				}).done(function() {
+					type: "POST",
+					url: "https://mandrillapp.com/api/1.0/messages/send.json",
+					data: { "key": "KzD7XngTVPG4rpgbiRZJ4g",
+							    "message": {
+							        "html": "<p>Example HTML content</p>",
+							        "text": "Example text content",
+							        "subject": "example subject",
+							        "from_email": "isaac.vanhouten@standardregister.com",
+							        "from_name": "Isaac Van Houten",
+							        "to": [
+							            {
+							                "email": "isaac.vanhouten@standardregister.com",
+							                "name": "Isaac Van Houten",
+							                "type": "to"
+							            }
+							        ],
+							        "headers": {
+							            "Reply-To": "message.reply@example.com"
+							        }, }
+				}).done(function(data) {
 					$( this ).addClass( "done" );
+					$("#response").text(data);
+				}).fail(function() {
+					$("#response").text("fail");
 				});
 			}
 		</script>
