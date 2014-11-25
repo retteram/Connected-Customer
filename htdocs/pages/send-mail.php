@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -42,8 +38,25 @@
 				cursor: pointer;
 			}
 
-			#send-mail.done {
-				background-color: green;
+			#res-wrapper {
+				position: absolute;
+				top: 200px;
+				left: calc(50% - 202px);
+				height: 180px;
+				width: 380px;
+				padding: 10px;
+			}
+
+			#status {
+				width: 380px;
+				height: 20px;
+				padding: 10px;
+				border: 2px solid gray;
+
+				text-align: center;
+				color: white;
+				font-weight: 600;
+				background-color: gray;
 			}
 
 			#response {
@@ -55,48 +68,71 @@
 				background-color: white;
 				border: 2px solid gray;
 
-				position: absolute;
-				top: 200px;
-				left: calc(50% - 202px);
-
 				color: darkgray;
+
+				overflow-x: none;
+				overflow-y: auto;
+			}
+
+			#response.done {
+				border-color: green;
+			}
+
+			#status.done {
+				background-color: green;
+				border-color: green;
 			}
 		</style>
 		<script>
 			function sendMail() {
-				var root = document.location.hostname;
-
+				$("response").text("...loading");
 				$.ajax({
 					type: "POST",
-					url: "https://mandrillapp.com/api/1.0/messages/send.json",
-					data: { "key": "KzD7XngTVPG4rpgbiRZJ4g",
-							    "message": {
-							        "html": "<p>Example HTML content</p>",
-							        "text": "Example text content",
-							        "subject": "example subject",
-							        "from_email": "isaac.vanhouten@standardregister.com",
-							        "from_name": "Isaac Van Houten",
-							        "to": [
-							            {
-							                "email": "isaac.vanhouten@standardregister.com",
-							                "name": "Isaac Van Houten",
-							                "type": "to"
-							            }
-							        ],
-							        "headers": {
-							            "Reply-To": "message.reply@example.com"
-							        }, }
+					url: 	"https://mandrillapp.com/api/1.0/messages/send.json",
+					data: { 
+									"key": "KzD7XngTVPG4rpgbiRZJ4g",
+							   	"message": {
+							    	"html": "<p>Example HTML content</p>",
+							    	"text": "Example text content",
+							    	"subject": "example subject",
+							    	"from_email": "isaac.vanhouten@standardregister.com",
+							    	"from_name": "Isaac Van Houten",
+							    	"to": [
+							    			{
+							    			    "email": "isaac.vanhouten@standardregister.com",
+							    			    "name": "Isaac Van Houten",
+							    			    "type": "to"
+							    			}
+							    	],
+							    	"headers": {
+							    	    "Reply-To": "isaac.vanhouten@standardregister.com"
+							   		} 
+							  	}
+							  }
 				}).done(function(data) {
-					$( this ).addClass( "done" );
-					$("#response").text(data);
+					$("#response").addClass("done");
+					$("#status").addClass("done");
+					$("#status").text(data[0]['status']);
+
+					var output = "";
+					for (var i = 0; i < data.length; i++){
+						output += "email: " + data[i]['email'] + "<br />";
+						output += "status: " + data[i]['status'] + "<br />";
+						output += "reject_reason: " + data[i]['reject_reason'] + "<br />";
+						output += "_id: " + data[i]['_id'] + "<br /><br />";
+					}
+					$("#response").html(output);
 				}).fail(function() {
-					$("#response").text("fail");
+					$("#response").text("Fail");
 				});
 			}
 		</script>
 	</head>
 	<body>
 		<div id="send-mail" onclick="sendMail()">Send Mail</div>
-		<div id="response">...response</div>
+		<div id="res-wrapper">
+			<div id="response">...response</div>
+			<div id="status">...</div>
+		</div>
 	</body>
 </html>
