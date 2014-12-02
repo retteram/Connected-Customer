@@ -267,6 +267,10 @@
 			<h1 id="title">Enter Recipients:</h1>
 		</div>
 
+		<div class="center-piece">
+			<img src="../assets/sending-email.png">
+		</div>
+
 			<div id="add-email">
 				<div class="small-wrapper"><input class="email" type="text" placeholder="email@example.com"></input><div class="checkmark" title="Not Sent"></div></div>
 				<div class="small-wrapper"><input class="email" type="text" placeholder="email@example.com"></input><div class="checkmark" title="Not Sent"></div></div>
@@ -302,7 +306,7 @@
 				?>
 			</div>
 			<div id="send-mail" onclick="sendMailWrapper()">Send Mail</div>
-			
+
 			<div id="res-wrapper" style="display: none;" onclick="loadImageFileAsURL()">
 				<div id="response">...response</div>
 				<div id="status">...</div>
