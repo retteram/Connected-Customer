@@ -192,24 +192,10 @@
 		<script src='/htdocs/js/send-mail.js'></script>
 	</head>
 	<body>
-<<<<<<< HEAD
-	<?php require("page-pieces/header.php"); ?>
-		<div id="email-wrapper">
-
-		<div class="headbox">
-			<h1 id="title">Enter Recipients:</h1>
-		</div>
-
-			<div id="add-email">
-				<div class="small-wrapper"><input class="email" type="text" placeholder="email@example.com"></input><div class="checkmark" title="Not Sent"></div></div>
-				<div class="small-wrapper"><input class="email" type="text" placeholder="email@example.com"></input><div class="checkmark" title="Not Sent"></div></div>
-				<div id="add-email-button" onclick="addEmail(this)">+</div>
-=======
 		<div id="home" data-role="page">
 			<?php require("page-pieces/header.php"); ?>
 			<div class="headBox1">
 				<h1 id="title">Enter Recipients:</h1>
->>>>>>> origin/master
 			</div>
 			<div id="email-wrapper">
 
@@ -219,37 +205,14 @@
 					<div id="add-email-button" onclick="addEmail(this)">+</div>
 				</div>
 
+				<!-- Adding new comments -->
 				<?php include("page-pieces/keyboard.php"); ?>
 
-<<<<<<< HEAD
-					$alphabetl = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-					//$alphabetu = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-					$numbers   = ["0","1","2","3","4","5","6","7","8","9"];
-					$symbols   = ["!","#","$","%","&","'","*","+","-","/","=","?","^","_","`","{","|","}","~"];
-
-					
-
-					foreach($keyboardlayout as $rindex => $row) {
-						echo "<div class='keyboard-row row-$rindex'>";
-						foreach($row as $kindex => $key) {
-							echo "<div class='keyboard-key key-$kindex' data-primary='".$key[0]."' data-secondary='".$key[1]."'>".$key[0]."</div>";
-						}
-						echo "</div>";
-					}
-				?>
-			</div>
-			<div id="send-mail" onclick="sendMailWrapper()">Send Mail</div>
-			
-			<div id="res-wrapper" style="display: none;" onclick="loadImageFileAsURL()">
-				<div id="response">...response</div>
-				<div id="status">...</div>
-=======
 				<div id="send-mail" onclick="sendMailWrapper()">Send Mail</div>
 				<div id="res-wrapper" style="display: none;" onclick="loadImageFileAsURL()">
 					<div id="response">...response</div>
 					<div id="status">...</div>
 				</div>
->>>>>>> origin/master
 			</div>
 			<?php require("page-pieces/footer-simple.php"); ?>
 		</div>

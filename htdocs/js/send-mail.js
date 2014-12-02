@@ -92,45 +92,60 @@ function keyClick(key) {
 	// alert($(key).attr('data-primary'));
 	console.log($(key).data('primary').toString());
 	var focused = $("#add-email").data("last-selected");
-	/*
-	if($(focused).prop('tagName') == "INPUT") {
-		var keycode = $(key).data("primary");
-		if($('#keyboard').data('shift')){
-			keycode = $(key).data("primary");
-		}
-		// $(focused).val($(focused).val() + $(key).text('data-secondary'));
-	}
-	*/
 
 	var keycode = $(key).data('primary');
 	if($("#keyboard").data('shift')){
 		keycode = $(key).data('secondary');
 	}
+
+	var keytypes = ['primary', 'secondary'];
+	var keytype = 0;
+
 	switch(keycode) {
+		case "Bksp":
+				break;
+
+		case "Tab":
+				break;
+
+		case "Caps":
+				break;
+
+		case "Enter":
+				break;
+
 		case "Shift":
-				var keytype = 'primary';
 				if($("#keyboard").data('shift')){
 					$("#keyboard").data('shift', false);
 				} else {
 					$("#keyboard").data('shift', true);
-					keytype = 'secondary';
+					keytype = 1;
 				}
+
+				// Change keys to capital
 				$(".keyboard-key").each(function(index, value){
-					$(value).text($(value).data(keytype));
+					$(value).text($(value).data(keytypes[keytype]));
+
+					// Turn off the shift highlight color
 					if($(value).data('primary') == 'Shift'){
 						$(value).css('background-color', '');
 					}
 				});
+
 				break;
-		case "Bksp":
-				break;
+
 		default:
 				if($(focused).prop('tagName') == "INPUT") {
 					$(focused).addClass('selected');
-					var keytype = "primary";
-					if($("keyboard").data('shift')){
-						keytype = 'secondary';
-						$("keyboard").data('shift', false);
+					keytype = 0;
+					if($("#keyboard").data('shift')){
+						keytype = 1;
+						$("#keyboard").data('shift', false);
+					}
+
+					if($("#keyboard").data('caps')){
+						keytype = 1;
+						$(".keyboard-row.row-2 .key-0").css("background-color", "blue");
 					}
 					// $(focused).val($(focused).val() + $(key).text('data-secondary'));
 				}
