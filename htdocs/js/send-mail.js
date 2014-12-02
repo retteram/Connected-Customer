@@ -90,65 +90,113 @@ function keepFocus(input) {
 
 function keyClick(key) {
 	// alert($(key).attr('data-primary'));
-	console.log($(key).data('primary').toString());
 	var focused = $("#add-email").data("last-selected");
-
-	var keycode = $(key).data('primary');
-	if($("#keyboard").data('shift')){
-		keycode = $(key).data('secondary');
-	}
+	var keycode = $(key).text();
 
 	var keytypes = ['primary', 'secondary'];
 	var keytype = 0;
 
+	var capsClicked = false;
+	var shiftClicked = false;
+	var useChar = false;
+
 	switch(keycode) {
 		case "Bksp":
+					$(focused).val($(focused).val().substring(0, $(focused).val().length-1))
 				break;
 
 		case "Tab":
 				break;
 
 		case "Caps":
+					capsClicked = true;
 				break;
 
 		case "Enter":
 				break;
 
 		case "Shift":
-				if($("#keyboard").data('shift')){
-					$("#keyboard").data('shift', false);
-				} else {
-					$("#keyboard").data('shift', true);
-					keytype = 1;
-				}
-
-				// Change keys to capital
-				$(".keyboard-key").each(function(index, value){
-					$(value).text($(value).data(keytypes[keytype]));
-
-					// Turn off the shift highlight color
-					if($(value).data('primary') == 'Shift'){
-						$(value).css('background-color', '');
-					}
-				});
-
+					shiftClicked = true;
 				break;
 
 		default:
-				if($(focused).prop('tagName') == "INPUT") {
-					$(focused).addClass('selected');
-					keytype = 0;
-					if($("#keyboard").data('shift')){
-						keytype = 1;
-						$("#keyboard").data('shift', false);
-					}
-
-					if($("#keyboard").data('caps')){
-						keytype = 1;
-						$(".keyboard-row.row-2 .key-0").css("background-color", "blue");
-					}
-					// $(focused).val($(focused).val() + $(key).text('data-secondary'));
-				}
+					console.log($(key).data(keytypes[keytype]));
+					useChar = true;
+					shiftClicked = false;
 				break;
+	}
+	
+	if($(focused).prop('tagName') == "INPUT" && useChar) {
+		$(focused).addClass('selected');
+	}
+
+	if(capsClicked)  {
+		var set1 = true;
+		if($("#keyboard").data("caps")){
+			set1 = false;
+		}
+		setCaps(set1);
+		setShift(false);
+		if($("#keyboard").data('caps')){
+			keytype = 1;
+		}
+	}
+
+	if(!capsClicked) {
+		if($("#keyboard").data("caps")){
+			keytype = 1;
+		} else {
+			keytype = 0;
+		}
+	}
+
+
+	if(shiftClicked) {
+		var set1 = true;
+		if($("#keyboard").data("shift")){
+			set1 = false;
+		}
+		setShift(set1);
+		setCaps(false);
+		if($("#keyboard").data('shift')){
+			keytype = 1;
+		}
+	}
+
+	$(focused).val($(focused).val() + $(key).data(keytypes[keytype]));	
+	$(".keyboard-key").each(function(index, value){
+		$(value).text($(value).data(keytypes[keytype]));
+		$(value).data(keytypes[keytype]);
+	});
+
+	if(!shiftClicked) {
+		if($("#keyboard").data("shift")){
+			setShift(false);
+			keytype = 0;
+		}
+	}
+}
+
+
+function setCaps(on) {
+	if(on){
+		$("#keyboard").data('shift', true);
+		$(".keyboard-row.row-2 .key-0").css("background-color", "blue");
+	} else {
+		$("#keyboard").data('caps', false);
+		$(".keyboard-row.row-2 .key-0").css("background-color", "");
+	}
+}
+
+
+function setShift(on) {
+	if(on){
+		$("#keyboard").data('shift', true);
+		$(".keyboard-row.row-3 .key-0").css("background-color", "yellow");
+		$(".keyboard-row.row-3 .key-11").css("background-color", "yellow");
+	} else {
+		$("#keyboard").data('shift', false);
+		$(".keyboard-row.row-3 .key-0").css("background-color", "");
+		$(".keyboard-row.row-3 .key-11").css("background-color", "");
 	}
 }
