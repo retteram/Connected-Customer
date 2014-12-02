@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Random Jokes</title>
+		<title>Send Email</title>
 		<?php require("page-pieces/imports.php"); ?>
 		<link href="../css/related-section.css" rel="stylesheet">
 		<link href="../css/howTo.css" rel="stylesheet">
@@ -11,7 +11,17 @@
 				text-align: center;
 			}
 
+			.top-stuff{
+				position:relative;
+				height:200px;
+				display:inline-block;
+				text-align:center;
+				margin:0 auto;
+				width:100%;
+				padding-top:80px;
+			}
 			#email-wrapper {
+				background-color:;
 				width: 560px;
 				padding: 5px;
 				margin: 0 auto;
@@ -22,20 +32,20 @@
 
 			#email-wrapper #send-mail {
 				background-color: #FF3333;
-				border: 4px solid darkred;
+				border: 4px solid #b71f28;
 
 				padding: 5px;
 				margin: 0 auto;
 				height: 40px;
 				width: 360px;
 
-				color: darkred;
+				color: white;
 
 				font-size: 30px;
 				font-weight: 600;
 				text-align: center;
 				vertical-align: middle;
-				box-shadow: 0px 2px 6px gray;
+				box-shadow: 0px 2px 2px gray;
 			}
 
 			#email-wrapper #send-mail:hover {
@@ -98,22 +108,23 @@
 
 			#email-wrapper #add-email {
 				display: inline-block;
-				width: 376px;
+				width: 550px;
 				/*height: 100px;*/
 				margin: 0 auto;
 				margin-top: 30px;
 				margin-bottom: 20px;
+				background-color:;
 			}
 
 			#email-wrapper #add-email input {
-				width: 362px;
+				width: 530px;
 				padding: 8px 5px;
 				font-size: 18px;
 				float: left;
 			}
 
 			#email-wrapper #add-email input.selected {
-				outline: orange solid 2px;
+				outline: #9ad6ec solid 2px;
 			}
 
 			#email-wrapper #add-email-button {
@@ -121,11 +132,11 @@
 				height: 23px;
 				float: left;
 				cursor: pointer;
-				background-color: green;
+				background-color: #9ad6ec;
 				padding-top: 2px;
-				border: 4px solid darkgreen;
+				border: 4px solid #26bae7;
 				color: white;
-				box-shadow: 1px 1px 4px gray;
+				box-shadow: 1px 1px 1px gray;
 				text-align: center;
 				font-size: 30px;
 				line-height: 22px;
@@ -173,7 +184,8 @@
 				border: 2px solid lightgray;
 			}
 			#keyboard .keyboard-key:hover {
-				background-color: gray;
+				background-color: #FF3333;
+				color:white;
 				cursor: pointer;
 			}
 
@@ -197,6 +209,11 @@
 			<div class="headBox1">
 				<h1 id="title">Enter Recipients:</h1>
 			</div>
+
+			<div class="top-stuff">
+				<img src="../assets/email-sender.png">
+			</div>
+
 			<div id="email-wrapper">
 
 				<div id="add-email">
