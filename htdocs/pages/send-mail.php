@@ -135,7 +135,7 @@
 			}
 
 			#keyboard {
-				width: 530px;
+				width: 550px;
 			}
 
 			#keyboard .keyboard-row {
@@ -161,8 +161,12 @@
 			#keyboard .keyboard-row.row-2 .keyboard-key.key-0,
 			#keyboard .keyboard-row.row-2 .keyboard-key.key-12,
 			#keyboard .keyboard-row.row-3 .keyboard-key.key-0,
-			#keyboard .keyboard-row.row-3 .keyboard-key.key-11 {
+			#keyboard .keyboard-row.row-3 .keyboard-key.key-11{
 				width: 50px;
+			}
+
+			#keyboard .keyboard-row.row-4 .keyboard-key.key-0 {
+				width:300px;
 			}
 		</style>
 		<script src="/htdocs/libs/jquery-1.11.1.js"></script>
@@ -277,15 +281,7 @@
 					$numbers   = ["0","1","2","3","4","5","6","7","8","9"];
 					$symbols   = ["!","#","$","%","&","'","*","+","-","/","=","?","^","_","`","{","|","}","~"];
 
-					/*
-					$keyboard.push($symbols[14]);
-					$keyboard.array_merge($numbers);
-					$keyboard.push($symbols[8]);
-					$keyboard.push($symbols[10]);
-					$keyboard.push("Bksp");
-					$keyboard.push("Tab");
-					$keyboard.push($alphabet)
-					*/
+					
 
 					foreach($keyboardlayout as $rindex => $row) {
 						echo "<div class='keyboard-row row-$rindex'>";
