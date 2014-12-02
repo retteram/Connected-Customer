@@ -1,3 +1,4 @@
+		
 		<style>
 			#email-wrapper {
 				width: 490px;
@@ -170,6 +171,7 @@
 			}
 		</style>
 		<script src="/htdocs/libs/jquery-1.11.1.js"></script>
+		<?php require("page-pieces/imports.php"); ?>
 		<script>
 			function addEmail(elem) {
 				$("<div class='small-wrapper'><input class='email' type='text' placeholder='email@example.com'></input><div class='checkmark'></div></div>").insertAfter($(elem).prev());
@@ -258,13 +260,20 @@
 		</script>
 	</head>
 	<body>
+	<?php require("page-pieces/header.php"); ?>
 		<div id="email-wrapper">
-			<h2>Enter Recipients:</h2>
+
+		<div class="headbox">
+			<h1 id="title">Enter Recipients:</h1>
+		</div>
+
 			<div id="add-email">
 				<div class="small-wrapper"><input class="email" type="text" placeholder="email@example.com"></input><div class="checkmark" title="Not Sent"></div></div>
 				<div class="small-wrapper"><input class="email" type="text" placeholder="email@example.com"></input><div class="checkmark" title="Not Sent"></div></div>
 				<div id="add-email-button" onclick="addEmail(this)">+</div>
 			</div>
+
+
 			<div id="keyboard">
 				<?php
 
@@ -293,10 +302,12 @@
 				?>
 			</div>
 			<div id="send-mail" onclick="sendMailWrapper()">Send Mail</div>
+			
 			<div id="res-wrapper" style="display: none;" onclick="loadImageFileAsURL()">
 				<div id="response">...response</div>
 				<div id="status">...</div>
 			</div>
 		</div>
+		<?php require("page-pieces/footer-simple.php"); ?>
 	</body>
 </html>
