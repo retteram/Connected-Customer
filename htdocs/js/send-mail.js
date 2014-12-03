@@ -1,19 +1,19 @@
 $(function() {
 	keepFocus($('input.email').first());
 
-	$('input').focusout(function() {
-		$(this).removeClass('selected');
-	});
-
 	$('input').focusin(function() {
 		$('input').removeClass('selected');
-		$(this).addClass('selected');
-	})
+		keepFocus($(this).addClass('selected'));
+	});
 })
 
 
 function addEmail(elem) {
 	$("<div class='small-wrapper'><input onclick='keepFocus(this)' class='email' type='text' placeholder='email@example.com'></input><div class='checkmark'></div></div>").insertAfter($(elem).prev());
+	$('input').focusin(function() {
+		$('input').removeClass('selected');
+		keepFocus($(this).addClass('selected'));
+	});
 }
 
 function sendMailWrapper() {
@@ -124,18 +124,27 @@ function keyClick(key) {
 
 	switch(keycode) {
 		case "Bksp":
-					$(focused).val($(focused).val().substring(0, $(focused).val().length-1))
+					$(focused).val($(focused).val().substring(0, $(focused).val().length-1));
 				break;
 
 		case "Tab":
+					focused = $(focused).parent().next().find("input");
+					if(!$(focused).parent().next().hasClass("small-wrapper")){
+						focused = $('input.email').first();
+					}
 
+					$(focused).focus();
+					
+					if($(focused).prop("tagName") == "INPUT"){
+						keepFocus(focused);
+					}
 				break;
 
 		case "Caps":
 					capsClicked = true;
 				break;
 
-		case "New":
+		case "NEW":
 					addEmail($("#add-email-button"));
 				break;
 

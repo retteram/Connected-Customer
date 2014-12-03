@@ -229,8 +229,6 @@
 				</div>
 
 				<!-- Adding new comments -->
-				<div id="extra-keys">
-				</div>
 				<?php include("page-pieces/keyboard.php"); ?>
 
 				<div id="send-mail" onclick="sendMailWrapper()">Send Mail</div>
