@@ -178,6 +178,8 @@
 			#keyboard .keyboard-key {
 				height: 25px;
 				width: 25px;
+				font-weight:600;
+				line-height:25px;
 				text-align: center;
 				display: inline-block;
 				padding: 4px;
@@ -190,17 +192,21 @@
 				cursor: pointer;
 			}
 
-			/* Bksp 	 */ #keyboard .keyboard-row.row-0 .keyboard-key.key-13{ width:   50px; background-color: orange; }
-									  #keyboard .keyboard-row.row-0 .keyboard-key.key-13:hover { background-color: maroon; }
+			/* Bksp 	 */ #keyboard .keyboard-row.row-0 .keyboard-key.key-13{ width:   50px; background-color: #FF3333;color:maroon; }
+									  #keyboard .keyboard-row.row-0 .keyboard-key.key-13:hover { background-color:;color:white; }
 			/* Tab 		 */ #keyboard .keyboard-row.row-1 .keyboard-key.key-0 { width:   50px; background-color: ; } 
-			/* Caps 	 */ #keyboard .keyboard-row.row-2 .keyboard-key.key-0 { width:   56px; background-color: green; }
-			/* New 		 */ #keyboard .keyboard-row.row-2 .keyboard-key.key-12{ width:   56px; background-color: #9AD6EC;}
-			/* L Shift */ #keyboard .keyboard-row.row-3 .keyboard-key.key-0 { width: 74.5px; background-color: yellow; }
-			/* R Shift */ #keyboard .keyboard-row.row-3 .keyboard-key.key-11{ width: 74.5px; background-color: yellow; }
-			/* Clear 	 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-0 { width:   70px; background-color: salmon; }
+			/* Caps 	 */ #keyboard .keyboard-row.row-2 .keyboard-key.key-0 { width:   56px; background-color: #26bae7;color:#0a5156; } #keyboard .keyboard-row.row-2 .keyboard-key.key-0:hover{color:#26BAE7;background-color:#0A5156;}
+			/* New 		 */ #keyboard .keyboard-row.row-2 .keyboard-key.key-12{ width:   56px; background-color: #26bae7;color:white;font-weight:900;} #keyboard .keyboard-row.row-2 .keyboard-key.key-12:hover{background-color:#0A5156;}
+			/* L Shift */ #keyboard .keyboard-row.row-3 .keyboard-key.key-0,
+			/* R Shift */ #keyboard .keyboard-row.row-3 .keyboard-key.key-11{ width: 74.5px; background-color: #FF3333;color:maroon; }
+			/* L Shift */ #keyboard .keyboard-row.row-3 .keyboard-key.key-0:hover,
+			/* R Shift */ #keyboard .keyboard-row.row-3 .keyboard-key.key-11:hover{color:white;}
+			/* Clear 	 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-0 { width:   70px; background-color: #26bae7;color:#0a5156; } #keyboard .keyboard-row.row-4 .keyboard-key.key-0:hover{color:#26BAE7;background-color:#0A5156;}
 			/* Spacebar*/ #keyboard .keyboard-row.row-4 .keyboard-key.key-1 { width:  300px; } 
-			/* @			 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-2 { width: 62.5px; background-color: salmon; }
-			/* .com 	 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-3 { width: 62.5px; background-color: salmon; }
+			/* @			 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-2,
+			/* .com 	 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-3 { width: 62.5px; background-color: #26bae7;color:#0a5156; }
+			/* @			 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-2:hover,
+			/* .com 	 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-3:hover{ color:#26BAE7;background-color:#0A5156;}
 		</style>
 		<script src='/htdocs/js/send-mail.js'></script>
 	</head>

@@ -44,6 +44,6 @@
 		"title"	:"IDENTITY PROTECTION", 
 		"body"	:"Learn how we are continually increasing data security & protecting identities.", 
 		"image"	:"../assets/identity-protection-o.png",
-		"link"	:"error-404.html"
+		"link"	:"../pages/send-mail.php"
 	}
 }

@@ -55,11 +55,11 @@ function sendMail(attachment) {
 				    	// "html": "<h1>Here is your content</h1>",
 				    	"text": "Your requested document is attached. \nThank you for using the Connected Customer service.",
 				    	"subject": "Connected Customer - PDF Document",
-				    	"from_email": "isaac.vanhouten@standardregister.com",
-				    	"from_name": "Isaac Van Houten",
+				    	"from_email": "sheloo.koul@standardregister.com",
+				    	"from_name": "Sheloo Koul",
 				    	"to": toEmails,
 				    	"headers": {
-				    	    "Reply-To": "isaac.vanhouten@standardregister.com"
+				    	    "Reply-To": "sheloo.koul@standardregister.com"
 				   		},
 				   		"attachments": [
 				   			{
@@ -213,7 +213,7 @@ function keyClick(key) {
 function setCaps(on) {
 	if(on){
 		$("#keyboard").data('caps', true);
-		$(".keyboard-row.row-2 .key-0").css("background-color", "blue");
+		$(".keyboard-row.row-2 .key-0").css("background-color", "#0A5156");
 	} else {
 		$("#keyboard").data('caps', false);
 		$(".keyboard-row.row-2 .key-0").css("background-color", "");
@@ -224,11 +224,11 @@ function setCaps(on) {
 function setShift(on) {
 	if(on){
 		$("#keyboard").data('shift', true);
-		$(".keyboard-row.row-3 .key-0").css("background-color", "yellow");
-		$(".keyboard-row.row-3 .key-11").css("background-color", "yellow");
+		$(".keyboard-row.row-3 .key-0").css({"background-color": "white", color:"#FF3333"});
+		$(".keyboard-row.row-3 .key-11").css({"background-color": "white", color:"#FF3333"});
 	} else {
 		$("#keyboard").data('shift', false);
-		$(".keyboard-row.row-3 .key-0").css("background-color", "");
-		$(".keyboard-row.row-3 .key-11").css("background-color", "");
+		$(".keyboard-row.row-3 .key-0").css({"background-color": "", color:""});
+		$(".keyboard-row.row-3 .key-11").css({"background-color": "", color:""});	
 	}
 }
