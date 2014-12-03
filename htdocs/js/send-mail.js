@@ -1,5 +1,19 @@
+$(function() {
+	keepFocus($('input.email').first());
+
+	$('input').focusout(function() {
+		$(this).removeClass('selected');
+	});
+
+	$('input').focusin(function() {
+		$('input').removeClass('selected');
+		$(this).addClass('selected');
+	})
+})
+
+
 function addEmail(elem) {
-	$("<div class='small-wrapper'><input onclick='keepFocus(this)'' class='email' type='text' placeholder='email@example.com'></input><div class='checkmark'></div></div>").insertAfter($(elem).prev());
+	$("<div class='small-wrapper'><input onclick='keepFocus(this)' class='email' type='text' placeholder='email@example.com'></input><div class='checkmark'></div></div>").insertAfter($(elem).prev());
 }
 
 function sendMailWrapper() {
@@ -24,7 +38,14 @@ function sendMail(attachment) {
 		}
 	});
 
-	$("response").text("...loading");
+	$(".small-wrapper").each(function(index, element) {
+		if($(element).find("input").val().indexOf("@") > -1){
+			$(element).find(".checkmark").first().css({"background-color": "yellow", "box-shadow": "0 0 2px yellow"});
+			$("<span style='color: gray; position: absolute; right: -120px; top: 10px; font-style: italic'>Sending...</span>").insertAfter($(element).find(".checkmark").first());
+		}
+	});
+
+	$("#response").text("...loading");
 	$.ajax({
 		type: "POST",
 		url: 	"https://mandrillapp.com/api/1.0/messages/send.json",
@@ -59,6 +80,7 @@ function sendMail(attachment) {
 					$(value).attr("id", data[i]['_id']);
 					if(data[i]['status'] == "sent" || data[i]['status'] == "queued"){
 						$(value).css({"background-color": "green", "box-shadow": "0 0 2px green"});
+						$(value).parent().find("span").first().remove();
 						$("<span style='color: gray; position: absolute; right: -90px; top: 10px; font-style: italic'>Sent</span>").insertAfter(value);
 					}
 				}
@@ -106,13 +128,19 @@ function keyClick(key) {
 				break;
 
 		case "Tab":
+
 				break;
 
 		case "Caps":
 					capsClicked = true;
 				break;
 
-		case "Enter":
+		case "New":
+					addEmail($("#add-email-button"));
+				break;
+
+		case "Clear":
+					$(focused).val("");
 				break;
 
 		case "Shift":
@@ -120,13 +148,14 @@ function keyClick(key) {
 				break;
 
 		default:
-					console.log($(key).data(keytypes[keytype]));
+					// console.log($(key).data(keytypes[keytype]));
 					useChar = true;
 					shiftClicked = false;
+					capsClicked = false;
 				break;
 	}
 	
-	if($(focused).prop('tagName') == "INPUT" && useChar) {
+	if($(focused).prop('tagName') == "INPUT") {
 		$(focused).addClass('selected');
 	}
 
@@ -161,26 +190,29 @@ function keyClick(key) {
 		if($("#keyboard").data('shift')){
 			keytype = 1;
 		}
+	} else if ($("#keyboard").data("shift") || $("#keyboard").data('caps')){
+		keytype = 1;
 	}
 
-	$(focused).val($(focused).val() + $(key).data(keytypes[keytype]));	
+	if(useChar){
+		$(focused).val($(focused).val() + $(key).data(keytypes[keytype]));	
+	}
+
+	if(!shiftClicked && $("#keyboard").data('shift')) {
+		setShift(false);
+		keytype = 0;
+	}
+
 	$(".keyboard-key").each(function(index, value){
 		$(value).text($(value).data(keytypes[keytype]));
 		$(value).data(keytypes[keytype]);
 	});
-
-	if(!shiftClicked) {
-		if($("#keyboard").data("shift")){
-			setShift(false);
-			keytype = 0;
-		}
-	}
 }
 
 
 function setCaps(on) {
 	if(on){
-		$("#keyboard").data('shift', true);
+		$("#keyboard").data('caps', true);
 		$(".keyboard-row.row-2 .key-0").css("background-color", "blue");
 	} else {
 		$("#keyboard").data('caps', false);

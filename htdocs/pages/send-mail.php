@@ -166,7 +166,7 @@
 
 			#keyboard {
 				width: 550px;
-				margin: 25px 0;
+				margin: 0 0 25px 0;
 			}
 
 			#keyboard .keyboard-row {
@@ -183,23 +183,24 @@
 				padding: 4px;
 				border: 2px solid lightgray;
 			}
+
 			#keyboard .keyboard-key:hover {
 				background-color: #FF3333;
 				color:white;
 				cursor: pointer;
 			}
 
-			#keyboard .keyboard-row.row-0 .keyboard-key.key-13,
-			#keyboard .keyboard-row.row-2 .keyboard-key.key-0,
-			#keyboard .keyboard-row.row-2 .keyboard-key.key-12,
-			#keyboard .keyboard-row.row-3 .keyboard-key.key-0,
-			#keyboard .keyboard-row.row-3 .keyboard-key.key-11{
-				width: 50px;
-			}
-
-			#keyboard .keyboard-row.row-4 .keyboard-key.key-0 {
-				width:300px;
-			}
+			/* Bksp 	 */ #keyboard .keyboard-row.row-0 .keyboard-key.key-13{ width:   50px; background-color: orange; }
+									  #keyboard .keyboard-row.row-0 .keyboard-key.key-13:hover { background-color: maroon; }
+			/* Tab 		 */ #keyboard .keyboard-row.row-1 .keyboard-key.key-0 { width:   50px; background-color: ; } 
+			/* Caps 	 */ #keyboard .keyboard-row.row-2 .keyboard-key.key-0 { width:   56px; background-color: green; }
+			/* New 		 */ #keyboard .keyboard-row.row-2 .keyboard-key.key-12{ width:   56px; background-color: #9AD6EC;}
+			/* L Shift */ #keyboard .keyboard-row.row-3 .keyboard-key.key-0 { width: 74.5px; background-color: yellow; }
+			/* R Shift */ #keyboard .keyboard-row.row-3 .keyboard-key.key-11{ width: 74.5px; background-color: yellow; }
+			/* Clear 	 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-0 { width:   70px; background-color: salmon; }
+			/* Spacebar*/ #keyboard .keyboard-row.row-4 .keyboard-key.key-1 { width:  300px; } 
+			/* @			 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-2 { width: 62.5px; background-color: salmon; }
+			/* .com 	 */ #keyboard .keyboard-row.row-4 .keyboard-key.key-3 { width: 62.5px; background-color: salmon; }
 		</style>
 		<script src='/htdocs/js/send-mail.js'></script>
 	</head>
@@ -215,7 +216,6 @@
 			</div>
 
 			<div id="email-wrapper">
-
 				<div id="add-email">
 					<div class="small-wrapper"><input onclick="keepFocus(this)" class="email" type="text" placeholder="email@example.com"></input><div class="checkmark" title="Not Sent"></div></div>
 					<div class="small-wrapper"><input onclick="keepFocus(this)" class="email" type="text" placeholder="email@example.com"></input><div class="checkmark" title="Not Sent"></div></div>
@@ -223,6 +223,8 @@
 				</div>
 
 				<!-- Adding new comments -->
+				<div id="extra-keys">
+				</div>
 				<?php include("page-pieces/keyboard.php"); ?>
 
 				<div id="send-mail" onclick="sendMailWrapper()">Send Mail</div>
