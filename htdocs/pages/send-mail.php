@@ -96,6 +96,13 @@
 				padding:20px 0;
 				font-size:60px;
 				font-weight:900;
+				cursor:pointer;
+			}
+
+			.content-button:hover{
+				color:#FF3333;
+				background-color:white;
+				border:solid 5px #FF3333;
 			}
 
 			#email-wrapper {
