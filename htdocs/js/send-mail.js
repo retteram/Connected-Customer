@@ -103,7 +103,7 @@ function sendMail(attachment) {
 					if(data[i]['status'] == "sent" || data[i]['status'] == "queued"){
 						$(value).css({"background-color": "green", "box-shadow": "0 0 2px green"});
 						$(value).parent().find("span").first().remove();
-						$("<span style='color: gray; position: absolute; right: -90px; top: 10px; font-style: italic'>Sent</span>").insertAfter(value);
+						$("<span class='notificationLight' style='color: gray; position: absolute; right: -90px; top: 10px; font-style: italic'>Sent</span>").insertAfter(value);
 					}
 				}
 			});
@@ -118,6 +118,7 @@ function sendMail(attachment) {
 			output += "_id: " + data[i]['_id'] + "<br /><br />";
 		}
 		$("#response").html(output);
+		setTimeout(function(){ $('.notificationLight').remove(); $('.checkmark').css({'box-shadow': '0 0 2px red', 'background-color': 'red'}); }, 10000);
 
 	}).fail(function() {
 		$("#response").addClass("fail");
