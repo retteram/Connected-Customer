@@ -6,11 +6,11 @@
 <div class="email-statement">
 
 <p><strong>Key Deliverables for a 45 day pilot on 4 touchscreens</strong></p>
-<p>We will invest $xxxk in programming for modular <strong>content</strong> for a 45 day pilot. We will deliver an in-branch interactive touchscreen experience on a cloud-based <strong>CMS system</strong> to:</p>
+<p>We will invest $50K in programming for modular <strong>content</strong> for a 45 day pilot. We will deliver an in-branch interactive touchscreen <strong>experience</strong> on a cloud-based <strong>CMS system</strong> to:</p>
 <ul>
 <li>Increase engagement and connection between bank and customer during wait time in bank branch.</li>
 <li>Provide customers wealth of valuable, branded banking/finance related content to forge lasting relationship with customers.</li>
-<li>Allow customers to discover full range of services offered by bank in order to seize up- and cross-selling opportunities.</li>
+<li>Allow customers to discover full range of services offered by bank in order to seize up-selling and cross-selling opportunities.</li>
 <li>Initiate and foster ongoing interactions with customers through cross-channel and mobile integration.</li>
 </ul>
 <p>The contents developed for the prototype will be supported with internet <strong>connectivity</strong> along with a content management <strong>platform</strong> that will enable the interactions to be meaningful and relevant.</p>

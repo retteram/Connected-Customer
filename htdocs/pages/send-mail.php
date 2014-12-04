@@ -89,6 +89,7 @@
 
 			}
 			.content-button{
+				
 				margin:0 auto;
 				width:400px;
 				color:white;
@@ -289,7 +290,7 @@
 			<div class="top-stuff">
 				<div class="top-holding">
 					<div class="pig-left"><img src="../assets/email-sender.png"></div>
-					<div class="content-button" onclick="preview()">Click & Read</div>
+					<div class="content-button" onclick="preview()">Tap & Read</div>
 					<div class="pig-right"><img src="../assets/email-sender2.png"></div>
 				</div>
 			</div>
