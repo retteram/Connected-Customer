@@ -5,9 +5,57 @@
 		<link>http://connected-customer-sr.herokuapp.com/</link>
 		<description>History of button clicks</description>
 		<item>
- 			<title>TALK TO A BANKER</title>
+ 			<title>IDENTITY PROTECTION</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
+			<guid>70699</guid>
+			<category></category>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>IDENTITY PROTECTION</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>2014-12-04 13:53:56</description>
+			<guid>56764</guid>
+			<category></category>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>CREDIT CARD ESSENTIALS</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>2014-12-04 13:53:56</description>
+			<guid>74780</guid>
+			<category></category>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>IDENTITY PROTECTION</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>2014-12-04 13:53:56</description>
+			<guid>67128</guid>
+			<category></category>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>IDENTITY PROTECTION</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>2014-12-04 13:53:56</description>
+			<guid>34850</guid>
+			<category></category>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>TALK TO A BANKER</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>2014-12-04 13:53:56</description>
+			<guid>86389</guid>
+			<category></category>
+			<pubDate></pubDate>
+		</item>
+		<item>
+			<title>TALK TO A BANKER</title>
+			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
+			<description>2014-12-04 13:53:56</description>
 			<guid>7788</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -15,7 +63,7 @@
 		<item>
 			<title>TALK TO A BANKER</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>50881</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -23,7 +71,7 @@
 		<item>
 			<title>TALK TO A BANKER</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>5493</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -31,7 +79,7 @@
 		<item>
 			<title>TALK TO A BANKER</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>14133</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -39,7 +87,7 @@
 		<item>
 			<title>TALK TO A BANKER</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>54787</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -47,7 +95,7 @@
 		<item>
 			<title>KILLING TIME</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>27426</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -55,7 +103,7 @@
 		<item>
 			<title>CREDIT CARD ESSENTIALS</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>70422</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -63,7 +111,7 @@
 		<item>
 			<title>TEACHING CHILDREN HOW TO SAVE</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>24659</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -71,7 +119,7 @@
 		<item>
 			<title>LOCAL ATTRACTIONS</title>
 			<link>http://localhost:8000/htdocs/pages/killing-time.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>40283</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -79,7 +127,7 @@
 		<item>
 			<title>KILLING TIME</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>94552</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -87,7 +135,7 @@
 		<item>
 			<title>TALK TO A BANKER</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>61733</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -95,7 +143,7 @@
 		<item>
 			<title>TALK TO A BANKER</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>44222</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -103,7 +151,7 @@
 		<item>
 			<title>TALK TO A BANKER</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>3665</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -111,7 +159,7 @@
 		<item>
 			<title>CREATING A PORTFOLIO </title>
 			<link>http://localhost:8000/htdocs/pages/banking-101.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>25930</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -119,7 +167,7 @@
 		<item>
 			<title>BANKING 101 FOR DUMMIES</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>21650</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -127,7 +175,7 @@
 		<item>
 			<title>KILLING TIME</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>15685</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -135,7 +183,7 @@
 		<item>
 			<title>KILLING TIME</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>50716</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -143,7 +191,7 @@
 		<item>
 			<title>KILLING TIME</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>6088</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -151,7 +199,7 @@
 		<item>
 			<title>TEACHING CHILDREN HOW TO SAVE</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>27601</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -159,7 +207,7 @@
 		<item>
 			<title>TALK TO A BANKER</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>49804</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -167,7 +215,7 @@
 		<item>
 			<title>LOCAL ATTRACTIONS</title>
 			<link>http://localhost:8000/htdocs/pages/killing-time.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>45387</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -175,7 +223,7 @@
 		<item>
 			<title>BANKING 101 FOR DUMMIES</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>29932</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -183,7 +231,7 @@
 		<item>
 			<title>KILLING TIME</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>72226</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -191,7 +239,7 @@
 		<item>
 			<title>TALK TO A BANKER</title>
 			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>12882</guid>
 			<category></category>
 			<pubDate></pubDate>
@@ -199,56 +247,8 @@
 		<item>
 			<title>INTERESTING FACT</title>
 			<link>http://localhost:8000/htdocs/pages/killing-time.php</link>
-			<description>2014-12-03 10:26:54</description>
+			<description>2014-12-04 13:53:56</description>
 			<guid>77567</guid>
-			<category></category>
-			<pubDate></pubDate>
-		</item>
-		<item>
-			<title>INTERESTING FACT</title>
-			<link>http://localhost:8000/htdocs/pages/killing-time.php</link>
-			<description>2014-12-03 10:26:54</description>
-			<guid>31593</guid>
-			<category></category>
-			<pubDate></pubDate>
-		</item>
-		<item>
-			<title>INTERESTING FACT</title>
-			<link>http://localhost:8000/htdocs/pages/killing-time.php</link>
-			<description>2014-12-03 10:26:54</description>
-			<guid>78356</guid>
-			<category></category>
-			<pubDate></pubDate>
-		</item>
-		<item>
-			<title>A GOOD LAUGH</title>
-			<link>http://localhost:8000/htdocs/pages/killing-time.php</link>
-			<description>2014-12-03 10:26:54</description>
-			<guid>79468</guid>
-			<category></category>
-			<pubDate></pubDate>
-		</item>
-		<item>
-			<title>KILLING TIME</title>
-			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
-			<guid>40229</guid>
-			<category></category>
-			<pubDate></pubDate>
-		</item>
-		<item>
-			<title>A GOOD LAUGH</title>
-			<link>http://localhost:8000/htdocs/pages/killing-time.php</link>
-			<description>2014-12-03 10:26:54</description>
-			<guid>83573</guid>
-			<category></category>
-			<pubDate></pubDate>
-		</item>
-		<item>
-			<title>KILLING TIME</title>
-			<link>http://localhost:8000/htdocs/pages/connected-customer_main-page.php</link>
-			<description>2014-12-03 10:26:54</description>
-			<guid>47733</guid>
 			<category></category>
 			<pubDate></pubDate>
 		</item>

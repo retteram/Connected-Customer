@@ -7,6 +7,62 @@
 		<link href="../css/howTo.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="../css/interesting-joking.css" />
 		<style>
+
+			.clicked{
+				background-color:rgba(0,0,0, .7);
+				height:100%;
+				width:100%;
+				position:absolute;
+				left:0;
+				top:0;
+				z-index:5;
+				display:none;
+				opacity:0;
+				
+			}
+
+			.clicked.show {
+				display:block;
+				opacity:1;
+			}
+
+			.clicked .preview-on {
+				width:80%;
+				background-color:white;
+				border:solid 5px #FF3333;
+				margin:0 auto;
+				font-size:30px;
+				position: relative;
+				top: calc(50% - 511px);
+			}
+
+			.preview-on .email-close{
+				border-radius:30px;
+				width:50px;
+				height:50px;
+				color:#FF3333;
+				background-color:white;
+				border:solid #FF3333 5px;
+				text-align:center;
+				font-weight:900;
+				font-family:arial;
+				font-size:20px;
+				line-height:2.5;
+				position:absolute;
+				top:-25px;
+				right:-25px;
+			}
+			.preview-on .email-close:hover{
+				cursor:pointer;
+				color:white;
+				background-color:#ff3333;
+			}
+
+
+			.clicked .preview-on .email-statement{
+				font-size:30px;
+				font-family:calibri;
+			}
 			#home {
 				text-align: center;
 			}
@@ -18,12 +74,34 @@
 				text-align:center;
 				margin:0 auto;
 				width:100%;
-				padding-top:80px;
+				padding-top:120px;
+				padding-bottom:50px;
 			}
+			.top-holding{
+				display:inline-block;
+				margin:0 auto;
+				position:relative;
+				width:auto;
+			}
+			.top-holding div{
+				float:left;
+				margin:0 40px;
+
+			}
+			.content-button{
+				margin:0 auto;
+				width:400px;
+				color:white;
+				background-color:#FF3333;
+				padding:20px 0;
+				font-size:60px;
+				font-weight:900;
+			}
+
 			#email-wrapper {
 				background-color:;
 				width: 560px;
-				padding: 5px;
+				padding: 30px;
 				margin: 0 auto;
 				text-align: center;
 				display: inline-block;
@@ -116,30 +194,12 @@
 				background-color:;
 			}
 
-			#email-wrapper #add-email input {
-				width: 530px;
-				padding: 8px 5px;
-				font-size: 18px;
-				float: left;
-			}
+			#email-wrapper #add-email input {width: 530px; padding: 8px 5px; font-size: 18px; float: left; }
 
-			#email-wrapper #add-email input.selected {
-				outline: #9ad6ec solid 2px;
-			}
+			#email-wrapper #add-email input.selected { outline: #9ad6ec solid 2px; }
 
-			#email-wrapper #add-email-button {
-				width: 	25px;
-				height: 23px;
-				float: left;
-				cursor: pointer;
-				background-color: #9ad6ec;
-				padding-top: 2px;
-				border: 4px solid #26bae7;
-				color: white;
-				box-shadow: 1px 1px 1px gray;
-				text-align: center;
-				font-size: 30px;
-				line-height: 22px;
+			#email-wrapper #add-email-button { width: 	25px; height: 23px; float: left; cursor: pointer; background-color: #9ad6ec;
+				padding-top: 2px; border: 4px solid #26bae7; color: white; box-shadow: 1px 1px 1px gray; text-align: center; font-size: 30px; line-height: 22px;
 			}
 
 			#email-wrapper .small-wrapper {
@@ -211,6 +271,8 @@
 		<script src='/htdocs/js/send-mail.js'></script>
 	</head>
 	<body>
+		
+
 		<div id="home" data-role="page">
 			<?php require("page-pieces/header.php"); ?>
 			<div class="headBox1">
@@ -218,7 +280,11 @@
 			</div>
 
 			<div class="top-stuff">
-				<img src="../assets/email-sender.png">
+				<div class="top-holding">
+					<div class="pig-left"><img src="../assets/email-sender.png"></div>
+					<div class="content-button" onclick="preview()">Click & Read</div>
+					<div class="pig-right"><img src="../assets/email-sender2.png"></div>
+				</div>
 			</div>
 
 			<div id="email-wrapper">
@@ -238,6 +304,13 @@
 				</div>
 			</div>
 			<?php require("page-pieces/footer-simple.php"); ?>
+		</div>
+
+		<div class="clicked" onclick="previewClose()">
+			<div class="preview-on">
+			<div class="email-close" onClick="previewClose()">X</div>
+			<?php include("page-pieces/email-statement.php"); ?>
+			</div> 
 		</div>
 	</body>
 </html>
